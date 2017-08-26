@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   scope '/api' do #, defaults: { format: :json } do
     scope '/v1' do
-      resources :question, only: [:index, :show]
+      resources :questions, only: [:index, :show]
       resources :answer_options, only: [:index, :show]
     end
   end
