@@ -1,0 +1,23 @@
+button {
+  width: 30em;
+  height: 7em;
+  margin: 2em 0;
+}
+
+.wrapper {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.serviceForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#service {
+  background-image: url("../../assets/table.jpg");
+  background-size: cover;
+}
