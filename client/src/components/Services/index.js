@@ -6,12 +6,16 @@ class Services extends Component {
     return (
       <div className="wrapper" id="service">
         <div className="serviceWrapper">
-          <div className="food">
-            <form className="serviceForm">
-              <button>Beer and Wine Service</button>
-              <button>Full Liquor Open Bar</button>
-            </form>
-          </div>
+          <form className="serviceForm">
+            <div className="checkRadio">
+              <input type="radio" id="option-0" name="selector" />
+              <label>Beer and Wine Service</label>
+            </div>
+            <div className="checkRadio">
+              <input type="radio" id="option-1" name="selector" />
+              <label>Full Bar Liquor Open Bar</label>
+            </div>
+          </form>
         </div>
       </div>
     )
