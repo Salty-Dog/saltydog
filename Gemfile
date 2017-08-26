@@ -49,3 +49,5 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
 
 gem 'faker'
+
+gem 'mechanize', '~> 2.7', '>= 2.7.5'

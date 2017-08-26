@@ -1,0 +1,2111 @@
+# Logfile created on 2017-08-26 14:45:17 -0400 by logger.rb/53141
+I, [2017-08-26T14:45:31.925676 #96586]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:45:31.925748 #96586] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:45:31.925764 #96586] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:45:31.925799 #96586] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:45:31.925811 #96586] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:45:31.925823 #96586] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:45:31.925833 #96586] DEBUG -- : request-header: host => www.google.com
+I, [2017-08-26T14:45:32.092993 #96586]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-08-26T14:45:32.093113 #96586] DEBUG -- : response-header: location => https://www.google.com/?gws_rd=ssl
+D, [2017-08-26T14:45:32.093140 #96586] DEBUG -- : response-header: cache-control => private
+D, [2017-08-26T14:45:32.093159 #96586] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:45:32.093177 #96586] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+D, [2017-08-26T14:45:32.093194 #96586] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:45:32 GMT
+D, [2017-08-26T14:45:32.093209 #96586] DEBUG -- : response-header: server => gws
+D, [2017-08-26T14:45:32.093225 #96586] DEBUG -- : response-header: content-length => 231
+D, [2017-08-26T14:45:32.093291 #96586] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:45:32.093322 #96586] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:45:32.093350 #96586] DEBUG -- : response-header: set-cookie => NID=110=O09VhsXiT6uqQdHPJr9Mflvezr5RMKccz9NFKs6zS19stPGiHOqMeJbI26xjFdqQ84GGdkbVgHrJxm2oCg0kR64h3iaQ8jvYCU7mHcjgTGJvV-5r3ool21Csd-fNUB9y; expires=Sun, 25-Feb-2018 18:45:32 GMT; path=/; domain=.google.com; HttpOnly
+D, [2017-08-26T14:45:32.093472 #96586] DEBUG -- : Read 231 bytes (231 total)
+D, [2017-08-26T14:45:32.100000 #96586] DEBUG -- : saved cookie: NID=110=O09VhsXiT6uqQdHPJr9Mflvezr5RMKccz9NFKs6zS19stPGiHOqMeJbI26xjFdqQ84GGdkbVgHrJxm2oCg0kR64h3iaQ8jvYCU7mHcjgTGJvV-5r3ool21Csd-fNUB9y
+I, [2017-08-26T14:45:32.100110 #96586]  INFO -- : follow redirect to: https://www.google.com/?gws_rd=ssl
+I, [2017-08-26T14:45:32.100579 #96586]  INFO -- : Net::HTTP::Get: /?gws_rd=ssl
+D, [2017-08-26T14:45:32.100701 #96586] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:45:32.100726 #96586] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:45:32.100745 #96586] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:45:32.100762 #96586] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:45:32.100779 #96586] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:45:32.100794 #96586] DEBUG -- : request-header: cookie => NID=110=O09VhsXiT6uqQdHPJr9Mflvezr5RMKccz9NFKs6zS19stPGiHOqMeJbI26xjFdqQ84GGdkbVgHrJxm2oCg0kR64h3iaQ8jvYCU7mHcjgTGJvV-5r3ool21Csd-fNUB9y
+D, [2017-08-26T14:45:32.100811 #96586] DEBUG -- : request-header: host => www.google.com
+I, [2017-08-26T14:45:32.609779 #96586]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:45:32.609894 #96586] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:45:32 GMT
+D, [2017-08-26T14:45:32.609935 #96586] DEBUG -- : response-header: expires => -1
+D, [2017-08-26T14:45:32.609965 #96586] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2017-08-26T14:45:32.609993 #96586] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:45:32.610020 #96586] DEBUG -- : response-header: strict-transport-security => max-age=86400
+D, [2017-08-26T14:45:32.610065 #96586] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+D, [2017-08-26T14:45:32.610094 #96586] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:45:32.610119 #96586] DEBUG -- : response-header: server => gws
+D, [2017-08-26T14:45:32.610144 #96586] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:45:32.610168 #96586] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:45:32.610193 #96586] DEBUG -- : response-header: set-cookie => NID=110=FW-9Md3dHlStS8JsnXQ_z4HsOeIYy7PXKCBvZCWAWBtz-Q7nrd6ZRBsAgVNlJm3wxRi5892GGje5SH9K62oL_cZl_VMh_Lhoe1plRlun3U4LncAecBMDXFpx-F6uUCf0; expires=Sun, 25-Feb-2018 18:45:32 GMT; path=/; domain=.google.com; HttpOnly
+D, [2017-08-26T14:45:32.610219 #96586] DEBUG -- : response-header: alt-svc => quic=":443"; ma=2592000; v="39,38,37,35"
+D, [2017-08-26T14:45:32.610262 #96586] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-26T14:45:32.610502 #96586] DEBUG -- : Read 1 bytes (1 total)
+D, [2017-08-26T14:45:32.610596 #96586] DEBUG -- : Read 664 bytes (665 total)
+D, [2017-08-26T14:45:32.610729 #96586] DEBUG -- : Read 1389 bytes (2054 total)
+D, [2017-08-26T14:45:32.610861 #96586] DEBUG -- : Read 1389 bytes (3443 total)
+D, [2017-08-26T14:45:32.610960 #96586] DEBUG -- : Read 1389 bytes (4832 total)
+D, [2017-08-26T14:45:32.611079 #96586] DEBUG -- : Read 1389 bytes (6221 total)
+D, [2017-08-26T14:45:32.611194 #96586] DEBUG -- : Read 1389 bytes (7610 total)
+D, [2017-08-26T14:45:32.611281 #96586] DEBUG -- : Read 1389 bytes (8999 total)
+D, [2017-08-26T14:45:32.611383 #96586] DEBUG -- : Read 1389 bytes (10388 total)
+D, [2017-08-26T14:45:32.611443 #96586] DEBUG -- : Read 294 bytes (10682 total)
+D, [2017-08-26T14:45:32.612504 #96586] DEBUG -- : Read 1 bytes (10683 total)
+D, [2017-08-26T14:45:32.612712 #96586] DEBUG -- : Read 1 bytes (10684 total)
+D, [2017-08-26T14:45:32.612801 #96586] DEBUG -- : Read 1 bytes (10685 total)
+D, [2017-08-26T14:45:32.612886 #96586] DEBUG -- : Read 1 bytes (10686 total)
+D, [2017-08-26T14:45:32.612970 #96586] DEBUG -- : Read 1 bytes (10687 total)
+D, [2017-08-26T14:45:32.613059 #96586] DEBUG -- : Read 1 bytes (10688 total)
+D, [2017-08-26T14:45:32.613131 #96586] DEBUG -- : Read 1 bytes (10689 total)
+D, [2017-08-26T14:45:32.613213 #96586] DEBUG -- : Read 1 bytes (10690 total)
+D, [2017-08-26T14:45:32.613293 #96586] DEBUG -- : Read 1 bytes (10691 total)
+D, [2017-08-26T14:45:32.613362 #96586] DEBUG -- : Read 1 bytes (10692 total)
+D, [2017-08-26T14:45:32.613433 #96586] DEBUG -- : Read 1 bytes (10693 total)
+D, [2017-08-26T14:45:32.613506 #96586] DEBUG -- : Read 1 bytes (10694 total)
+D, [2017-08-26T14:45:32.613576 #96586] DEBUG -- : Read 1 bytes (10695 total)
+D, [2017-08-26T14:45:32.613647 #96586] DEBUG -- : Read 1 bytes (10696 total)
+D, [2017-08-26T14:45:32.613740 #96586] DEBUG -- : Read 1 bytes (10697 total)
+D, [2017-08-26T14:45:32.613788 #96586] DEBUG -- : Read 1 bytes (10698 total)
+D, [2017-08-26T14:45:32.613853 #96586] DEBUG -- : Read 1 bytes (10699 total)
+D, [2017-08-26T14:45:32.614019 #96586] DEBUG -- : Read 1 bytes (10700 total)
+D, [2017-08-26T14:45:32.614094 #96586] DEBUG -- : Read 1 bytes (10701 total)
+D, [2017-08-26T14:45:32.614206 #96586] DEBUG -- : Read 1138 bytes (11839 total)
+D, [2017-08-26T14:45:32.614332 #96586] DEBUG -- : Read 1389 bytes (13228 total)
+D, [2017-08-26T14:45:32.614480 #96586] DEBUG -- : Read 1389 bytes (14617 total)
+D, [2017-08-26T14:45:32.614551 #96586] DEBUG -- : Read 1389 bytes (16006 total)
+D, [2017-08-26T14:45:32.614680 #96586] DEBUG -- : Read 1389 bytes (17395 total)
+D, [2017-08-26T14:45:32.653861 #96586] DEBUG -- : Read 1389 bytes (18784 total)
+D, [2017-08-26T14:45:32.654025 #96586] DEBUG -- : Read 1389 bytes (20173 total)
+D, [2017-08-26T14:45:32.654143 #96586] DEBUG -- : Read 1389 bytes (21562 total)
+D, [2017-08-26T14:45:32.654237 #96586] DEBUG -- : Read 1389 bytes (22951 total)
+D, [2017-08-26T14:45:32.655211 #96586] DEBUG -- : Read 1389 bytes (24340 total)
+D, [2017-08-26T14:45:32.655368 #96586] DEBUG -- : Read 1389 bytes (25729 total)
+D, [2017-08-26T14:45:32.655461 #96586] DEBUG -- : Read 402 bytes (26131 total)
+D, [2017-08-26T14:45:32.655570 #96586] DEBUG -- : Read 1 bytes (26132 total)
+D, [2017-08-26T14:45:32.655629 #96586] DEBUG -- : Read 1 bytes (26133 total)
+D, [2017-08-26T14:45:32.655675 #96586] DEBUG -- : Read 1 bytes (26134 total)
+D, [2017-08-26T14:45:32.655718 #96586] DEBUG -- : Read 1 bytes (26135 total)
+D, [2017-08-26T14:45:32.655785 #96586] DEBUG -- : Read 1 bytes (26136 total)
+D, [2017-08-26T14:45:32.655839 #96586] DEBUG -- : Read 1 bytes (26137 total)
+D, [2017-08-26T14:45:32.655885 #96586] DEBUG -- : Read 1 bytes (26138 total)
+D, [2017-08-26T14:45:32.655990 #96586] DEBUG -- : Read 1 bytes (26139 total)
+D, [2017-08-26T14:45:32.656038 #96586] DEBUG -- : Read 1 bytes (26140 total)
+D, [2017-08-26T14:45:32.656084 #96586] DEBUG -- : Read 1 bytes (26141 total)
+D, [2017-08-26T14:45:32.656136 #96586] DEBUG -- : Read 1260 bytes (27401 total)
+D, [2017-08-26T14:45:32.657161 #96586] DEBUG -- : Read 1389 bytes (28790 total)
+D, [2017-08-26T14:45:32.657272 #96586] DEBUG -- : Read 1389 bytes (30179 total)
+D, [2017-08-26T14:45:32.657388 #96586] DEBUG -- : Read 1389 bytes (31568 total)
+D, [2017-08-26T14:45:32.657484 #96586] DEBUG -- : Read 1389 bytes (32957 total)
+D, [2017-08-26T14:45:32.659651 #96586] DEBUG -- : Read 1389 bytes (34346 total)
+D, [2017-08-26T14:45:32.659764 #96586] DEBUG -- : Read 1389 bytes (35735 total)
+D, [2017-08-26T14:45:32.661759 #96586] DEBUG -- : Read 1389 bytes (37124 total)
+D, [2017-08-26T14:45:32.661894 #96586] DEBUG -- : Read 1389 bytes (38513 total)
+D, [2017-08-26T14:45:32.664420 #96586] DEBUG -- : Read 1389 bytes (39902 total)
+D, [2017-08-26T14:45:32.664590 #96586] DEBUG -- : Read 1389 bytes (41291 total)
+D, [2017-08-26T14:45:32.666727 #96586] DEBUG -- : Read 1218 bytes (42509 total)
+D, [2017-08-26T14:45:32.666923 #96586] DEBUG -- : Read 1 bytes (42510 total)
+D, [2017-08-26T14:45:32.667014 #96586] DEBUG -- : Read 1 bytes (42511 total)
+D, [2017-08-26T14:45:32.667090 #96586] DEBUG -- : Read 1 bytes (42512 total)
+D, [2017-08-26T14:45:32.667165 #96586] DEBUG -- : Read 1 bytes (42513 total)
+D, [2017-08-26T14:45:32.667236 #96586] DEBUG -- : Read 1 bytes (42514 total)
+D, [2017-08-26T14:45:32.667291 #96586] DEBUG -- : Read 1 bytes (42515 total)
+D, [2017-08-26T14:45:32.667429 #96586] DEBUG -- : Read 1 bytes (42516 total)
+D, [2017-08-26T14:45:32.667485 #96586] DEBUG -- : Read 1 bytes (42517 total)
+D, [2017-08-26T14:45:32.667532 #96586] DEBUG -- : Read 1 bytes (42518 total)
+D, [2017-08-26T14:45:32.667573 #96586] DEBUG -- : Read 1 bytes (42519 total)
+D, [2017-08-26T14:45:32.667612 #96586] DEBUG -- : Read 1 bytes (42520 total)
+D, [2017-08-26T14:45:32.667665 #96586] DEBUG -- : Read 1320 bytes (43840 total)
+D, [2017-08-26T14:45:32.669373 #96586] DEBUG -- : Read 1389 bytes (45229 total)
+D, [2017-08-26T14:45:32.669479 #96586] DEBUG -- : Read 1389 bytes (46618 total)
+D, [2017-08-26T14:45:32.671733 #96586] DEBUG -- : Read 1389 bytes (48007 total)
+D, [2017-08-26T14:45:32.671844 #96586] DEBUG -- : Read 1389 bytes (49396 total)
+D, [2017-08-26T14:45:32.674336 #96586] DEBUG -- : Read 1389 bytes (50785 total)
+D, [2017-08-26T14:45:32.674473 #96586] DEBUG -- : Read 1389 bytes (52174 total)
+D, [2017-08-26T14:45:32.677043 #96586] DEBUG -- : Read 1389 bytes (53563 total)
+D, [2017-08-26T14:45:32.677148 #96586] DEBUG -- : Read 1389 bytes (54952 total)
+D, [2017-08-26T14:45:32.693989 #96586] DEBUG -- : Read 1389 bytes (56341 total)
+D, [2017-08-26T14:45:32.694119 #96586] DEBUG -- : Read 1389 bytes (57730 total)
+D, [2017-08-26T14:45:32.694244 #96586] DEBUG -- : Read 1163 bytes (58893 total)
+D, [2017-08-26T14:45:32.694354 #96586] DEBUG -- : Read 1 bytes (58894 total)
+D, [2017-08-26T14:45:32.694415 #96586] DEBUG -- : Read 1 bytes (58895 total)
+D, [2017-08-26T14:45:32.694460 #96586] DEBUG -- : Read 1 bytes (58896 total)
+D, [2017-08-26T14:45:32.694506 #96586] DEBUG -- : Read 1 bytes (58897 total)
+D, [2017-08-26T14:45:32.694552 #96586] DEBUG -- : Read 1 bytes (58898 total)
+D, [2017-08-26T14:45:32.694680 #96586] DEBUG -- : Read 793 bytes (59691 total)
+D, [2017-08-26T14:45:32.694760 #96586] DEBUG -- : Read 1 bytes (59692 total)
+D, [2017-08-26T14:45:32.694811 #96586] DEBUG -- : Read 1 bytes (59693 total)
+D, [2017-08-26T14:45:32.694852 #96586] DEBUG -- : Read 1 bytes (59694 total)
+D, [2017-08-26T14:45:32.694891 #96586] DEBUG -- : Read 1 bytes (59695 total)
+D, [2017-08-26T14:45:32.694930 #96586] DEBUG -- : Read 1 bytes (59696 total)
+D, [2017-08-26T14:45:32.694968 #96586] DEBUG -- : Read 1 bytes (59697 total)
+D, [2017-08-26T14:45:32.695012 #96586] DEBUG -- : Read 1 bytes (59698 total)
+D, [2017-08-26T14:45:32.695051 #96586] DEBUG -- : Read 1 bytes (59699 total)
+D, [2017-08-26T14:45:32.695089 #96586] DEBUG -- : Read 1 bytes (59700 total)
+D, [2017-08-26T14:45:32.695127 #96586] DEBUG -- : Read 1 bytes (59701 total)
+D, [2017-08-26T14:45:32.695165 #96586] DEBUG -- : Read 1 bytes (59702 total)
+D, [2017-08-26T14:45:32.695203 #96586] DEBUG -- : Read 1 bytes (59703 total)
+D, [2017-08-26T14:45:32.695245 #96586] DEBUG -- : Read 1 bytes (59704 total)
+D, [2017-08-26T14:45:32.695284 #96586] DEBUG -- : Read 1 bytes (59705 total)
+D, [2017-08-26T14:45:32.695321 #96586] DEBUG -- : Read 1 bytes (59706 total)
+D, [2017-08-26T14:45:32.695415 #96586] DEBUG -- : Read 1 bytes (59707 total)
+D, [2017-08-26T14:45:32.695457 #96586] DEBUG -- : Read 1 bytes (59708 total)
+D, [2017-08-26T14:45:32.695495 #96586] DEBUG -- : Read 1 bytes (59709 total)
+D, [2017-08-26T14:45:32.695534 #96586] DEBUG -- : Read 1 bytes (59710 total)
+D, [2017-08-26T14:45:32.695573 #96586] DEBUG -- : Read 140 bytes (59850 total)
+D, [2017-08-26T14:45:32.696792 #96586] DEBUG -- : Read 1 bytes (59851 total)
+D, [2017-08-26T14:45:32.696874 #96586] DEBUG -- : Read 1 bytes (59852 total)
+D, [2017-08-26T14:45:32.696924 #96586] DEBUG -- : Read 1 bytes (59853 total)
+D, [2017-08-26T14:45:32.697002 #96586] DEBUG -- : Read 1346 bytes (61199 total)
+D, [2017-08-26T14:45:32.697115 #96586] DEBUG -- : Read 1389 bytes (62588 total)
+D, [2017-08-26T14:45:32.697204 #96586] DEBUG -- : Read 140 bytes (62728 total)
+D, [2017-08-26T14:45:32.697443 #96586] DEBUG -- : gzip response
+D, [2017-08-26T14:45:32.711830 #96586] DEBUG -- : saved cookie: NID=110=FW-9Md3dHlStS8JsnXQ_z4HsOeIYy7PXKCBvZCWAWBtz-Q7nrd6ZRBsAgVNlJm3wxRi5892GGje5SH9K62oL_cZl_VMh_Lhoe1plRlun3U4LncAecBMDXFpx-F6uUCf0
+I, [2017-08-26T14:45:52.079598 #96595]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:45:52.079676 #96595] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:45:52.079693 #96595] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:45:52.079705 #96595] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:45:52.079715 #96595] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:45:52.079752 #96595] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:45:52.079761 #96595] DEBUG -- : request-header: host => www.google.com
+I, [2017-08-26T14:45:52.201964 #96595]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-08-26T14:45:52.202067 #96595] DEBUG -- : response-header: location => https://www.google.com/?gws_rd=ssl
+D, [2017-08-26T14:45:52.202106 #96595] DEBUG -- : response-header: cache-control => private
+D, [2017-08-26T14:45:52.202136 #96595] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:45:52.202162 #96595] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+D, [2017-08-26T14:45:52.202189 #96595] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:45:52 GMT
+D, [2017-08-26T14:45:52.202214 #96595] DEBUG -- : response-header: server => gws
+D, [2017-08-26T14:45:52.202237 #96595] DEBUG -- : response-header: content-length => 231
+D, [2017-08-26T14:45:52.202261 #96595] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:45:52.202316 #96595] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:45:52.202407 #96595] DEBUG -- : response-header: set-cookie => NID=110=HbHMVrm1swp1Krr2Qeuq84kTSPW-W_xLoQ1oghqD3LgfVlSEVcvDnkOCwwkDFZsXS9eOVHBM501MUc24ekBTySuYBGRZZeyFDWmTWipTbWvbJYtyB2xniZCLZB63-83j; expires=Sun, 25-Feb-2018 18:45:52 GMT; path=/; domain=.google.com; HttpOnly
+D, [2017-08-26T14:45:52.202592 #96595] DEBUG -- : Read 231 bytes (231 total)
+D, [2017-08-26T14:45:52.206085 #96595] DEBUG -- : saved cookie: NID=110=HbHMVrm1swp1Krr2Qeuq84kTSPW-W_xLoQ1oghqD3LgfVlSEVcvDnkOCwwkDFZsXS9eOVHBM501MUc24ekBTySuYBGRZZeyFDWmTWipTbWvbJYtyB2xniZCLZB63-83j
+I, [2017-08-26T14:45:52.206179 #96595]  INFO -- : follow redirect to: https://www.google.com/?gws_rd=ssl
+I, [2017-08-26T14:45:52.206513 #96595]  INFO -- : Net::HTTP::Get: /?gws_rd=ssl
+D, [2017-08-26T14:45:52.206571 #96595] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:45:52.206588 #96595] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:45:52.206601 #96595] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:45:52.206613 #96595] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:45:52.206624 #96595] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:45:52.206634 #96595] DEBUG -- : request-header: cookie => NID=110=HbHMVrm1swp1Krr2Qeuq84kTSPW-W_xLoQ1oghqD3LgfVlSEVcvDnkOCwwkDFZsXS9eOVHBM501MUc24ekBTySuYBGRZZeyFDWmTWipTbWvbJYtyB2xniZCLZB63-83j
+D, [2017-08-26T14:45:52.206645 #96595] DEBUG -- : request-header: host => www.google.com
+I, [2017-08-26T14:45:52.458842 #96595]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:45:52.458940 #96595] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:45:52 GMT
+D, [2017-08-26T14:45:52.458974 #96595] DEBUG -- : response-header: expires => -1
+D, [2017-08-26T14:45:52.459002 #96595] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2017-08-26T14:45:52.459029 #96595] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:45:52.459054 #96595] DEBUG -- : response-header: strict-transport-security => max-age=86400
+D, [2017-08-26T14:45:52.459078 #96595] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+D, [2017-08-26T14:45:52.459100 #96595] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:45:52.459123 #96595] DEBUG -- : response-header: server => gws
+D, [2017-08-26T14:45:52.459149 #96595] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:45:52.459174 #96595] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:45:52.459200 #96595] DEBUG -- : response-header: set-cookie => NID=110=emPByDfo3WULHxwC56_VN5l1yPV7eqmkZXKOe_0ggq8AYu8gwmrbCxKMVWpTzquDRIHHOSzi6Xs8CYqbrl_wYL7twqXFQnetpO-7plwzYvCjZQDWR9nQrrkWKb3lHPbO; expires=Sun, 25-Feb-2018 18:45:52 GMT; path=/; domain=.google.com; HttpOnly
+D, [2017-08-26T14:45:52.459264 #96595] DEBUG -- : response-header: alt-svc => quic=":443"; ma=2592000; v="39,38,37,35"
+D, [2017-08-26T14:45:52.459290 #96595] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-26T14:45:52.459420 #96595] DEBUG -- : Read 1 bytes (1 total)
+D, [2017-08-26T14:45:52.459536 #96595] DEBUG -- : Read 1 bytes (2 total)
+D, [2017-08-26T14:45:52.459575 #96595] DEBUG -- : Read 1 bytes (3 total)
+D, [2017-08-26T14:45:52.459600 #96595] DEBUG -- : Read 1 bytes (4 total)
+D, [2017-08-26T14:45:52.459628 #96595] DEBUG -- : Read 1 bytes (5 total)
+D, [2017-08-26T14:45:52.459652 #96595] DEBUG -- : Read 1 bytes (6 total)
+D, [2017-08-26T14:45:52.459679 #96595] DEBUG -- : Read 1 bytes (7 total)
+D, [2017-08-26T14:45:52.459778 #96595] DEBUG -- : Read 1 bytes (8 total)
+D, [2017-08-26T14:45:52.459815 #96595] DEBUG -- : Read 1 bytes (9 total)
+D, [2017-08-26T14:45:52.459841 #96595] DEBUG -- : Read 1 bytes (10 total)
+D, [2017-08-26T14:45:52.459887 #96595] DEBUG -- : Read 1 bytes (11 total)
+D, [2017-08-26T14:45:52.459913 #96595] DEBUG -- : Read 1 bytes (12 total)
+D, [2017-08-26T14:45:52.459940 #96595] DEBUG -- : Read 1 bytes (13 total)
+D, [2017-08-26T14:45:52.459977 #96595] DEBUG -- : Read 1 bytes (14 total)
+D, [2017-08-26T14:45:52.460017 #96595] DEBUG -- : Read 1 bytes (15 total)
+D, [2017-08-26T14:45:52.460056 #96595] DEBUG -- : Read 1 bytes (16 total)
+D, [2017-08-26T14:45:52.460093 #96595] DEBUG -- : Read 1 bytes (17 total)
+D, [2017-08-26T14:45:52.460136 #96595] DEBUG -- : Read 1 bytes (18 total)
+D, [2017-08-26T14:45:52.460172 #96595] DEBUG -- : Read 1 bytes (19 total)
+D, [2017-08-26T14:45:52.460213 #96595] DEBUG -- : Read 1 bytes (20 total)
+D, [2017-08-26T14:45:52.460258 #96595] DEBUG -- : Read 413 bytes (433 total)
+D, [2017-08-26T14:45:52.460349 #96595] DEBUG -- : Read 1389 bytes (1822 total)
+D, [2017-08-26T14:45:52.460444 #96595] DEBUG -- : Read 1389 bytes (3211 total)
+D, [2017-08-26T14:45:52.460510 #96595] DEBUG -- : Read 1389 bytes (4600 total)
+D, [2017-08-26T14:45:52.460580 #96595] DEBUG -- : Read 1389 bytes (5989 total)
+D, [2017-08-26T14:45:52.460639 #96595] DEBUG -- : Read 1389 bytes (7378 total)
+D, [2017-08-26T14:45:52.460773 #96595] DEBUG -- : Read 1389 bytes (8767 total)
+D, [2017-08-26T14:45:52.460836 #96595] DEBUG -- : Read 1389 bytes (10156 total)
+D, [2017-08-26T14:45:52.460898 #96595] DEBUG -- : Read 663 bytes (10819 total)
+D, [2017-08-26T14:45:52.460994 #96595] DEBUG -- : Read 1 bytes (10820 total)
+D, [2017-08-26T14:45:52.461043 #96595] DEBUG -- : Read 1 bytes (10821 total)
+D, [2017-08-26T14:45:52.461110 #96595] DEBUG -- : Read 1360 bytes (12181 total)
+D, [2017-08-26T14:45:52.461174 #96595] DEBUG -- : Read 1389 bytes (13570 total)
+D, [2017-08-26T14:45:52.461832 #96595] DEBUG -- : Read 1389 bytes (14959 total)
+D, [2017-08-26T14:45:52.461946 #96595] DEBUG -- : Read 1389 bytes (16348 total)
+D, [2017-08-26T14:45:52.463191 #96595] DEBUG -- : Read 1389 bytes (17737 total)
+D, [2017-08-26T14:45:52.501080 #96595] DEBUG -- : Read 1389 bytes (19126 total)
+D, [2017-08-26T14:45:52.501243 #96595] DEBUG -- : Read 1389 bytes (20515 total)
+D, [2017-08-26T14:45:52.502336 #96595] DEBUG -- : Read 1389 bytes (21904 total)
+D, [2017-08-26T14:45:52.502521 #96595] DEBUG -- : Read 1389 bytes (23293 total)
+D, [2017-08-26T14:45:52.502671 #96595] DEBUG -- : Read 1389 bytes (24682 total)
+D, [2017-08-26T14:45:52.502774 #96595] DEBUG -- : Read 1389 bytes (26071 total)
+D, [2017-08-26T14:45:52.502864 #96595] DEBUG -- : Read 1157 bytes (27228 total)
+D, [2017-08-26T14:45:52.502999 #96595] DEBUG -- : Read 1 bytes (27229 total)
+D, [2017-08-26T14:45:52.503087 #96595] DEBUG -- : Read 1376 bytes (28605 total)
+D, [2017-08-26T14:45:52.503313 #96595] DEBUG -- : Read 1389 bytes (29994 total)
+D, [2017-08-26T14:45:52.503388 #96595] DEBUG -- : Read 1389 bytes (31383 total)
+D, [2017-08-26T14:45:52.503488 #96595] DEBUG -- : Read 1389 bytes (32772 total)
+D, [2017-08-26T14:45:52.503754 #96595] DEBUG -- : Read 1389 bytes (34161 total)
+D, [2017-08-26T14:45:52.504076 #96595] DEBUG -- : Read 1389 bytes (35550 total)
+D, [2017-08-26T14:45:52.504234 #96595] DEBUG -- : Read 1389 bytes (36939 total)
+D, [2017-08-26T14:45:52.507075 #96595] DEBUG -- : Read 1389 bytes (38328 total)
+D, [2017-08-26T14:45:52.507173 #96595] DEBUG -- : Read 1389 bytes (39717 total)
+D, [2017-08-26T14:45:52.509578 #96595] DEBUG -- : Read 1389 bytes (41106 total)
+D, [2017-08-26T14:45:52.509688 #96595] DEBUG -- : Read 1389 bytes (42495 total)
+D, [2017-08-26T14:45:52.511927 #96595] DEBUG -- : Read 1389 bytes (43884 total)
+D, [2017-08-26T14:45:52.512034 #96595] DEBUG -- : Read 1389 bytes (45273 total)
+D, [2017-08-26T14:45:52.514794 #96595] DEBUG -- : Read 1389 bytes (46662 total)
+D, [2017-08-26T14:45:52.514971 #96595] DEBUG -- : Read 1389 bytes (48051 total)
+D, [2017-08-26T14:45:52.517006 #96595] DEBUG -- : Read 1389 bytes (49440 total)
+D, [2017-08-26T14:45:52.517111 #96595] DEBUG -- : Read 1389 bytes (50829 total)
+D, [2017-08-26T14:45:52.518893 #96595] DEBUG -- : Read 1389 bytes (52218 total)
+D, [2017-08-26T14:45:52.519040 #96595] DEBUG -- : Read 1389 bytes (53607 total)
+D, [2017-08-26T14:45:52.521779 #96595] DEBUG -- : Read 1389 bytes (54996 total)
+D, [2017-08-26T14:45:52.521890 #96595] DEBUG -- : Read 1389 bytes (56385 total)
+D, [2017-08-26T14:45:52.539711 #96595] DEBUG -- : Read 1389 bytes (57774 total)
+D, [2017-08-26T14:45:52.539908 #96595] DEBUG -- : Read 1288 bytes (59062 total)
+D, [2017-08-26T14:45:52.540089 #96595] DEBUG -- : Read 1 bytes (59063 total)
+D, [2017-08-26T14:45:52.540188 #96595] DEBUG -- : Read 1 bytes (59064 total)
+D, [2017-08-26T14:45:52.540315 #96595] DEBUG -- : Read 1 bytes (59065 total)
+D, [2017-08-26T14:45:52.540410 #96595] DEBUG -- : Read 1 bytes (59066 total)
+D, [2017-08-26T14:45:52.540488 #96595] DEBUG -- : Read 1 bytes (59067 total)
+D, [2017-08-26T14:45:52.540580 #96595] DEBUG -- : Read 920 bytes (59987 total)
+D, [2017-08-26T14:45:52.540768 #96595] DEBUG -- : Read 1 bytes (59988 total)
+D, [2017-08-26T14:45:52.540940 #96595] DEBUG -- : Read 1 bytes (59989 total)
+D, [2017-08-26T14:45:52.541002 #96595] DEBUG -- : Read 1 bytes (59990 total)
+D, [2017-08-26T14:45:52.541052 #96595] DEBUG -- : Read 1 bytes (59991 total)
+D, [2017-08-26T14:45:52.541100 #96595] DEBUG -- : Read 1 bytes (59992 total)
+D, [2017-08-26T14:45:52.541141 #96595] DEBUG -- : Read 1 bytes (59993 total)
+D, [2017-08-26T14:45:52.541180 #96595] DEBUG -- : Read 1 bytes (59994 total)
+D, [2017-08-26T14:45:52.541239 #96595] DEBUG -- : Read 1 bytes (59995 total)
+D, [2017-08-26T14:45:52.541314 #96595] DEBUG -- : Read 1 bytes (59996 total)
+D, [2017-08-26T14:45:52.541395 #96595] DEBUG -- : Read 1 bytes (59997 total)
+D, [2017-08-26T14:45:52.541475 #96595] DEBUG -- : Read 1 bytes (59998 total)
+D, [2017-08-26T14:45:52.541548 #96595] DEBUG -- : Read 1 bytes (59999 total)
+D, [2017-08-26T14:45:52.541622 #96595] DEBUG -- : Read 1 bytes (60000 total)
+D, [2017-08-26T14:45:52.541705 #96595] DEBUG -- : Read 1 bytes (60001 total)
+D, [2017-08-26T14:45:52.541793 #96595] DEBUG -- : Read 1 bytes (60002 total)
+D, [2017-08-26T14:45:52.541870 #96595] DEBUG -- : Read 1 bytes (60003 total)
+D, [2017-08-26T14:45:52.541973 #96595] DEBUG -- : Read 1 bytes (60004 total)
+D, [2017-08-26T14:45:52.542052 #96595] DEBUG -- : Read 1 bytes (60005 total)
+D, [2017-08-26T14:45:52.542200 #96595] DEBUG -- : Read 1 bytes (60006 total)
+D, [2017-08-26T14:45:52.542252 #96595] DEBUG -- : Read 1 bytes (60007 total)
+D, [2017-08-26T14:45:52.542304 #96595] DEBUG -- : Read 1 bytes (60008 total)
+D, [2017-08-26T14:45:52.542359 #96595] DEBUG -- : Read 1112 bytes (61120 total)
+D, [2017-08-26T14:45:52.552091 #96595] DEBUG -- : Read 1389 bytes (62509 total)
+D, [2017-08-26T14:45:52.552210 #96595] DEBUG -- : Read 122 bytes (62631 total)
+D, [2017-08-26T14:45:52.552423 #96595] DEBUG -- : gzip response
+D, [2017-08-26T14:45:52.566252 #96595] DEBUG -- : saved cookie: NID=110=emPByDfo3WULHxwC56_VN5l1yPV7eqmkZXKOe_0ggq8AYu8gwmrbCxKMVWpTzquDRIHHOSzi6Xs8CYqbrl_wYL7twqXFQnetpO-7plwzYvCjZQDWR9nQrrkWKb3lHPbO
+I, [2017-08-26T14:45:52.585386 #96595]  INFO -- : form encoding: UTF-8
+I, [2017-08-26T14:45:52.585882 #96595]  INFO -- : Net::HTTP::Get: /search?source=hp&q=Hello
+D, [2017-08-26T14:45:52.585913 #96595] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:45:52.585927 #96595] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:45:52.585938 #96595] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:45:52.585947 #96595] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:45:52.585957 #96595] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:45:52.585966 #96595] DEBUG -- : request-header: cookie => NID=110=emPByDfo3WULHxwC56_VN5l1yPV7eqmkZXKOe_0ggq8AYu8gwmrbCxKMVWpTzquDRIHHOSzi6Xs8CYqbrl_wYL7twqXFQnetpO-7plwzYvCjZQDWR9nQrrkWKb3lHPbO
+D, [2017-08-26T14:45:52.585978 #96595] DEBUG -- : request-header: host => www.google.com
+D, [2017-08-26T14:45:52.585991 #96595] DEBUG -- : request-header: referer => https://www.google.com/?gws_rd=ssl
+I, [2017-08-26T14:45:52.726061 #96595]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:45:52.726170 #96595] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:45:52.726287 #96595] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:45:52 GMT
+D, [2017-08-26T14:45:52.726351 #96595] DEBUG -- : response-header: expires => -1
+D, [2017-08-26T14:45:52.726402 #96595] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2017-08-26T14:45:52.726445 #96595] DEBUG -- : response-header: strict-transport-security => max-age=86400
+D, [2017-08-26T14:45:52.726484 #96595] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:45:52.726520 #96595] DEBUG -- : response-header: server => gws
+D, [2017-08-26T14:45:52.726558 #96595] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:45:52.726598 #96595] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:45:52.726640 #96595] DEBUG -- : response-header: alt-svc => quic=":443"; ma=2592000; v="39,38,37,35"
+D, [2017-08-26T14:45:52.726680 #96595] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-26T14:45:52.726811 #96595] DEBUG -- : Read 1 bytes (1 total)
+D, [2017-08-26T14:45:52.726891 #96595] DEBUG -- : Read 1 bytes (2 total)
+D, [2017-08-26T14:45:52.726971 #96595] DEBUG -- : Read 1 bytes (3 total)
+D, [2017-08-26T14:45:52.727050 #96595] DEBUG -- : Read 1 bytes (4 total)
+D, [2017-08-26T14:45:52.727117 #96595] DEBUG -- : Read 1 bytes (5 total)
+D, [2017-08-26T14:45:52.727271 #96595] DEBUG -- : Read 1 bytes (6 total)
+D, [2017-08-26T14:45:52.727402 #96595] DEBUG -- : Read 940 bytes (946 total)
+D, [2017-08-26T14:45:52.727520 #96595] DEBUG -- : Read 1389 bytes (2335 total)
+D, [2017-08-26T14:45:52.727650 #96595] DEBUG -- : Read 1389 bytes (3724 total)
+D, [2017-08-26T14:45:52.727776 #96595] DEBUG -- : Read 1389 bytes (5113 total)
+D, [2017-08-26T14:45:52.727918 #96595] DEBUG -- : Read 1389 bytes (6502 total)
+D, [2017-08-26T14:45:52.728018 #96595] DEBUG -- : Read 1389 bytes (7891 total)
+D, [2017-08-26T14:45:52.728136 #96595] DEBUG -- : Read 1389 bytes (9280 total)
+D, [2017-08-26T14:45:52.728236 #96595] DEBUG -- : Read 1389 bytes (10669 total)
+D, [2017-08-26T14:45:52.728692 #96595] DEBUG -- : Read 460 bytes (11129 total)
+D, [2017-08-26T14:45:52.728881 #96595] DEBUG -- : Read 1 bytes (11130 total)
+D, [2017-08-26T14:45:52.728991 #96595] DEBUG -- : Read 1 bytes (11131 total)
+D, [2017-08-26T14:45:52.729068 #96595] DEBUG -- : Read 1 bytes (11132 total)
+D, [2017-08-26T14:45:52.729141 #96595] DEBUG -- : Read 1 bytes (11133 total)
+D, [2017-08-26T14:45:52.729210 #96595] DEBUG -- : Read 1 bytes (11134 total)
+D, [2017-08-26T14:45:52.729278 #96595] DEBUG -- : Read 1 bytes (11135 total)
+D, [2017-08-26T14:45:52.729371 #96595] DEBUG -- : Read 1 bytes (11136 total)
+D, [2017-08-26T14:45:52.729490 #96595] DEBUG -- : Read 1 bytes (11137 total)
+D, [2017-08-26T14:45:52.729580 #96595] DEBUG -- : Read 1 bytes (11138 total)
+D, [2017-08-26T14:45:52.729644 #96595] DEBUG -- : Read 1 bytes (11139 total)
+D, [2017-08-26T14:45:52.729813 #96595] DEBUG -- : Read 1 bytes (11140 total)
+D, [2017-08-26T14:45:52.729896 #96595] DEBUG -- : Read 1 bytes (11141 total)
+D, [2017-08-26T14:45:52.729975 #96595] DEBUG -- : Read 1 bytes (11142 total)
+D, [2017-08-26T14:45:52.730039 #96595] DEBUG -- : Read 1 bytes (11143 total)
+D, [2017-08-26T14:45:52.730103 #96595] DEBUG -- : Read 1 bytes (11144 total)
+D, [2017-08-26T14:45:52.730181 #96595] DEBUG -- : Read 1192 bytes (12336 total)
+D, [2017-08-26T14:45:52.730295 #96595] DEBUG -- : Read 1389 bytes (13725 total)
+D, [2017-08-26T14:45:52.730371 #96595] DEBUG -- : Read 1389 bytes (15114 total)
+D, [2017-08-26T14:45:52.730442 #96595] DEBUG -- : Read 1389 bytes (16503 total)
+D, [2017-08-26T14:45:52.730502 #96595] DEBUG -- : Read 1389 bytes (17892 total)
+D, [2017-08-26T14:45:52.730575 #96595] DEBUG -- : Read 1389 bytes (19281 total)
+D, [2017-08-26T14:45:52.730650 #96595] DEBUG -- : Read 1389 bytes (20670 total)
+D, [2017-08-26T14:45:52.730773 #96595] DEBUG -- : Read 1389 bytes (22059 total)
+D, [2017-08-26T14:45:52.730821 #96595] DEBUG -- : Read 1389 bytes (23448 total)
+D, [2017-08-26T14:45:52.731752 #96595] DEBUG -- : Read 1389 bytes (24837 total)
+D, [2017-08-26T14:45:52.731890 #96595] DEBUG -- : Read 1389 bytes (26226 total)
+D, [2017-08-26T14:45:52.731946 #96595] DEBUG -- : Read 651 bytes (26877 total)
+D, [2017-08-26T14:45:52.732021 #96595] DEBUG -- : Read 1 bytes (26878 total)
+D, [2017-08-26T14:45:52.732059 #96595] DEBUG -- : Read 1 bytes (26879 total)
+D, [2017-08-26T14:45:52.732093 #96595] DEBUG -- : Read 1 bytes (26880 total)
+D, [2017-08-26T14:45:52.732126 #96595] DEBUG -- : Read 1 bytes (26881 total)
+D, [2017-08-26T14:45:52.732162 #96595] DEBUG -- : Read 1 bytes (26882 total)
+D, [2017-08-26T14:45:52.732197 #96595] DEBUG -- : Read 1 bytes (26883 total)
+D, [2017-08-26T14:45:52.732295 #96595] DEBUG -- : Read 1 bytes (26884 total)
+D, [2017-08-26T14:45:52.732328 #96595] DEBUG -- : Read 1 bytes (26885 total)
+D, [2017-08-26T14:45:52.732350 #96595] DEBUG -- : Read 1 bytes (26886 total)
+D, [2017-08-26T14:45:52.732370 #96595] DEBUG -- : Read 1 bytes (26887 total)
+D, [2017-08-26T14:45:52.732391 #96595] DEBUG -- : Read 1 bytes (26888 total)
+D, [2017-08-26T14:45:52.732411 #96595] DEBUG -- : Read 1 bytes (26889 total)
+D, [2017-08-26T14:45:52.732431 #96595] DEBUG -- : Read 1 bytes (26890 total)
+D, [2017-08-26T14:45:52.732453 #96595] DEBUG -- : Read 1 bytes (26891 total)
+D, [2017-08-26T14:45:52.732493 #96595] DEBUG -- : Read 1 bytes (26892 total)
+D, [2017-08-26T14:45:52.732520 #96595] DEBUG -- : Read 1 bytes (26893 total)
+D, [2017-08-26T14:45:52.732555 #96595] DEBUG -- : Read 1176 bytes (28069 total)
+D, [2017-08-26T14:45:52.732617 #96595] DEBUG -- : Read 651 bytes (28720 total)
+D, [2017-08-26T14:45:53.614839 #96595] DEBUG -- : Read 1 bytes (28721 total)
+D, [2017-08-26T14:45:53.614979 #96595] DEBUG -- : Read 1 bytes (28722 total)
+D, [2017-08-26T14:45:53.615150 #96595] DEBUG -- : Read 1 bytes (28723 total)
+D, [2017-08-26T14:45:53.615263 #96595] DEBUG -- : Read 1340 bytes (30063 total)
+D, [2017-08-26T14:45:53.615413 #96595] DEBUG -- : Read 1389 bytes (31452 total)
+D, [2017-08-26T14:45:53.615538 #96595] DEBUG -- : Read 1389 bytes (32841 total)
+D, [2017-08-26T14:45:53.615601 #96595] DEBUG -- : Read 1389 bytes (34230 total)
+D, [2017-08-26T14:45:53.615879 #96595] DEBUG -- : Read 1389 bytes (35619 total)
+D, [2017-08-26T14:45:53.616056 #96595] DEBUG -- : Read 1389 bytes (37008 total)
+D, [2017-08-26T14:45:53.616256 #96595] DEBUG -- : Read 1389 bytes (38397 total)
+D, [2017-08-26T14:45:53.616504 #96595] DEBUG -- : Read 1389 bytes (39786 total)
+D, [2017-08-26T14:45:53.616735 #96595] DEBUG -- : Read 1389 bytes (41175 total)
+D, [2017-08-26T14:45:53.616856 #96595] DEBUG -- : Read 1389 bytes (42564 total)
+D, [2017-08-26T14:45:53.616950 #96595] DEBUG -- : Read 1389 bytes (43953 total)
+D, [2017-08-26T14:45:53.617169 #96595] DEBUG -- : Read 183 bytes (44136 total)
+D, [2017-08-26T14:45:53.617362 #96595] DEBUG -- : Read 1 bytes (44137 total)
+D, [2017-08-26T14:45:53.617478 #96595] DEBUG -- : Read 1163 bytes (45300 total)
+D, [2017-08-26T14:45:53.617603 #96595] DEBUG -- : Read 1 bytes (45301 total)
+D, [2017-08-26T14:45:53.617655 #96595] DEBUG -- : Read 1 bytes (45302 total)
+D, [2017-08-26T14:45:53.617709 #96595] DEBUG -- : Read 1 bytes (45303 total)
+D, [2017-08-26T14:45:53.617754 #96595] DEBUG -- : Read 1 bytes (45304 total)
+D, [2017-08-26T14:45:53.617799 #96595] DEBUG -- : Read 1 bytes (45305 total)
+D, [2017-08-26T14:45:53.617843 #96595] DEBUG -- : Read 1 bytes (45306 total)
+D, [2017-08-26T14:45:53.617888 #96595] DEBUG -- : Read 1 bytes (45307 total)
+D, [2017-08-26T14:45:53.617936 #96595] DEBUG -- : Read 1 bytes (45308 total)
+D, [2017-08-26T14:45:53.617979 #96595] DEBUG -- : Read 1 bytes (45309 total)
+D, [2017-08-26T14:45:53.618035 #96595] DEBUG -- : Read 1 bytes (45310 total)
+D, [2017-08-26T14:45:53.618159 #96595] DEBUG -- : Read 1 bytes (45311 total)
+D, [2017-08-26T14:45:53.618280 #96595] DEBUG -- : Read 1 bytes (45312 total)
+D, [2017-08-26T14:45:53.618358 #96595] DEBUG -- : Read 1 bytes (45313 total)
+D, [2017-08-26T14:45:53.618408 #96595] DEBUG -- : Read 1 bytes (45314 total)
+D, [2017-08-26T14:45:53.618469 #96595] DEBUG -- : Read 1 bytes (45315 total)
+D, [2017-08-26T14:45:53.618516 #96595] DEBUG -- : Read 1 bytes (45316 total)
+D, [2017-08-26T14:45:53.618618 #96595] DEBUG -- : Read 1 bytes (45317 total)
+D, [2017-08-26T14:45:53.618702 #96595] DEBUG -- : Read 1 bytes (45318 total)
+D, [2017-08-26T14:45:53.618816 #96595] DEBUG -- : Read 1 bytes (45319 total)
+D, [2017-08-26T14:45:53.618899 #96595] DEBUG -- : Read 1 bytes (45320 total)
+D, [2017-08-26T14:45:53.618955 #96595] DEBUG -- : Read 1 bytes (45321 total)
+D, [2017-08-26T14:45:53.619003 #96595] DEBUG -- : Read 1112 bytes (46433 total)
+D, [2017-08-26T14:45:53.619139 #96595] DEBUG -- : Read 1389 bytes (47822 total)
+D, [2017-08-26T14:45:53.619327 #96595] DEBUG -- : Read 1389 bytes (49211 total)
+D, [2017-08-26T14:45:53.619443 #96595] DEBUG -- : Read 1319 bytes (50530 total)
+D, [2017-08-26T14:45:53.619577 #96595] DEBUG -- : Read 1 bytes (50531 total)
+D, [2017-08-26T14:45:53.619629 #96595] DEBUG -- : Read 1 bytes (50532 total)
+D, [2017-08-26T14:45:53.619670 #96595] DEBUG -- : Read 1 bytes (50533 total)
+D, [2017-08-26T14:45:53.619746 #96595] DEBUG -- : Read 1 bytes (50534 total)
+D, [2017-08-26T14:45:53.619917 #96595] DEBUG -- : Read 1 bytes (50535 total)
+D, [2017-08-26T14:45:53.620166 #96595] DEBUG -- : Read 1 bytes (50536 total)
+D, [2017-08-26T14:45:53.620414 #96595] DEBUG -- : Read 1 bytes (50537 total)
+D, [2017-08-26T14:45:53.620481 #96595] DEBUG -- : Read 1 bytes (50538 total)
+D, [2017-08-26T14:45:53.620531 #96595] DEBUG -- : Read 1 bytes (50539 total)
+D, [2017-08-26T14:45:53.620578 #96595] DEBUG -- : Read 1 bytes (50540 total)
+D, [2017-08-26T14:45:53.620624 #96595] DEBUG -- : Read 1 bytes (50541 total)
+D, [2017-08-26T14:45:53.620732 #96595] DEBUG -- : Read 1 bytes (50542 total)
+D, [2017-08-26T14:45:53.620779 #96595] DEBUG -- : Read 1 bytes (50543 total)
+D, [2017-08-26T14:45:53.620824 #96595] DEBUG -- : Read 1 bytes (50544 total)
+D, [2017-08-26T14:45:53.620864 #96595] DEBUG -- : Read 1 bytes (50545 total)
+D, [2017-08-26T14:45:53.620907 #96595] DEBUG -- : Read 1 bytes (50546 total)
+D, [2017-08-26T14:45:53.620955 #96595] DEBUG -- : Read 1 bytes (50547 total)
+D, [2017-08-26T14:45:53.621052 #96595] DEBUG -- : Read 1 bytes (50548 total)
+D, [2017-08-26T14:45:53.621141 #96595] DEBUG -- : Read 1 bytes (50549 total)
+D, [2017-08-26T14:45:53.621200 #96595] DEBUG -- : Read 1 bytes (50550 total)
+D, [2017-08-26T14:45:53.621289 #96595] DEBUG -- : Read 1123 bytes (51673 total)
+D, [2017-08-26T14:45:53.621380 #96595] DEBUG -- : Read 1389 bytes (53062 total)
+D, [2017-08-26T14:45:53.621469 #96595] DEBUG -- : Read 1389 bytes (54451 total)
+D, [2017-08-26T14:45:53.621632 #96595] DEBUG -- : Read 1389 bytes (55840 total)
+D, [2017-08-26T14:45:53.621812 #96595] DEBUG -- : Read 1389 bytes (57229 total)
+D, [2017-08-26T14:45:53.621908 #96595] DEBUG -- : Read 1389 bytes (58618 total)
+D, [2017-08-26T14:45:53.621989 #96595] DEBUG -- : Read 1389 bytes (60007 total)
+D, [2017-08-26T14:45:53.622059 #96595] DEBUG -- : Read 1389 bytes (61396 total)
+D, [2017-08-26T14:45:53.622128 #96595] DEBUG -- : Read 1389 bytes (62785 total)
+D, [2017-08-26T14:45:53.622192 #96595] DEBUG -- : Read 1389 bytes (64174 total)
+D, [2017-08-26T14:45:53.622262 #96595] DEBUG -- : Read 1389 bytes (65563 total)
+D, [2017-08-26T14:45:53.622326 #96595] DEBUG -- : Read 1253 bytes (66816 total)
+D, [2017-08-26T14:45:53.622501 #96595] DEBUG -- : Read 1 bytes (66817 total)
+D, [2017-08-26T14:45:53.622600 #96595] DEBUG -- : Read 1 bytes (66818 total)
+D, [2017-08-26T14:45:53.622658 #96595] DEBUG -- : Read 1 bytes (66819 total)
+D, [2017-08-26T14:45:53.622719 #96595] DEBUG -- : Read 1 bytes (66820 total)
+D, [2017-08-26T14:45:53.622821 #96595] DEBUG -- : Read 1 bytes (66821 total)
+D, [2017-08-26T14:45:53.622873 #96595] DEBUG -- : Read 1 bytes (66822 total)
+D, [2017-08-26T14:45:53.622920 #96595] DEBUG -- : Read 1 bytes (66823 total)
+D, [2017-08-26T14:45:53.622965 #96595] DEBUG -- : Read 1 bytes (66824 total)
+D, [2017-08-26T14:45:53.623042 #96595] DEBUG -- : Read 1 bytes (66825 total)
+D, [2017-08-26T14:45:53.623153 #96595] DEBUG -- : Read 1 bytes (66826 total)
+D, [2017-08-26T14:45:53.623196 #96595] DEBUG -- : Read 1 bytes (66827 total)
+D, [2017-08-26T14:45:53.623243 #96595] DEBUG -- : Read 1 bytes (66828 total)
+D, [2017-08-26T14:45:53.623288 #96595] DEBUG -- : Read 1 bytes (66829 total)
+D, [2017-08-26T14:45:53.623334 #96595] DEBUG -- : Read 1 bytes (66830 total)
+D, [2017-08-26T14:45:53.623378 #96595] DEBUG -- : Read 1 bytes (66831 total)
+D, [2017-08-26T14:45:53.623426 #96595] DEBUG -- : Read 1 bytes (66832 total)
+D, [2017-08-26T14:45:53.623477 #96595] DEBUG -- : Read 1 bytes (66833 total)
+D, [2017-08-26T14:45:53.623559 #96595] DEBUG -- : Read 1161 bytes (67994 total)
+D, [2017-08-26T14:45:53.623681 #96595] DEBUG -- : Read 1389 bytes (69383 total)
+D, [2017-08-26T14:45:53.623786 #96595] DEBUG -- : Read 1389 bytes (70772 total)
+D, [2017-08-26T14:45:53.623864 #96595] DEBUG -- : Read 1389 bytes (72161 total)
+D, [2017-08-26T14:45:53.623949 #96595] DEBUG -- : Read 1389 bytes (73550 total)
+D, [2017-08-26T14:45:53.624025 #96595] DEBUG -- : Read 1389 bytes (74939 total)
+D, [2017-08-26T14:45:53.624102 #96595] DEBUG -- : Read 1389 bytes (76328 total)
+D, [2017-08-26T14:45:53.624161 #96595] DEBUG -- : Read 1389 bytes (77717 total)
+D, [2017-08-26T14:45:53.624262 #96595] DEBUG -- : Read 1389 bytes (79106 total)
+D, [2017-08-26T14:45:53.624355 #96595] DEBUG -- : Read 1389 bytes (80495 total)
+D, [2017-08-26T14:45:53.624462 #96595] DEBUG -- : Read 1389 bytes (81884 total)
+D, [2017-08-26T14:45:53.624617 #96595] DEBUG -- : Read 1316 bytes (83200 total)
+D, [2017-08-26T14:45:53.624731 #96595] DEBUG -- : Read 1 bytes (83201 total)
+D, [2017-08-26T14:45:53.624847 #96595] DEBUG -- : Read 1 bytes (83202 total)
+D, [2017-08-26T14:45:53.624900 #96595] DEBUG -- : Read 1 bytes (83203 total)
+D, [2017-08-26T14:45:53.624950 #96595] DEBUG -- : Read 1 bytes (83204 total)
+D, [2017-08-26T14:45:53.624999 #96595] DEBUG -- : Read 1 bytes (83205 total)
+D, [2017-08-26T14:45:53.625050 #96595] DEBUG -- : Read 1 bytes (83206 total)
+D, [2017-08-26T14:45:53.625101 #96595] DEBUG -- : Read 1 bytes (83207 total)
+D, [2017-08-26T14:45:53.625147 #96595] DEBUG -- : Read 1 bytes (83208 total)
+D, [2017-08-26T14:45:53.625191 #96595] DEBUG -- : Read 1 bytes (83209 total)
+D, [2017-08-26T14:45:53.625235 #96595] DEBUG -- : Read 1 bytes (83210 total)
+D, [2017-08-26T14:45:53.625282 #96595] DEBUG -- : Read 1 bytes (83211 total)
+D, [2017-08-26T14:45:53.625360 #96595] DEBUG -- : Read 1241 bytes (84452 total)
+D, [2017-08-26T14:45:53.625467 #96595] DEBUG -- : Read 1389 bytes (85841 total)
+D, [2017-08-26T14:45:53.625598 #96595] DEBUG -- : Read 1389 bytes (87230 total)
+D, [2017-08-26T14:45:53.625683 #96595] DEBUG -- : Read 1389 bytes (88619 total)
+D, [2017-08-26T14:45:53.625774 #96595] DEBUG -- : Read 1389 bytes (90008 total)
+D, [2017-08-26T14:45:53.625864 #96595] DEBUG -- : Read 1389 bytes (91397 total)
+D, [2017-08-26T14:45:53.625967 #96595] DEBUG -- : Read 1389 bytes (92786 total)
+D, [2017-08-26T14:45:53.626044 #96595] DEBUG -- : Read 1389 bytes (94175 total)
+D, [2017-08-26T14:45:53.626188 #96595] DEBUG -- : Read 1389 bytes (95564 total)
+D, [2017-08-26T14:45:53.626269 #96595] DEBUG -- : Read 1389 bytes (96953 total)
+D, [2017-08-26T14:45:53.626337 #96595] DEBUG -- : Read 1389 bytes (98342 total)
+D, [2017-08-26T14:45:53.626404 #96595] DEBUG -- : Read 1242 bytes (99584 total)
+D, [2017-08-26T14:45:53.626750 #96595] DEBUG -- : Read 1 bytes (99585 total)
+D, [2017-08-26T14:45:53.626840 #96595] DEBUG -- : Read 1 bytes (99586 total)
+D, [2017-08-26T14:45:53.626897 #96595] DEBUG -- : Read 1 bytes (99587 total)
+D, [2017-08-26T14:45:53.626946 #96595] DEBUG -- : Read 1 bytes (99588 total)
+D, [2017-08-26T14:45:53.626992 #96595] DEBUG -- : Read 1 bytes (99589 total)
+D, [2017-08-26T14:45:53.627080 #96595] DEBUG -- : Read 1 bytes (99590 total)
+D, [2017-08-26T14:45:53.627136 #96595] DEBUG -- : Read 1 bytes (99591 total)
+D, [2017-08-26T14:45:53.627211 #96595] DEBUG -- : Read 1 bytes (99592 total)
+D, [2017-08-26T14:45:53.627908 #96595] DEBUG -- : Read 1275 bytes (100867 total)
+D, [2017-08-26T14:45:53.628126 #96595] DEBUG -- : Read 1389 bytes (102256 total)
+D, [2017-08-26T14:45:53.628320 #96595] DEBUG -- : Read 1389 bytes (103645 total)
+D, [2017-08-26T14:45:53.628418 #96595] DEBUG -- : Read 1389 bytes (105034 total)
+D, [2017-08-26T14:45:53.628507 #96595] DEBUG -- : Read 1389 bytes (106423 total)
+D, [2017-08-26T14:45:53.628716 #96595] DEBUG -- : Read 1389 bytes (107812 total)
+D, [2017-08-26T14:45:53.628916 #96595] DEBUG -- : Read 1389 bytes (109201 total)
+D, [2017-08-26T14:45:53.629066 #96595] DEBUG -- : Read 1389 bytes (110590 total)
+D, [2017-08-26T14:45:53.629178 #96595] DEBUG -- : Read 1389 bytes (111979 total)
+D, [2017-08-26T14:45:53.629256 #96595] DEBUG -- : Read 1389 bytes (113368 total)
+D, [2017-08-26T14:45:53.629347 #96595] DEBUG -- : Read 1389 bytes (114757 total)
+D, [2017-08-26T14:45:53.629535 #96595] DEBUG -- : Read 1211 bytes (115968 total)
+D, [2017-08-26T14:45:53.629672 #96595] DEBUG -- : Read 1 bytes (115969 total)
+D, [2017-08-26T14:45:53.629743 #96595] DEBUG -- : Read 1 bytes (115970 total)
+D, [2017-08-26T14:45:53.629795 #96595] DEBUG -- : Read 1 bytes (115971 total)
+D, [2017-08-26T14:45:53.629844 #96595] DEBUG -- : Read 1 bytes (115972 total)
+D, [2017-08-26T14:45:53.629891 #96595] DEBUG -- : Read 1 bytes (115973 total)
+D, [2017-08-26T14:45:53.629948 #96595] DEBUG -- : Read 1 bytes (115974 total)
+D, [2017-08-26T14:45:53.629994 #96595] DEBUG -- : Read 1 bytes (115975 total)
+D, [2017-08-26T14:45:53.630039 #96595] DEBUG -- : Read 1 bytes (115976 total)
+D, [2017-08-26T14:45:53.630085 #96595] DEBUG -- : Read 1 bytes (115977 total)
+D, [2017-08-26T14:45:53.630136 #96595] DEBUG -- : Read 1 bytes (115978 total)
+D, [2017-08-26T14:45:53.630242 #96595] DEBUG -- : Read 1 bytes (115979 total)
+D, [2017-08-26T14:45:53.630315 #96595] DEBUG -- : Read 1 bytes (115980 total)
+D, [2017-08-26T14:45:53.630384 #96595] DEBUG -- : Read 1 bytes (115981 total)
+D, [2017-08-26T14:45:53.630487 #96595] DEBUG -- : Read 1 bytes (115982 total)
+D, [2017-08-26T14:45:53.630538 #96595] DEBUG -- : Read 1 bytes (115983 total)
+D, [2017-08-26T14:45:53.630619 #96595] DEBUG -- : Read 1184 bytes (117167 total)
+D, [2017-08-26T14:45:53.630687 #96595] DEBUG -- : Read 1389 bytes (118556 total)
+D, [2017-08-26T14:45:53.630795 #96595] DEBUG -- : Read 1389 bytes (119945 total)
+D, [2017-08-26T14:45:53.630865 #96595] DEBUG -- : Read 1389 bytes (121334 total)
+D, [2017-08-26T14:45:53.630938 #96595] DEBUG -- : Read 1389 bytes (122723 total)
+D, [2017-08-26T14:45:53.630999 #96595] DEBUG -- : Read 1389 bytes (124112 total)
+D, [2017-08-26T14:45:53.631152 #96595] DEBUG -- : Read 1389 bytes (125501 total)
+D, [2017-08-26T14:45:53.631222 #96595] DEBUG -- : Read 1389 bytes (126890 total)
+D, [2017-08-26T14:45:53.631321 #96595] DEBUG -- : Read 1389 bytes (128279 total)
+D, [2017-08-26T14:45:53.631468 #96595] DEBUG -- : Read 1389 bytes (129668 total)
+D, [2017-08-26T14:45:53.632486 #96595] DEBUG -- : Read 1389 bytes (131057 total)
+D, [2017-08-26T14:45:53.632621 #96595] DEBUG -- : Read 1295 bytes (132352 total)
+D, [2017-08-26T14:45:53.634045 #96595] DEBUG -- : Read 1 bytes (132353 total)
+D, [2017-08-26T14:45:53.634138 #96595] DEBUG -- : Read 1 bytes (132354 total)
+D, [2017-08-26T14:45:53.634195 #96595] DEBUG -- : Read 1 bytes (132355 total)
+D, [2017-08-26T14:45:53.634314 #96595] DEBUG -- : Read 1 bytes (132356 total)
+D, [2017-08-26T14:45:53.634401 #96595] DEBUG -- : Read 1 bytes (132357 total)
+D, [2017-08-26T14:45:53.634479 #96595] DEBUG -- : Read 1 bytes (132358 total)
+D, [2017-08-26T14:45:53.634583 #96595] DEBUG -- : Read 1304 bytes (133662 total)
+D, [2017-08-26T14:45:53.634751 #96595] DEBUG -- : Read 1389 bytes (135051 total)
+D, [2017-08-26T14:45:53.634893 #96595] DEBUG -- : Read 1389 bytes (136440 total)
+D, [2017-08-26T14:45:53.634996 #96595] DEBUG -- : Read 1389 bytes (137829 total)
+D, [2017-08-26T14:45:53.636097 #96595] DEBUG -- : Read 1389 bytes (139218 total)
+D, [2017-08-26T14:45:53.636229 #96595] DEBUG -- : Read 1389 bytes (140607 total)
+D, [2017-08-26T14:45:53.662165 #96595] DEBUG -- : Read 1389 bytes (141996 total)
+D, [2017-08-26T14:45:53.662498 #96595] DEBUG -- : Read 1389 bytes (143385 total)
+D, [2017-08-26T14:45:53.662716 #96595] DEBUG -- : Read 1389 bytes (144774 total)
+D, [2017-08-26T14:45:53.662831 #96595] DEBUG -- : Read 1389 bytes (146163 total)
+D, [2017-08-26T14:45:53.664221 #96595] DEBUG -- : Read 1389 bytes (147552 total)
+D, [2017-08-26T14:45:53.664334 #96595] DEBUG -- : Read 1184 bytes (148736 total)
+D, [2017-08-26T14:45:53.665528 #96595] DEBUG -- : Read 1 bytes (148737 total)
+D, [2017-08-26T14:45:53.665632 #96595] DEBUG -- : Read 1 bytes (148738 total)
+D, [2017-08-26T14:45:53.665727 #96595] DEBUG -- : Read 1 bytes (148739 total)
+D, [2017-08-26T14:45:53.665781 #96595] DEBUG -- : Read 1 bytes (148740 total)
+D, [2017-08-26T14:45:53.665832 #96595] DEBUG -- : Read 1 bytes (148741 total)
+D, [2017-08-26T14:45:53.665882 #96595] DEBUG -- : Read 1 bytes (148742 total)
+D, [2017-08-26T14:45:53.665925 #96595] DEBUG -- : Read 1 bytes (148743 total)
+D, [2017-08-26T14:45:53.665955 #96595] DEBUG -- : Read 1 bytes (148744 total)
+D, [2017-08-26T14:45:53.665999 #96595] DEBUG -- : Read 1 bytes (148745 total)
+D, [2017-08-26T14:45:53.666045 #96595] DEBUG -- : Read 1 bytes (148746 total)
+D, [2017-08-26T14:45:53.666093 #96595] DEBUG -- : Read 1 bytes (148747 total)
+D, [2017-08-26T14:45:53.666142 #96595] DEBUG -- : Read 1 bytes (148748 total)
+D, [2017-08-26T14:45:53.666195 #96595] DEBUG -- : Read 1 bytes (148749 total)
+D, [2017-08-26T14:45:53.666252 #96595] DEBUG -- : Read 1218 bytes (149967 total)
+D, [2017-08-26T14:45:53.666334 #96595] DEBUG -- : Read 1389 bytes (151356 total)
+D, [2017-08-26T14:45:53.666510 #96595] DEBUG -- : Read 1389 bytes (152745 total)
+D, [2017-08-26T14:45:53.666588 #96595] DEBUG -- : Read 1389 bytes (154134 total)
+D, [2017-08-26T14:45:53.666669 #96595] DEBUG -- : Read 1389 bytes (155523 total)
+D, [2017-08-26T14:45:53.666742 #96595] DEBUG -- : Read 1389 bytes (156912 total)
+D, [2017-08-26T14:45:53.666870 #96595] DEBUG -- : Read 1389 bytes (158301 total)
+D, [2017-08-26T14:45:53.666964 #96595] DEBUG -- : Read 1389 bytes (159690 total)
+D, [2017-08-26T14:45:53.667091 #96595] DEBUG -- : Read 1389 bytes (161079 total)
+D, [2017-08-26T14:45:53.667180 #96595] DEBUG -- : Read 1389 bytes (162468 total)
+D, [2017-08-26T14:45:53.667249 #96595] DEBUG -- : Read 1389 bytes (163857 total)
+D, [2017-08-26T14:45:53.668465 #96595] DEBUG -- : Read 1389 bytes (165246 total)
+D, [2017-08-26T14:45:53.668537 #96595] DEBUG -- : Read 741 bytes (165987 total)
+D, [2017-08-26T14:45:53.668712 #96595] DEBUG -- : gzip response
+I, [2017-08-26T14:46:59.261739 #96611]  INFO -- : Net::HTTP::Get: /intake-form-plan
+D, [2017-08-26T14:46:59.262104 #96611] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:46:59.262130 #96611] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:46:59.262145 #96611] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:46:59.262157 #96611] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:46:59.262201 #96611] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:46:59.262212 #96611] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T14:46:59.486160 #96611]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:46:59.486210 #96611] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:46:59 GMT
+D, [2017-08-26T14:46:59.486225 #96611] DEBUG -- : response-header: x-servedby => web009
+D, [2017-08-26T14:46:59.486237 #96611] DEBUG -- : response-header: set-cookie => crumb=BV0dHZCXVMu2N2Q1OWQ0N2FhMzY3OTgzZDI2NjI0M2YyNGEyYmYz;Path=/
+D, [2017-08-26T14:46:59.486248 #96611] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T14:46:59.486257 #96611] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T14:46:59.486267 #96611] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:46:59.486283 #96611] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T14:46:59.486293 #96611] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:46:59.486303 #96611] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:36:11 GMT
+D, [2017-08-26T14:46:59.486311 #96611] DEBUG -- : response-header: x-pc-host => 10.120.201.121
+D, [2017-08-26T14:46:59.486321 #96611] DEBUG -- : response-header: etag => W/"bd4f78723df19955ff0e406e8827a7da"
+D, [2017-08-26T14:46:59.486330 #96611] DEBUG -- : response-header: x-pc-key => MVpQURfLeL9Y3PrqX2_kGQDHTMk-kate-roberts-e837
+D, [2017-08-26T14:46:59.486342 #96611] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T14:46:59.486351 #96611] DEBUG -- : response-header: content-length => 14290
+D, [2017-08-26T14:46:59.486360 #96611] DEBUG -- : response-header: x-contextid => bjERAx2X/bqem0GxO
+D, [2017-08-26T14:46:59.486369 #96611] DEBUG -- : response-header: x-via => 1.1 echo133
+D, [2017-08-26T14:46:59.486451 #96611] DEBUG -- : Read 4542 bytes (4542 total)
+D, [2017-08-26T14:46:59.487332 #96611] DEBUG -- : Read 7588 bytes (12130 total)
+D, [2017-08-26T14:46:59.546403 #96611] DEBUG -- : Read 2160 bytes (14290 total)
+D, [2017-08-26T14:46:59.546552 #96611] DEBUG -- : gzip response
+D, [2017-08-26T14:46:59.551329 #96611] DEBUG -- : saved cookie: crumb=BV0dHZCXVMu2N2Q1OWQ0N2FhMzY3OTgzZDI2NjI0M2YyNGEyYmYz
+I, [2017-08-26T14:47:08.706884 #96619]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T14:47:08.706960 #96619] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:47:08.706976 #96619] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:47:08.706987 #96619] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:47:08.707026 #96619] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:47:08.707037 #96619] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:47:08.707048 #96619] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T14:47:08.958465 #96619]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:47:08.958515 #96619] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:47:08 GMT
+D, [2017-08-26T14:47:08.958530 #96619] DEBUG -- : response-header: x-servedby => web012
+D, [2017-08-26T14:47:08.958541 #96619] DEBUG -- : response-header: set-cookie => crumb=BTnTGZaWrSNRMmI2ZDhmNGQ0ZWEzZDQ0YTdjZDhlYzU0ZTFkOTc1;Path=/
+D, [2017-08-26T14:47:08.958552 #96619] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T14:47:08.958562 #96619] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T14:47:08.958571 #96619] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:47:08.958581 #96619] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T14:47:08.958590 #96619] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:47:08.958599 #96619] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T14:47:08.958608 #96619] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T14:47:08.958617 #96619] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T14:47:08.958627 #96619] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T14:47:08.958636 #96619] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T14:47:08.958645 #96619] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T14:47:08.958654 #96619] DEBUG -- : response-header: x-contextid => 2P8DAs4C/RRVS0xlI
+D, [2017-08-26T14:47:08.958666 #96619] DEBUG -- : response-header: x-via => 1.1 echo013
+D, [2017-08-26T14:47:08.959158 #96619] DEBUG -- : Read 1993 bytes (1993 total)
+D, [2017-08-26T14:47:08.962101 #96619] DEBUG -- : Read 10140 bytes (12133 total)
+D, [2017-08-26T14:47:09.186383 #96619] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T14:47:09.186931 #96619] DEBUG -- : gzip response
+D, [2017-08-26T14:47:09.191128 #96619] DEBUG -- : saved cookie: crumb=BTnTGZaWrSNRMmI2ZDhmNGQ0ZWEzZDQ0YTdjZDhlYzU0ZTFkOTc1
+I, [2017-08-26T14:47:44.491837 #96632]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:47:44.492189 #96632] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:47:44.492220 #96632] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:47:44.492277 #96632] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:47:44.492297 #96632] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:47:44.492313 #96632] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:47:44.492330 #96632] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T14:47:44.671924 #96632]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:47:44.671992 #96632] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:47:44 GMT
+D, [2017-08-26T14:47:44.672019 #96632] DEBUG -- : response-header: x-servedby => web130
+D, [2017-08-26T14:47:44.672038 #96632] DEBUG -- : response-header: set-cookie => crumb=BZc4WijjVk_AMzQ2OGJlNzZjYWY0MDg2ZjM5NzJjOThjNmUxNzNi;Path=/
+D, [2017-08-26T14:47:44.672057 #96632] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T14:47:44.672071 #96632] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T14:47:44.672086 #96632] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:47:44.672100 #96632] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T14:47:44.672116 #96632] DEBUG -- : response-header: x-pc-date => Fri, 25 Aug 2017 14:55:35 GMT
+D, [2017-08-26T14:47:44.672132 #96632] DEBUG -- : response-header: x-pc-host => 10.122.3.31
+D, [2017-08-26T14:47:44.672147 #96632] DEBUG -- : response-header: last-modified => Fri, 25 Aug 2017 22:03:50 GMT
+D, [2017-08-26T14:47:44.672159 #96632] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:47:44.672171 #96632] DEBUG -- : response-header: etag => W/"e1fc55eda5ac5b64cd4848237623dab9"
+D, [2017-08-26T14:47:44.672183 #96632] DEBUG -- : response-header: x-pc-key => PBN-9QIhUMorudzgHp0ns5IZygw-kate-roberts-e837
+D, [2017-08-26T14:47:44.672196 #96632] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T14:47:44.672207 #96632] DEBUG -- : response-header: content-length => 17386
+D, [2017-08-26T14:47:44.672221 #96632] DEBUG -- : response-header: x-contextid => q3UeOEZ1/HIvtFQo2
+D, [2017-08-26T14:47:44.672231 #96632] DEBUG -- : response-header: x-via => 1.1 echo119
+D, [2017-08-26T14:47:44.672357 #96632] DEBUG -- : Read 3223 bytes (3223 total)
+D, [2017-08-26T14:47:44.672995 #96632] DEBUG -- : Read 6380 bytes (9603 total)
+D, [2017-08-26T14:47:44.673079 #96632] DEBUG -- : Read 2484 bytes (12087 total)
+D, [2017-08-26T14:47:44.727710 #96632] DEBUG -- : Read 5104 bytes (17191 total)
+D, [2017-08-26T14:47:44.731928 #96632] DEBUG -- : Read 195 bytes (17386 total)
+D, [2017-08-26T14:47:44.732086 #96632] DEBUG -- : gzip response
+D, [2017-08-26T14:47:44.739318 #96632] DEBUG -- : saved cookie: crumb=BZc4WijjVk_AMzQ2OGJlNzZjYWY0MDg2ZjM5NzJjOThjNmUxNzNi
+I, [2017-08-26T14:47:50.930399 #96638]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:47:50.930480 #96638] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:47:50.930496 #96638] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:47:50.930508 #96638] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:47:50.930545 #96638] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:47:50.930556 #96638] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:47:50.930565 #96638] DEBUG -- : request-header: host => www.google.com
+I, [2017-08-26T14:47:51.043528 #96638]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-08-26T14:47:51.043583 #96638] DEBUG -- : response-header: location => https://www.google.com/?gws_rd=ssl
+D, [2017-08-26T14:47:51.043597 #96638] DEBUG -- : response-header: cache-control => private
+D, [2017-08-26T14:47:51.043608 #96638] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:47:51.043619 #96638] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+D, [2017-08-26T14:47:51.043631 #96638] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:47:51 GMT
+D, [2017-08-26T14:47:51.043640 #96638] DEBUG -- : response-header: server => gws
+D, [2017-08-26T14:47:51.043651 #96638] DEBUG -- : response-header: content-length => 231
+D, [2017-08-26T14:47:51.043661 #96638] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:47:51.043711 #96638] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:47:51.043721 #96638] DEBUG -- : response-header: set-cookie => NID=110=pNhvRYrvX1VDDHqWntQ8lO91o2sSvUxAAgOwpVon7XnCm-c0whVTY-pLChUu5hX2ViRTTp24BZ8k836pPTnnyd8q-y2uRRKPXXw7hJjfTdFMnziqYSRGygEwe8EbyFbt; expires=Sun, 25-Feb-2018 18:47:51 GMT; path=/; domain=.google.com; HttpOnly
+D, [2017-08-26T14:47:51.043808 #96638] DEBUG -- : Read 231 bytes (231 total)
+D, [2017-08-26T14:47:51.046126 #96638] DEBUG -- : saved cookie: NID=110=pNhvRYrvX1VDDHqWntQ8lO91o2sSvUxAAgOwpVon7XnCm-c0whVTY-pLChUu5hX2ViRTTp24BZ8k836pPTnnyd8q-y2uRRKPXXw7hJjfTdFMnziqYSRGygEwe8EbyFbt
+I, [2017-08-26T14:47:51.046194 #96638]  INFO -- : follow redirect to: https://www.google.com/?gws_rd=ssl
+I, [2017-08-26T14:47:51.046491 #96638]  INFO -- : Net::HTTP::Get: /?gws_rd=ssl
+D, [2017-08-26T14:47:51.046548 #96638] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:47:51.046562 #96638] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:47:51.046573 #96638] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:47:51.046584 #96638] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:47:51.046594 #96638] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:47:51.046603 #96638] DEBUG -- : request-header: cookie => NID=110=pNhvRYrvX1VDDHqWntQ8lO91o2sSvUxAAgOwpVon7XnCm-c0whVTY-pLChUu5hX2ViRTTp24BZ8k836pPTnnyd8q-y2uRRKPXXw7hJjfTdFMnziqYSRGygEwe8EbyFbt
+D, [2017-08-26T14:47:51.046615 #96638] DEBUG -- : request-header: host => www.google.com
+I, [2017-08-26T14:47:51.313005 #96638]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:47:51.313060 #96638] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:47:51 GMT
+D, [2017-08-26T14:47:51.313082 #96638] DEBUG -- : response-header: expires => -1
+D, [2017-08-26T14:47:51.313097 #96638] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2017-08-26T14:47:51.313107 #96638] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:47:51.313117 #96638] DEBUG -- : response-header: strict-transport-security => max-age=86400
+D, [2017-08-26T14:47:51.313127 #96638] DEBUG -- : response-header: p3p => CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+D, [2017-08-26T14:47:51.313137 #96638] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:47:51.313146 #96638] DEBUG -- : response-header: server => gws
+D, [2017-08-26T14:47:51.313155 #96638] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:47:51.313164 #96638] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:47:51.313173 #96638] DEBUG -- : response-header: set-cookie => NID=110=jcoEgQNMtBn9EalhsO5EvHkofllTriGjWDfxzrHPn9AFWKY96Ma9HVaarXsedwzsQUAeLmTLhj-O1D6p19TL7p7bTgmr0T9HNJBi8DgwOdhs20K7oPxjxZujRL619ec8; expires=Sun, 25-Feb-2018 18:47:51 GMT; path=/; domain=.google.com; HttpOnly
+D, [2017-08-26T14:47:51.313196 #96638] DEBUG -- : response-header: alt-svc => quic=":443"; ma=2592000; v="39,38,37,35"
+D, [2017-08-26T14:47:51.313214 #96638] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-26T14:47:51.313283 #96638] DEBUG -- : Read 1 bytes (1 total)
+D, [2017-08-26T14:47:51.313304 #96638] DEBUG -- : Read 1 bytes (2 total)
+D, [2017-08-26T14:47:51.313320 #96638] DEBUG -- : Read 1 bytes (3 total)
+D, [2017-08-26T14:47:51.313337 #96638] DEBUG -- : Read 1 bytes (4 total)
+D, [2017-08-26T14:47:51.313368 #96638] DEBUG -- : Read 1 bytes (5 total)
+D, [2017-08-26T14:47:51.313410 #96638] DEBUG -- : Read 1 bytes (6 total)
+D, [2017-08-26T14:47:51.313425 #96638] DEBUG -- : Read 1 bytes (7 total)
+D, [2017-08-26T14:47:51.313486 #96638] DEBUG -- : Read 1 bytes (8 total)
+D, [2017-08-26T14:47:51.313500 #96638] DEBUG -- : Read 1 bytes (9 total)
+D, [2017-08-26T14:47:51.313515 #96638] DEBUG -- : Read 1 bytes (10 total)
+D, [2017-08-26T14:47:51.313529 #96638] DEBUG -- : Read 1 bytes (11 total)
+D, [2017-08-26T14:47:51.313544 #96638] DEBUG -- : Read 1 bytes (12 total)
+D, [2017-08-26T14:47:51.313558 #96638] DEBUG -- : Read 1 bytes (13 total)
+D, [2017-08-26T14:47:51.313572 #96638] DEBUG -- : Read 1 bytes (14 total)
+D, [2017-08-26T14:47:51.313585 #96638] DEBUG -- : Read 1 bytes (15 total)
+D, [2017-08-26T14:47:51.313599 #96638] DEBUG -- : Read 1 bytes (16 total)
+D, [2017-08-26T14:47:51.313615 #96638] DEBUG -- : Read 468 bytes (484 total)
+D, [2017-08-26T14:47:51.313692 #96638] DEBUG -- : Read 1389 bytes (1873 total)
+D, [2017-08-26T14:47:51.313721 #96638] DEBUG -- : Read 1389 bytes (3262 total)
+D, [2017-08-26T14:47:51.313757 #96638] DEBUG -- : Read 1389 bytes (4651 total)
+D, [2017-08-26T14:47:51.313793 #96638] DEBUG -- : Read 1389 bytes (6040 total)
+D, [2017-08-26T14:47:51.313823 #96638] DEBUG -- : Read 1389 bytes (7429 total)
+D, [2017-08-26T14:47:51.313851 #96638] DEBUG -- : Read 1389 bytes (8818 total)
+D, [2017-08-26T14:47:51.313880 #96638] DEBUG -- : Read 1389 bytes (10207 total)
+D, [2017-08-26T14:47:51.313906 #96638] DEBUG -- : Read 494 bytes (10701 total)
+D, [2017-08-26T14:47:51.313941 #96638] DEBUG -- : Read 1 bytes (10702 total)
+D, [2017-08-26T14:47:51.313968 #96638] DEBUG -- : Read 1 bytes (10703 total)
+D, [2017-08-26T14:47:51.314027 #96638] DEBUG -- : Read 1 bytes (10704 total)
+D, [2017-08-26T14:47:51.314046 #96638] DEBUG -- : Read 1 bytes (10705 total)
+D, [2017-08-26T14:47:51.314061 #96638] DEBUG -- : Read 1 bytes (10706 total)
+D, [2017-08-26T14:47:51.314086 #96638] DEBUG -- : Read 1 bytes (10707 total)
+D, [2017-08-26T14:47:51.314112 #96638] DEBUG -- : Read 1 bytes (10708 total)
+D, [2017-08-26T14:47:51.314147 #96638] DEBUG -- : Read 1299 bytes (12007 total)
+D, [2017-08-26T14:47:51.314189 #96638] DEBUG -- : Read 1389 bytes (13396 total)
+D, [2017-08-26T14:47:51.314216 #96638] DEBUG -- : Read 1389 bytes (14785 total)
+D, [2017-08-26T14:47:51.314248 #96638] DEBUG -- : Read 1389 bytes (16174 total)
+D, [2017-08-26T14:47:51.314277 #96638] DEBUG -- : Read 1389 bytes (17563 total)
+D, [2017-08-26T14:47:51.354868 #96638] DEBUG -- : Read 1389 bytes (18952 total)
+D, [2017-08-26T14:47:51.354940 #96638] DEBUG -- : Read 1389 bytes (20341 total)
+D, [2017-08-26T14:47:51.354985 #96638] DEBUG -- : Read 1389 bytes (21730 total)
+D, [2017-08-26T14:47:51.355018 #96638] DEBUG -- : Read 1389 bytes (23119 total)
+D, [2017-08-26T14:47:51.355066 #96638] DEBUG -- : Read 1389 bytes (24508 total)
+D, [2017-08-26T14:47:51.355095 #96638] DEBUG -- : Read 1389 bytes (25897 total)
+D, [2017-08-26T14:47:51.355119 #96638] DEBUG -- : Read 246 bytes (26143 total)
+D, [2017-08-26T14:47:51.355163 #96638] DEBUG -- : Read 1 bytes (26144 total)
+D, [2017-08-26T14:47:51.355187 #96638] DEBUG -- : Read 1 bytes (26145 total)
+D, [2017-08-26T14:47:51.355203 #96638] DEBUG -- : Read 1 bytes (26146 total)
+D, [2017-08-26T14:47:51.355218 #96638] DEBUG -- : Read 1 bytes (26147 total)
+D, [2017-08-26T14:47:51.355233 #96638] DEBUG -- : Read 1327 bytes (27474 total)
+D, [2017-08-26T14:47:51.355303 #96638] DEBUG -- : Read 1389 bytes (28863 total)
+D, [2017-08-26T14:47:51.355335 #96638] DEBUG -- : Read 1389 bytes (30252 total)
+D, [2017-08-26T14:47:51.357857 #96638] DEBUG -- : Read 1389 bytes (31641 total)
+D, [2017-08-26T14:47:51.357933 #96638] DEBUG -- : Read 1389 bytes (33030 total)
+D, [2017-08-26T14:47:51.359825 #96638] DEBUG -- : Read 1389 bytes (34419 total)
+D, [2017-08-26T14:47:51.359890 #96638] DEBUG -- : Read 1389 bytes (35808 total)
+D, [2017-08-26T14:47:51.366716 #96638] DEBUG -- : Read 1389 bytes (37197 total)
+D, [2017-08-26T14:47:51.366778 #96638] DEBUG -- : Read 1389 bytes (38586 total)
+D, [2017-08-26T14:47:51.366820 #96638] DEBUG -- : Read 1389 bytes (39975 total)
+D, [2017-08-26T14:47:51.366851 #96638] DEBUG -- : Read 1389 bytes (41364 total)
+D, [2017-08-26T14:47:51.366882 #96638] DEBUG -- : Read 1389 bytes (42753 total)
+D, [2017-08-26T14:47:51.366911 #96638] DEBUG -- : Read 1389 bytes (44142 total)
+D, [2017-08-26T14:47:51.368900 #96638] DEBUG -- : Read 1389 bytes (45531 total)
+D, [2017-08-26T14:47:51.368969 #96638] DEBUG -- : Read 1389 bytes (46920 total)
+D, [2017-08-26T14:47:51.370583 #96638] DEBUG -- : Read 1389 bytes (48309 total)
+D, [2017-08-26T14:47:51.370640 #96638] DEBUG -- : Read 1389 bytes (49698 total)
+D, [2017-08-26T14:47:51.376575 #96638] DEBUG -- : Read 1389 bytes (51087 total)
+D, [2017-08-26T14:47:51.376625 #96638] DEBUG -- : Read 1389 bytes (52476 total)
+D, [2017-08-26T14:47:51.376665 #96638] DEBUG -- : Read 1389 bytes (53865 total)
+D, [2017-08-26T14:47:51.376694 #96638] DEBUG -- : Read 1389 bytes (55254 total)
+D, [2017-08-26T14:47:51.397242 #96638] DEBUG -- : Read 1389 bytes (56643 total)
+D, [2017-08-26T14:47:51.397319 #96638] DEBUG -- : Read 1389 bytes (58032 total)
+D, [2017-08-26T14:47:51.397349 #96638] DEBUG -- : Read 873 bytes (58905 total)
+D, [2017-08-26T14:47:51.397403 #96638] DEBUG -- : Read 1 bytes (58906 total)
+D, [2017-08-26T14:47:51.397431 #96638] DEBUG -- : Read 1 bytes (58907 total)
+D, [2017-08-26T14:47:51.397464 #96638] DEBUG -- : Read 1 bytes (58908 total)
+D, [2017-08-26T14:47:51.397544 #96638] DEBUG -- : Read 1 bytes (58909 total)
+D, [2017-08-26T14:47:51.397569 #96638] DEBUG -- : Read 1 bytes (58910 total)
+D, [2017-08-26T14:47:51.397586 #96638] DEBUG -- : Read 1 bytes (58911 total)
+D, [2017-08-26T14:47:51.397604 #96638] DEBUG -- : Read 1 bytes (58912 total)
+D, [2017-08-26T14:47:51.397621 #96638] DEBUG -- : Read 1 bytes (58913 total)
+D, [2017-08-26T14:47:51.397636 #96638] DEBUG -- : Read 1 bytes (58914 total)
+D, [2017-08-26T14:47:51.397652 #96638] DEBUG -- : Read 1 bytes (58915 total)
+D, [2017-08-26T14:47:51.397668 #96638] DEBUG -- : Read 1 bytes (58916 total)
+D, [2017-08-26T14:47:51.397684 #96638] DEBUG -- : Read 1 bytes (58917 total)
+D, [2017-08-26T14:47:51.397699 #96638] DEBUG -- : Read 1 bytes (58918 total)
+D, [2017-08-26T14:47:51.397715 #96638] DEBUG -- : Read 1 bytes (58919 total)
+D, [2017-08-26T14:47:51.397731 #96638] DEBUG -- : Read 1 bytes (58920 total)
+D, [2017-08-26T14:47:51.397746 #96638] DEBUG -- : Read 1 bytes (58921 total)
+D, [2017-08-26T14:47:51.397766 #96638] DEBUG -- : Read 1 bytes (58922 total)
+D, [2017-08-26T14:47:51.397806 #96638] DEBUG -- : Read 1 bytes (58923 total)
+D, [2017-08-26T14:47:51.397833 #96638] DEBUG -- : Read 1 bytes (58924 total)
+D, [2017-08-26T14:47:51.397861 #96638] DEBUG -- : Read 1 bytes (58925 total)
+D, [2017-08-26T14:47:51.397926 #96638] DEBUG -- : Read 1 bytes (58926 total)
+D, [2017-08-26T14:47:51.397958 #96638] DEBUG -- : Read 785 bytes (59711 total)
+D, [2017-08-26T14:47:51.398005 #96638] DEBUG -- : Read 1 bytes (59712 total)
+D, [2017-08-26T14:47:51.398032 #96638] DEBUG -- : Read 1 bytes (59713 total)
+D, [2017-08-26T14:47:51.398057 #96638] DEBUG -- : Read 1 bytes (59714 total)
+D, [2017-08-26T14:47:51.398081 #96638] DEBUG -- : Read 1 bytes (59715 total)
+D, [2017-08-26T14:47:51.398104 #96638] DEBUG -- : Read 1 bytes (59716 total)
+D, [2017-08-26T14:47:51.398130 #96638] DEBUG -- : Read 1 bytes (59717 total)
+D, [2017-08-26T14:47:51.398155 #96638] DEBUG -- : Read 1 bytes (59718 total)
+D, [2017-08-26T14:47:51.398193 #96638] DEBUG -- : Read 1 bytes (59719 total)
+D, [2017-08-26T14:47:51.398219 #96638] DEBUG -- : Read 150 bytes (59869 total)
+D, [2017-08-26T14:47:51.398268 #96638] DEBUG -- : Read 1 bytes (59870 total)
+D, [2017-08-26T14:47:51.398295 #96638] DEBUG -- : Read 1 bytes (59871 total)
+D, [2017-08-26T14:47:51.398320 #96638] DEBUG -- : Read 1 bytes (59872 total)
+D, [2017-08-26T14:47:51.398346 #96638] DEBUG -- : Read 1 bytes (59873 total)
+D, [2017-08-26T14:47:51.398373 #96638] DEBUG -- : Read 1 bytes (59874 total)
+D, [2017-08-26T14:47:51.398442 #96638] DEBUG -- : Read 1 bytes (59875 total)
+D, [2017-08-26T14:47:51.398467 #96638] DEBUG -- : Read 1 bytes (59876 total)
+D, [2017-08-26T14:47:51.398491 #96638] DEBUG -- : Read 1 bytes (59877 total)
+D, [2017-08-26T14:47:51.398515 #96638] DEBUG -- : Read 1 bytes (59878 total)
+D, [2017-08-26T14:47:51.398540 #96638] DEBUG -- : Read 1 bytes (59879 total)
+D, [2017-08-26T14:47:51.398564 #96638] DEBUG -- : Read 1 bytes (59880 total)
+D, [2017-08-26T14:47:51.398591 #96638] DEBUG -- : Read 1 bytes (59881 total)
+D, [2017-08-26T14:47:51.398617 #96638] DEBUG -- : Read 1 bytes (59882 total)
+D, [2017-08-26T14:47:51.398644 #96638] DEBUG -- : Read 1 bytes (59883 total)
+D, [2017-08-26T14:47:51.398670 #96638] DEBUG -- : Read 1 bytes (59884 total)
+D, [2017-08-26T14:47:51.398696 #96638] DEBUG -- : Read 1 bytes (59885 total)
+D, [2017-08-26T14:47:51.398731 #96638] DEBUG -- : Read 1180 bytes (61065 total)
+D, [2017-08-26T14:47:51.400609 #96638] DEBUG -- : Read 1389 bytes (62454 total)
+D, [2017-08-26T14:47:51.400662 #96638] DEBUG -- : Read 261 bytes (62715 total)
+D, [2017-08-26T14:47:51.400859 #96638] DEBUG -- : gzip response
+D, [2017-08-26T14:47:51.412510 #96638] DEBUG -- : saved cookie: NID=110=jcoEgQNMtBn9EalhsO5EvHkofllTriGjWDfxzrHPn9AFWKY96Ma9HVaarXsedwzsQUAeLmTLhj-O1D6p19TL7p7bTgmr0T9HNJBi8DgwOdhs20K7oPxjxZujRL619ec8
+I, [2017-08-26T14:47:51.436290 #96638]  INFO -- : form encoding: UTF-8
+I, [2017-08-26T14:47:51.438980 #96638]  INFO -- : Net::HTTP::Get: /search?source=hp&q=Hello
+D, [2017-08-26T14:47:51.439057 #96638] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:47:51.439077 #96638] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:47:51.439099 #96638] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:47:51.439120 #96638] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:47:51.439179 #96638] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:47:51.439221 #96638] DEBUG -- : request-header: cookie => NID=110=jcoEgQNMtBn9EalhsO5EvHkofllTriGjWDfxzrHPn9AFWKY96Ma9HVaarXsedwzsQUAeLmTLhj-O1D6p19TL7p7bTgmr0T9HNJBi8DgwOdhs20K7oPxjxZujRL619ec8
+D, [2017-08-26T14:47:51.439257 #96638] DEBUG -- : request-header: host => www.google.com
+D, [2017-08-26T14:47:51.439314 #96638] DEBUG -- : request-header: referer => https://www.google.com/?gws_rd=ssl
+I, [2017-08-26T14:47:51.568735 #96638]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:47:51.568786 #96638] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:47:51.568801 #96638] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:47:51 GMT
+D, [2017-08-26T14:47:51.568861 #96638] DEBUG -- : response-header: expires => -1
+D, [2017-08-26T14:47:51.568878 #96638] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2017-08-26T14:47:51.568888 #96638] DEBUG -- : response-header: strict-transport-security => max-age=86400
+D, [2017-08-26T14:47:51.568898 #96638] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:47:51.568936 #96638] DEBUG -- : response-header: server => gws
+D, [2017-08-26T14:47:51.568953 #96638] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:47:51.568968 #96638] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:47:51.568982 #96638] DEBUG -- : response-header: alt-svc => quic=":443"; ma=2592000; v="39,38,37,35"
+D, [2017-08-26T14:47:51.569003 #96638] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-26T14:47:51.569070 #96638] DEBUG -- : Read 1 bytes (1 total)
+D, [2017-08-26T14:47:51.569113 #96638] DEBUG -- : Read 1 bytes (2 total)
+D, [2017-08-26T14:47:51.569136 #96638] DEBUG -- : Read 1 bytes (3 total)
+D, [2017-08-26T14:47:51.569152 #96638] DEBUG -- : Read 1 bytes (4 total)
+D, [2017-08-26T14:47:51.569171 #96638] DEBUG -- : Read 973 bytes (977 total)
+D, [2017-08-26T14:47:51.569212 #96638] DEBUG -- : Read 1389 bytes (2366 total)
+D, [2017-08-26T14:47:51.569247 #96638] DEBUG -- : Read 1389 bytes (3755 total)
+D, [2017-08-26T14:47:51.569299 #96638] DEBUG -- : Read 1389 bytes (5144 total)
+D, [2017-08-26T14:47:51.569325 #96638] DEBUG -- : Read 1389 bytes (6533 total)
+D, [2017-08-26T14:47:51.570416 #96638] DEBUG -- : Read 1389 bytes (7922 total)
+D, [2017-08-26T14:47:51.570455 #96638] DEBUG -- : Read 1389 bytes (9311 total)
+D, [2017-08-26T14:47:51.570490 #96638] DEBUG -- : Read 1389 bytes (10700 total)
+D, [2017-08-26T14:47:51.570517 #96638] DEBUG -- : Read 294 bytes (10994 total)
+D, [2017-08-26T14:47:51.570554 #96638] DEBUG -- : Read 1 bytes (10995 total)
+D, [2017-08-26T14:47:51.570573 #96638] DEBUG -- : Read 1 bytes (10996 total)
+D, [2017-08-26T14:47:51.570589 #96638] DEBUG -- : Read 1 bytes (10997 total)
+D, [2017-08-26T14:47:51.570604 #96638] DEBUG -- : Read 1 bytes (10998 total)
+D, [2017-08-26T14:47:51.570620 #96638] DEBUG -- : Read 1 bytes (10999 total)
+D, [2017-08-26T14:47:51.570635 #96638] DEBUG -- : Read 1 bytes (11000 total)
+D, [2017-08-26T14:47:51.570679 #96638] DEBUG -- : Read 1 bytes (11001 total)
+D, [2017-08-26T14:47:51.570696 #96638] DEBUG -- : Read 1 bytes (11002 total)
+D, [2017-08-26T14:47:51.570710 #96638] DEBUG -- : Read 1 bytes (11003 total)
+D, [2017-08-26T14:47:51.570727 #96638] DEBUG -- : Read 1 bytes (11004 total)
+D, [2017-08-26T14:47:51.570744 #96638] DEBUG -- : Read 1 bytes (11005 total)
+D, [2017-08-26T14:47:51.570762 #96638] DEBUG -- : Read 1 bytes (11006 total)
+D, [2017-08-26T14:47:51.570779 #96638] DEBUG -- : Read 1 bytes (11007 total)
+D, [2017-08-26T14:47:51.570797 #96638] DEBUG -- : Read 1 bytes (11008 total)
+D, [2017-08-26T14:47:51.570814 #96638] DEBUG -- : Read 1 bytes (11009 total)
+D, [2017-08-26T14:47:51.570833 #96638] DEBUG -- : Read 1 bytes (11010 total)
+D, [2017-08-26T14:47:51.570849 #96638] DEBUG -- : Read 1 bytes (11011 total)
+D, [2017-08-26T14:47:51.570874 #96638] DEBUG -- : Read 1166 bytes (12177 total)
+D, [2017-08-26T14:47:51.570935 #96638] DEBUG -- : Read 1389 bytes (13566 total)
+D, [2017-08-26T14:47:51.570963 #96638] DEBUG -- : Read 1389 bytes (14955 total)
+D, [2017-08-26T14:47:51.570997 #96638] DEBUG -- : Read 1389 bytes (16344 total)
+D, [2017-08-26T14:47:51.572110 #96638] DEBUG -- : Read 1389 bytes (17733 total)
+D, [2017-08-26T14:47:51.572179 #96638] DEBUG -- : Read 1389 bytes (19122 total)
+D, [2017-08-26T14:47:51.572214 #96638] DEBUG -- : Read 1389 bytes (20511 total)
+D, [2017-08-26T14:47:51.572244 #96638] DEBUG -- : Read 1389 bytes (21900 total)
+D, [2017-08-26T14:47:51.572270 #96638] DEBUG -- : Read 1389 bytes (23289 total)
+D, [2017-08-26T14:47:51.572334 #96638] DEBUG -- : Read 1389 bytes (24678 total)
+D, [2017-08-26T14:47:51.572371 #96638] DEBUG -- : Read 1389 bytes (26067 total)
+D, [2017-08-26T14:47:51.573918 #96638] DEBUG -- : Read 714 bytes (26781 total)
+D, [2017-08-26T14:47:51.573968 #96638] DEBUG -- : Read 1 bytes (26782 total)
+D, [2017-08-26T14:47:51.573993 #96638] DEBUG -- : Read 1 bytes (26783 total)
+D, [2017-08-26T14:47:51.574020 #96638] DEBUG -- : Read 1 bytes (26784 total)
+D, [2017-08-26T14:47:51.574036 #96638] DEBUG -- : Read 1 bytes (26785 total)
+D, [2017-08-26T14:47:51.574051 #96638] DEBUG -- : Read 1 bytes (26786 total)
+D, [2017-08-26T14:47:51.574066 #96638] DEBUG -- : Read 1 bytes (26787 total)
+D, [2017-08-26T14:47:51.574081 #96638] DEBUG -- : Read 1 bytes (26788 total)
+D, [2017-08-26T14:47:51.574095 #96638] DEBUG -- : Read 1 bytes (26789 total)
+D, [2017-08-26T14:47:51.574115 #96638] DEBUG -- : Read 1 bytes (26790 total)
+D, [2017-08-26T14:47:51.574150 #96638] DEBUG -- : Read 1 bytes (26791 total)
+D, [2017-08-26T14:47:51.574174 #96638] DEBUG -- : Read 1 bytes (26792 total)
+D, [2017-08-26T14:47:51.574190 #96638] DEBUG -- : Read 1 bytes (26793 total)
+D, [2017-08-26T14:47:51.574204 #96638] DEBUG -- : Read 1 bytes (26794 total)
+D, [2017-08-26T14:47:51.574220 #96638] DEBUG -- : Read 1216 bytes (28010 total)
+D, [2017-08-26T14:47:51.575164 #96638] DEBUG -- : Read 755 bytes (28765 total)
+D, [2017-08-26T14:47:52.307211 #96638] DEBUG -- : Read 1 bytes (28766 total)
+D, [2017-08-26T14:47:52.307279 #96638] DEBUG -- : Read 1 bytes (28767 total)
+D, [2017-08-26T14:47:52.307406 #96638] DEBUG -- : Read 1 bytes (28768 total)
+D, [2017-08-26T14:47:52.307428 #96638] DEBUG -- : Read 1 bytes (28769 total)
+D, [2017-08-26T14:47:52.307446 #96638] DEBUG -- : Read 1 bytes (28770 total)
+D, [2017-08-26T14:47:52.307464 #96638] DEBUG -- : Read 1 bytes (28771 total)
+D, [2017-08-26T14:47:52.307479 #96638] DEBUG -- : Read 1 bytes (28772 total)
+D, [2017-08-26T14:47:52.307503 #96638] DEBUG -- : Read 1 bytes (28773 total)
+D, [2017-08-26T14:47:52.307534 #96638] DEBUG -- : Read 1 bytes (28774 total)
+D, [2017-08-26T14:47:52.307554 #96638] DEBUG -- : Read 1 bytes (28775 total)
+D, [2017-08-26T14:47:52.307571 #96638] DEBUG -- : Read 1 bytes (28776 total)
+D, [2017-08-26T14:47:52.307588 #96638] DEBUG -- : Read 1 bytes (28777 total)
+D, [2017-08-26T14:47:52.307608 #96638] DEBUG -- : Read 1230 bytes (30007 total)
+D, [2017-08-26T14:47:52.307638 #96638] DEBUG -- : Read 1389 bytes (31396 total)
+D, [2017-08-26T14:47:52.307669 #96638] DEBUG -- : Read 1389 bytes (32785 total)
+D, [2017-08-26T14:47:52.307694 #96638] DEBUG -- : Read 1389 bytes (34174 total)
+D, [2017-08-26T14:47:52.307721 #96638] DEBUG -- : Read 1389 bytes (35563 total)
+D, [2017-08-26T14:47:52.307744 #96638] DEBUG -- : Read 1389 bytes (36952 total)
+D, [2017-08-26T14:47:52.307771 #96638] DEBUG -- : Read 1389 bytes (38341 total)
+D, [2017-08-26T14:47:52.307795 #96638] DEBUG -- : Read 1389 bytes (39730 total)
+D, [2017-08-26T14:47:52.307823 #96638] DEBUG -- : Read 1389 bytes (41119 total)
+D, [2017-08-26T14:47:52.307846 #96638] DEBUG -- : Read 1389 bytes (42508 total)
+D, [2017-08-26T14:47:52.307871 #96638] DEBUG -- : Read 1389 bytes (43897 total)
+D, [2017-08-26T14:47:52.307896 #96638] DEBUG -- : Read 284 bytes (44181 total)
+D, [2017-08-26T14:47:52.307921 #96638] DEBUG -- : Read 1 bytes (44182 total)
+D, [2017-08-26T14:47:52.307969 #96638] DEBUG -- : Read 1 bytes (44183 total)
+D, [2017-08-26T14:47:52.307988 #96638] DEBUG -- : Read 1 bytes (44184 total)
+D, [2017-08-26T14:47:52.308008 #96638] DEBUG -- : Read 1 bytes (44185 total)
+D, [2017-08-26T14:47:52.308025 #96638] DEBUG -- : Read 1 bytes (44186 total)
+D, [2017-08-26T14:47:52.308042 #96638] DEBUG -- : Read 1 bytes (44187 total)
+D, [2017-08-26T14:47:52.308060 #96638] DEBUG -- : Read 1 bytes (44188 total)
+D, [2017-08-26T14:47:52.308077 #96638] DEBUG -- : Read 1 bytes (44189 total)
+D, [2017-08-26T14:47:52.308093 #96638] DEBUG -- : Read 1 bytes (44190 total)
+D, [2017-08-26T14:47:52.308109 #96638] DEBUG -- : Read 1 bytes (44191 total)
+D, [2017-08-26T14:47:52.308128 #96638] DEBUG -- : Read 1 bytes (44192 total)
+D, [2017-08-26T14:47:52.308144 #96638] DEBUG -- : Read 1 bytes (44193 total)
+D, [2017-08-26T14:47:52.308161 #96638] DEBUG -- : Read 1152 bytes (45345 total)
+D, [2017-08-26T14:47:52.308199 #96638] DEBUG -- : Read 1 bytes (45346 total)
+D, [2017-08-26T14:47:52.308221 #96638] DEBUG -- : Read 1 bytes (45347 total)
+D, [2017-08-26T14:47:52.308238 #96638] DEBUG -- : Read 1 bytes (45348 total)
+D, [2017-08-26T14:47:52.308257 #96638] DEBUG -- : Read 1345 bytes (46693 total)
+D, [2017-08-26T14:47:52.308309 #96638] DEBUG -- : Read 1389 bytes (48082 total)
+D, [2017-08-26T14:47:52.308343 #96638] DEBUG -- : Read 1389 bytes (49471 total)
+D, [2017-08-26T14:47:52.308390 #96638] DEBUG -- : Read 1104 bytes (50575 total)
+D, [2017-08-26T14:47:52.308419 #96638] DEBUG -- : Read 1 bytes (50576 total)
+D, [2017-08-26T14:47:52.308438 #96638] DEBUG -- : Read 1 bytes (50577 total)
+D, [2017-08-26T14:47:52.308456 #96638] DEBUG -- : Read 1 bytes (50578 total)
+D, [2017-08-26T14:47:52.308486 #96638] DEBUG -- : Read 1 bytes (50579 total)
+D, [2017-08-26T14:47:52.308508 #96638] DEBUG -- : Read 1 bytes (50580 total)
+D, [2017-08-26T14:47:52.308524 #96638] DEBUG -- : Read 1 bytes (50581 total)
+D, [2017-08-26T14:47:52.308541 #96638] DEBUG -- : Read 1 bytes (50582 total)
+D, [2017-08-26T14:47:52.308557 #96638] DEBUG -- : Read 1 bytes (50583 total)
+D, [2017-08-26T14:47:52.308572 #96638] DEBUG -- : Read 1 bytes (50584 total)
+D, [2017-08-26T14:47:52.308588 #96638] DEBUG -- : Read 1 bytes (50585 total)
+D, [2017-08-26T14:47:52.308604 #96638] DEBUG -- : Read 1 bytes (50586 total)
+D, [2017-08-26T14:47:52.308620 #96638] DEBUG -- : Read 1 bytes (50587 total)
+D, [2017-08-26T14:47:52.308637 #96638] DEBUG -- : Read 1 bytes (50588 total)
+D, [2017-08-26T14:47:52.308678 #96638] DEBUG -- : Read 1210 bytes (51798 total)
+D, [2017-08-26T14:47:52.308715 #96638] DEBUG -- : Read 1389 bytes (53187 total)
+D, [2017-08-26T14:47:52.308747 #96638] DEBUG -- : Read 1389 bytes (54576 total)
+D, [2017-08-26T14:47:52.308778 #96638] DEBUG -- : Read 1389 bytes (55965 total)
+D, [2017-08-26T14:47:52.308805 #96638] DEBUG -- : Read 1389 bytes (57354 total)
+D, [2017-08-26T14:47:52.308835 #96638] DEBUG -- : Read 1389 bytes (58743 total)
+D, [2017-08-26T14:47:52.308862 #96638] DEBUG -- : Read 1389 bytes (60132 total)
+D, [2017-08-26T14:47:52.316893 #96638] DEBUG -- : Read 1389 bytes (61521 total)
+D, [2017-08-26T14:47:52.317015 #96638] DEBUG -- : Read 1389 bytes (62910 total)
+D, [2017-08-26T14:47:52.317080 #96638] DEBUG -- : Read 1389 bytes (64299 total)
+D, [2017-08-26T14:47:52.317111 #96638] DEBUG -- : Read 1389 bytes (65688 total)
+D, [2017-08-26T14:47:52.317141 #96638] DEBUG -- : Read 1173 bytes (66861 total)
+D, [2017-08-26T14:47:52.317198 #96638] DEBUG -- : Read 1 bytes (66862 total)
+D, [2017-08-26T14:47:52.317223 #96638] DEBUG -- : Read 1 bytes (66863 total)
+D, [2017-08-26T14:47:52.317242 #96638] DEBUG -- : Read 1 bytes (66864 total)
+D, [2017-08-26T14:47:52.317259 #96638] DEBUG -- : Read 1 bytes (66865 total)
+D, [2017-08-26T14:47:52.317276 #96638] DEBUG -- : Read 1 bytes (66866 total)
+D, [2017-08-26T14:47:52.317293 #96638] DEBUG -- : Read 1 bytes (66867 total)
+D, [2017-08-26T14:47:52.317311 #96638] DEBUG -- : Read 1 bytes (66868 total)
+D, [2017-08-26T14:47:52.317328 #96638] DEBUG -- : Read 1 bytes (66869 total)
+D, [2017-08-26T14:47:52.317346 #96638] DEBUG -- : Read 1 bytes (66870 total)
+D, [2017-08-26T14:47:52.317389 #96638] DEBUG -- : Read 1 bytes (66871 total)
+D, [2017-08-26T14:47:52.317406 #96638] DEBUG -- : Read 1 bytes (66872 total)
+D, [2017-08-26T14:47:52.317426 #96638] DEBUG -- : Read 1 bytes (66873 total)
+D, [2017-08-26T14:47:52.317445 #96638] DEBUG -- : Read 1 bytes (66874 total)
+D, [2017-08-26T14:47:52.317462 #96638] DEBUG -- : Read 1215 bytes (68089 total)
+D, [2017-08-26T14:47:52.317489 #96638] DEBUG -- : Read 1389 bytes (69478 total)
+D, [2017-08-26T14:47:52.317524 #96638] DEBUG -- : Read 1389 bytes (70867 total)
+D, [2017-08-26T14:47:52.317551 #96638] DEBUG -- : Read 1389 bytes (72256 total)
+D, [2017-08-26T14:47:52.317580 #96638] DEBUG -- : Read 1389 bytes (73645 total)
+D, [2017-08-26T14:47:52.317611 #96638] DEBUG -- : Read 1389 bytes (75034 total)
+D, [2017-08-26T14:47:52.317639 #96638] DEBUG -- : Read 1389 bytes (76423 total)
+D, [2017-08-26T14:47:52.317667 #96638] DEBUG -- : Read 1389 bytes (77812 total)
+D, [2017-08-26T14:47:52.317698 #96638] DEBUG -- : Read 1389 bytes (79201 total)
+D, [2017-08-26T14:47:52.317724 #96638] DEBUG -- : Read 1389 bytes (80590 total)
+D, [2017-08-26T14:47:52.317748 #96638] DEBUG -- : Read 1389 bytes (81979 total)
+D, [2017-08-26T14:47:52.317775 #96638] DEBUG -- : Read 1266 bytes (83245 total)
+D, [2017-08-26T14:47:52.317801 #96638] DEBUG -- : Read 1 bytes (83246 total)
+D, [2017-08-26T14:47:52.317820 #96638] DEBUG -- : Read 1 bytes (83247 total)
+D, [2017-08-26T14:47:52.317836 #96638] DEBUG -- : Read 1 bytes (83248 total)
+D, [2017-08-26T14:47:52.317853 #96638] DEBUG -- : Read 1 bytes (83249 total)
+D, [2017-08-26T14:47:52.317871 #96638] DEBUG -- : Read 1 bytes (83250 total)
+D, [2017-08-26T14:47:52.317900 #96638] DEBUG -- : Read 1 bytes (83251 total)
+D, [2017-08-26T14:47:52.317944 #96638] DEBUG -- : Read 1 bytes (83252 total)
+D, [2017-08-26T14:47:52.317963 #96638] DEBUG -- : Read 1 bytes (83253 total)
+D, [2017-08-26T14:47:52.317984 #96638] DEBUG -- : Read 1281 bytes (84534 total)
+D, [2017-08-26T14:47:52.318015 #96638] DEBUG -- : Read 1389 bytes (85923 total)
+D, [2017-08-26T14:47:52.318039 #96638] DEBUG -- : Read 1389 bytes (87312 total)
+D, [2017-08-26T14:47:52.318071 #96638] DEBUG -- : Read 1389 bytes (88701 total)
+D, [2017-08-26T14:47:52.318098 #96638] DEBUG -- : Read 1389 bytes (90090 total)
+D, [2017-08-26T14:47:52.318125 #96638] DEBUG -- : Read 1389 bytes (91479 total)
+D, [2017-08-26T14:47:52.318148 #96638] DEBUG -- : Read 1389 bytes (92868 total)
+D, [2017-08-26T14:47:52.318182 #96638] DEBUG -- : Read 1389 bytes (94257 total)
+D, [2017-08-26T14:47:52.318208 #96638] DEBUG -- : Read 1389 bytes (95646 total)
+D, [2017-08-26T14:47:52.318231 #96638] DEBUG -- : Read 1389 bytes (97035 total)
+D, [2017-08-26T14:47:52.318250 #96638] DEBUG -- : Read 1389 bytes (98424 total)
+D, [2017-08-26T14:47:52.318267 #96638] DEBUG -- : Read 1205 bytes (99629 total)
+D, [2017-08-26T14:47:52.318298 #96638] DEBUG -- : Read 1 bytes (99630 total)
+D, [2017-08-26T14:47:52.318315 #96638] DEBUG -- : Read 1 bytes (99631 total)
+D, [2017-08-26T14:47:52.318329 #96638] DEBUG -- : Read 1 bytes (99632 total)
+D, [2017-08-26T14:47:52.318343 #96638] DEBUG -- : Read 1 bytes (99633 total)
+D, [2017-08-26T14:47:52.318357 #96638] DEBUG -- : Read 1 bytes (99634 total)
+D, [2017-08-26T14:47:52.318371 #96638] DEBUG -- : Read 1 bytes (99635 total)
+D, [2017-08-26T14:47:52.318389 #96638] DEBUG -- : Read 1 bytes (99636 total)
+D, [2017-08-26T14:47:52.318733 #96638] DEBUG -- : Read 1289 bytes (100925 total)
+D, [2017-08-26T14:47:52.318771 #96638] DEBUG -- : Read 1389 bytes (102314 total)
+D, [2017-08-26T14:47:52.318808 #96638] DEBUG -- : Read 1389 bytes (103703 total)
+D, [2017-08-26T14:47:52.318836 #96638] DEBUG -- : Read 1389 bytes (105092 total)
+D, [2017-08-26T14:47:52.318867 #96638] DEBUG -- : Read 1389 bytes (106481 total)
+D, [2017-08-26T14:47:52.318951 #96638] DEBUG -- : Read 1389 bytes (107870 total)
+D, [2017-08-26T14:47:52.318983 #96638] DEBUG -- : Read 1389 bytes (109259 total)
+D, [2017-08-26T14:47:52.319012 #96638] DEBUG -- : Read 1389 bytes (110648 total)
+D, [2017-08-26T14:47:52.319042 #96638] DEBUG -- : Read 1389 bytes (112037 total)
+D, [2017-08-26T14:47:52.319073 #96638] DEBUG -- : Read 1389 bytes (113426 total)
+D, [2017-08-26T14:47:52.319116 #96638] DEBUG -- : Read 1389 bytes (114815 total)
+D, [2017-08-26T14:47:52.319155 #96638] DEBUG -- : Read 1198 bytes (116013 total)
+D, [2017-08-26T14:47:52.319186 #96638] DEBUG -- : Read 1 bytes (116014 total)
+D, [2017-08-26T14:47:52.319206 #96638] DEBUG -- : Read 1 bytes (116015 total)
+D, [2017-08-26T14:47:52.319225 #96638] DEBUG -- : Read 1 bytes (116016 total)
+D, [2017-08-26T14:47:52.319244 #96638] DEBUG -- : Read 1 bytes (116017 total)
+D, [2017-08-26T14:47:52.319261 #96638] DEBUG -- : Read 1 bytes (116018 total)
+D, [2017-08-26T14:47:52.319278 #96638] DEBUG -- : Read 1 bytes (116019 total)
+D, [2017-08-26T14:47:52.319314 #96638] DEBUG -- : Read 1 bytes (116020 total)
+D, [2017-08-26T14:47:52.319332 #96638] DEBUG -- : Read 1 bytes (116021 total)
+D, [2017-08-26T14:47:52.319349 #96638] DEBUG -- : Read 1 bytes (116022 total)
+D, [2017-08-26T14:47:52.319370 #96638] DEBUG -- : Read 1 bytes (116023 total)
+D, [2017-08-26T14:47:52.319387 #96638] DEBUG -- : Read 1 bytes (116024 total)
+D, [2017-08-26T14:47:52.319406 #96638] DEBUG -- : Read 1 bytes (116025 total)
+D, [2017-08-26T14:47:52.319435 #96638] DEBUG -- : Read 1231 bytes (117256 total)
+D, [2017-08-26T14:47:52.319471 #96638] DEBUG -- : Read 1389 bytes (118645 total)
+D, [2017-08-26T14:47:52.319499 #96638] DEBUG -- : Read 1389 bytes (120034 total)
+D, [2017-08-26T14:47:52.319533 #96638] DEBUG -- : Read 1389 bytes (121423 total)
+D, [2017-08-26T14:47:52.319562 #96638] DEBUG -- : Read 1389 bytes (122812 total)
+D, [2017-08-26T14:47:52.319591 #96638] DEBUG -- : Read 1389 bytes (124201 total)
+D, [2017-08-26T14:47:52.319635 #96638] DEBUG -- : Read 1389 bytes (125590 total)
+D, [2017-08-26T14:47:52.319667 #96638] DEBUG -- : Read 1389 bytes (126979 total)
+D, [2017-08-26T14:47:52.319694 #96638] DEBUG -- : Read 1389 bytes (128368 total)
+D, [2017-08-26T14:47:52.319822 #96638] DEBUG -- : Read 1389 bytes (129757 total)
+D, [2017-08-26T14:47:52.319862 #96638] DEBUG -- : Read 1389 bytes (131146 total)
+D, [2017-08-26T14:47:52.319917 #96638] DEBUG -- : Read 1251 bytes (132397 total)
+D, [2017-08-26T14:47:52.319958 #96638] DEBUG -- : Read 1 bytes (132398 total)
+D, [2017-08-26T14:47:52.319978 #96638] DEBUG -- : Read 1 bytes (132399 total)
+D, [2017-08-26T14:47:52.319997 #96638] DEBUG -- : Read 1 bytes (132400 total)
+D, [2017-08-26T14:47:52.320015 #96638] DEBUG -- : Read 1 bytes (132401 total)
+D, [2017-08-26T14:47:52.320033 #96638] DEBUG -- : Read 1 bytes (132402 total)
+D, [2017-08-26T14:47:52.320051 #96638] DEBUG -- : Read 1 bytes (132403 total)
+D, [2017-08-26T14:47:52.320069 #96638] DEBUG -- : Read 1 bytes (132404 total)
+D, [2017-08-26T14:47:52.320088 #96638] DEBUG -- : Read 1 bytes (132405 total)
+D, [2017-08-26T14:47:52.320105 #96638] DEBUG -- : Read 1 bytes (132406 total)
+D, [2017-08-26T14:47:52.320123 #96638] DEBUG -- : Read 1264 bytes (133670 total)
+D, [2017-08-26T14:47:52.320174 #96638] DEBUG -- : Read 1389 bytes (135059 total)
+D, [2017-08-26T14:47:52.320201 #96638] DEBUG -- : Read 1389 bytes (136448 total)
+D, [2017-08-26T14:47:52.357252 #96638] DEBUG -- : Read 1389 bytes (137837 total)
+D, [2017-08-26T14:47:52.357372 #96638] DEBUG -- : Read 1389 bytes (139226 total)
+D, [2017-08-26T14:47:52.357451 #96638] DEBUG -- : Read 1389 bytes (140615 total)
+D, [2017-08-26T14:47:52.357513 #96638] DEBUG -- : Read 1389 bytes (142004 total)
+D, [2017-08-26T14:47:52.357601 #96638] DEBUG -- : Read 1389 bytes (143393 total)
+D, [2017-08-26T14:47:52.357642 #96638] DEBUG -- : Read 1389 bytes (144782 total)
+D, [2017-08-26T14:47:52.357690 #96638] DEBUG -- : Read 1389 bytes (146171 total)
+D, [2017-08-26T14:47:52.357743 #96638] DEBUG -- : Read 1389 bytes (147560 total)
+D, [2017-08-26T14:47:52.357775 #96638] DEBUG -- : Read 1221 bytes (148781 total)
+D, [2017-08-26T14:47:52.364977 #96638] DEBUG -- : Read 1 bytes (148782 total)
+D, [2017-08-26T14:47:52.365036 #96638] DEBUG -- : Read 1 bytes (148783 total)
+D, [2017-08-26T14:47:52.365059 #96638] DEBUG -- : Read 1 bytes (148784 total)
+D, [2017-08-26T14:47:52.365080 #96638] DEBUG -- : Read 1 bytes (148785 total)
+D, [2017-08-26T14:47:52.365100 #96638] DEBUG -- : Read 1 bytes (148786 total)
+D, [2017-08-26T14:47:52.365120 #96638] DEBUG -- : Read 1 bytes (148787 total)
+D, [2017-08-26T14:47:52.365137 #96638] DEBUG -- : Read 1 bytes (148788 total)
+D, [2017-08-26T14:47:52.365173 #96638] DEBUG -- : Read 1 bytes (148789 total)
+D, [2017-08-26T14:47:52.365192 #96638] DEBUG -- : Read 1 bytes (148790 total)
+D, [2017-08-26T14:47:52.365211 #96638] DEBUG -- : Read 1 bytes (148791 total)
+D, [2017-08-26T14:47:52.365228 #96638] DEBUG -- : Read 1 bytes (148792 total)
+D, [2017-08-26T14:47:52.365245 #96638] DEBUG -- : Read 1 bytes (148793 total)
+D, [2017-08-26T14:47:52.365262 #96638] DEBUG -- : Read 1 bytes (148794 total)
+D, [2017-08-26T14:47:52.365279 #96638] DEBUG -- : Read 1 bytes (148795 total)
+D, [2017-08-26T14:47:52.365296 #96638] DEBUG -- : Read 1 bytes (148796 total)
+D, [2017-08-26T14:47:52.365312 #96638] DEBUG -- : Read 1 bytes (148797 total)
+D, [2017-08-26T14:47:52.365333 #96638] DEBUG -- : Read 1180 bytes (149977 total)
+D, [2017-08-26T14:47:52.365375 #96638] DEBUG -- : Read 1389 bytes (151366 total)
+D, [2017-08-26T14:47:52.365428 #96638] DEBUG -- : Read 1389 bytes (152755 total)
+D, [2017-08-26T14:47:52.365466 #96638] DEBUG -- : Read 1389 bytes (154144 total)
+D, [2017-08-26T14:47:52.365493 #96638] DEBUG -- : Read 1389 bytes (155533 total)
+D, [2017-08-26T14:47:52.365528 #96638] DEBUG -- : Read 1389 bytes (156922 total)
+D, [2017-08-26T14:47:52.365571 #96638] DEBUG -- : Read 1389 bytes (158311 total)
+D, [2017-08-26T14:47:52.365606 #96638] DEBUG -- : Read 1389 bytes (159700 total)
+D, [2017-08-26T14:47:52.366734 #96638] DEBUG -- : Read 1389 bytes (161089 total)
+D, [2017-08-26T14:47:52.366777 #96638] DEBUG -- : Read 1389 bytes (162478 total)
+D, [2017-08-26T14:47:52.366836 #96638] DEBUG -- : Read 1389 bytes (163867 total)
+D, [2017-08-26T14:47:52.366867 #96638] DEBUG -- : Read 1389 bytes (165256 total)
+D, [2017-08-26T14:47:52.366894 #96638] DEBUG -- : Read 776 bytes (166032 total)
+D, [2017-08-26T14:47:52.367004 #96638] DEBUG -- : gzip response
+I, [2017-08-26T14:48:00.329066 #96646]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:48:00.329141 #96646] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:48:00.329158 #96646] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:48:00.329169 #96646] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:48:00.329212 #96646] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:48:00.329223 #96646] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:48:00.329233 #96646] DEBUG -- : request-header: host => www.yahoo.com
+I, [2017-08-26T14:48:00.549558 #96646]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Redirect
+D, [2017-08-26T14:48:00.549610 #96646] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:48:00 GMT
+D, [2017-08-26T14:48:00.549627 #96646] DEBUG -- : response-header: via => https/1.1 ir10.fp.ne1.yahoo.com (ApacheTrafficServer)
+D, [2017-08-26T14:48:00.549640 #96646] DEBUG -- : response-header: server => ATS
+D, [2017-08-26T14:48:00.549651 #96646] DEBUG -- : response-header: location => https://www.yahoo.com/
+D, [2017-08-26T14:48:00.549661 #96646] DEBUG -- : response-header: content-type => text/html
+D, [2017-08-26T14:48:00.549674 #96646] DEBUG -- : response-header: content-language => en
+D, [2017-08-26T14:48:00.549684 #96646] DEBUG -- : response-header: cache-control => no-store, no-cache
+D, [2017-08-26T14:48:00.549693 #96646] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:48:00.549734 #96646] DEBUG -- : response-header: set-cookie => B=657pkjpcq3gj0&b=3&s=u0; expires=Sun, 26-Aug-2018 18:48:00 GMT; path=/; domain=.yahoo.com
+D, [2017-08-26T14:48:00.549744 #96646] DEBUG -- : response-header: content-length => 304
+D, [2017-08-26T14:48:00.549824 #96646] DEBUG -- : Read 304 bytes (304 total)
+D, [2017-08-26T14:48:00.551789 #96646] DEBUG -- : saved cookie: B=657pkjpcq3gj0&b=3&s=u0
+I, [2017-08-26T14:48:00.551857 #96646]  INFO -- : follow redirect to: https://www.yahoo.com/
+I, [2017-08-26T14:48:00.552130 #96646]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:48:00.552153 #96646] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:48:00.552167 #96646] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:48:00.552178 #96646] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:48:00.552215 #96646] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:48:00.552226 #96646] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:48:00.552236 #96646] DEBUG -- : request-header: cookie => B=657pkjpcq3gj0&b=3&s=u0
+D, [2017-08-26T14:48:00.552245 #96646] DEBUG -- : request-header: host => www.yahoo.com
+I, [2017-08-26T14:48:01.002189 #96646]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:48:01.002266 #96646] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:48:00 GMT
+D, [2017-08-26T14:48:01.002286 #96646] DEBUG -- : response-header: p3p => policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+D, [2017-08-26T14:48:01.002300 #96646] DEBUG -- : response-header: strict-transport-security => max-age=2592000
+D, [2017-08-26T14:48:01.002326 #96646] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-08-26T14:48:01.002366 #96646] DEBUG -- : response-header: set-cookie => autorf=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=www.yahoo.com
+D, [2017-08-26T14:48:01.002392 #96646] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:48:01.002405 #96646] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:48:01.002416 #96646] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:48:01.002426 #96646] DEBUG -- : response-header: age => 0
+D, [2017-08-26T14:48:01.002436 #96646] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-26T14:48:01.002446 #96646] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:48:01.002455 #96646] DEBUG -- : response-header: via => http/1.1 ir8.fp.ne1.yahoo.com (ApacheTrafficServer)
+D, [2017-08-26T14:48:01.002467 #96646] DEBUG -- : response-header: server => ATS
+D, [2017-08-26T14:48:01.002479 #96646] DEBUG -- : response-header: cache-control => no-store, no-cache, private, max-age=0
+D, [2017-08-26T14:48:01.002489 #96646] DEBUG -- : response-header: expires => -1
+D, [2017-08-26T14:48:01.002726 #96646] DEBUG -- : Read 16 bytes (16 total)
+D, [2017-08-26T14:48:01.002809 #96646] DEBUG -- : Read 1297 bytes (1313 total)
+D, [2017-08-26T14:48:01.018076 #96646] DEBUG -- : Read 7234 bytes (8547 total)
+D, [2017-08-26T14:48:01.087502 #96646] DEBUG -- : Read 7240 bytes (15787 total)
+D, [2017-08-26T14:48:01.088762 #96646] DEBUG -- : Read 29 bytes (15816 total)
+D, [2017-08-26T14:48:01.088858 #96646] DEBUG -- : Read 381 bytes (16197 total)
+D, [2017-08-26T14:48:01.088906 #96646] DEBUG -- : Read 7 bytes (16204 total)
+D, [2017-08-26T14:48:01.088939 #96646] DEBUG -- : Read 224 bytes (16428 total)
+D, [2017-08-26T14:48:01.088968 #96646] DEBUG -- : Read 420 bytes (16848 total)
+D, [2017-08-26T14:48:01.089001 #96646] DEBUG -- : Read 1442 bytes (18290 total)
+D, [2017-08-26T14:48:01.104410 #96646] DEBUG -- : Read 2937 bytes (21227 total)
+D, [2017-08-26T14:48:01.104475 #96646] DEBUG -- : Read 60 bytes (21287 total)
+D, [2017-08-26T14:48:01.104529 #96646] DEBUG -- : Read 665 bytes (21952 total)
+D, [2017-08-26T14:48:01.104574 #96646] DEBUG -- : Read 66 bytes (22018 total)
+D, [2017-08-26T14:48:01.185322 #96646] DEBUG -- : Read 1494 bytes (23512 total)
+D, [2017-08-26T14:48:01.185392 #96646] DEBUG -- : Read 9 bytes (23521 total)
+D, [2017-08-26T14:48:01.185455 #96646] DEBUG -- : Read 37 bytes (23558 total)
+D, [2017-08-26T14:48:01.185492 #96646] DEBUG -- : Read 20 bytes (23578 total)
+D, [2017-08-26T14:48:01.185531 #96646] DEBUG -- : Read 71 bytes (23649 total)
+D, [2017-08-26T14:48:01.185614 #96646] DEBUG -- : Read 67 bytes (23716 total)
+D, [2017-08-26T14:48:01.312056 #96646] DEBUG -- : Read 7234 bytes (30950 total)
+D, [2017-08-26T14:48:01.312165 #96646] DEBUG -- : Read 1725 bytes (32675 total)
+D, [2017-08-26T14:48:01.312228 #96646] DEBUG -- : Read 4067 bytes (36742 total)
+D, [2017-08-26T14:48:01.312299 #96646] DEBUG -- : Read 4344 bytes (41086 total)
+D, [2017-08-26T14:48:01.312330 #96646] DEBUG -- : Read 207 bytes (41293 total)
+D, [2017-08-26T14:48:01.312355 #96646] DEBUG -- : Read 70 bytes (41363 total)
+D, [2017-08-26T14:48:01.400281 #96646] DEBUG -- : Read 4338 bytes (45701 total)
+D, [2017-08-26T14:48:01.400388 #96646] DEBUG -- : Read 2284 bytes (47985 total)
+D, [2017-08-26T14:48:01.400452 #96646] DEBUG -- : Read 47 bytes (48032 total)
+D, [2017-08-26T14:48:01.400495 #96646] DEBUG -- : Read 348 bytes (48380 total)
+D, [2017-08-26T14:48:01.400525 #96646] DEBUG -- : Read 21 bytes (48401 total)
+D, [2017-08-26T14:48:01.401747 #96646] DEBUG -- : Read 7234 bytes (55635 total)
+D, [2017-08-26T14:48:01.401866 #96646] DEBUG -- : Read 6498 bytes (62133 total)
+D, [2017-08-26T14:48:01.401921 #96646] DEBUG -- : Read 49 bytes (62182 total)
+D, [2017-08-26T14:48:01.401992 #96646] DEBUG -- : Read 3206 bytes (65388 total)
+D, [2017-08-26T14:48:01.402056 #96646] DEBUG -- : Read 4890 bytes (70278 total)
+D, [2017-08-26T14:48:01.402085 #96646] DEBUG -- : Read 1442 bytes (71720 total)
+D, [2017-08-26T14:48:01.484194 #96646] DEBUG -- : Read 6654 bytes (78374 total)
+D, [2017-08-26T14:48:01.488383 #96646] DEBUG -- : Read 8096 bytes (86470 total)
+D, [2017-08-26T14:48:01.488434 #96646] DEBUG -- : Read 578 bytes (87048 total)
+D, [2017-08-26T14:48:01.488492 #96646] DEBUG -- : Read 5792 bytes (92840 total)
+D, [2017-08-26T14:48:01.488605 #96646] DEBUG -- : Read 1726 bytes (94566 total)
+D, [2017-08-26T14:48:01.488633 #96646] DEBUG -- : Read 3558 bytes (98124 total)
+D, [2017-08-26T14:48:01.490745 #96646] DEBUG -- : Read 4538 bytes (102662 total)
+D, [2017-08-26T14:48:01.490891 #96646] DEBUG -- : Read 2890 bytes (105552 total)
+D, [2017-08-26T14:48:01.490975 #96646] DEBUG -- : Read 5206 bytes (110758 total)
+D, [2017-08-26T14:48:01.491019 #96646] DEBUG -- : Read 4338 bytes (115096 total)
+D, [2017-08-26T14:48:01.568075 #96646] DEBUG -- : Read 3758 bytes (118854 total)
+D, [2017-08-26T14:48:01.568203 #96646] DEBUG -- : Read 8096 bytes (126950 total)
+D, [2017-08-26T14:48:01.568304 #96646] DEBUG -- : Read 3910 bytes (130860 total)
+D, [2017-08-26T14:48:01.568390 #96646] DEBUG -- : Read 428 bytes (131288 total)
+D, [2017-08-26T14:48:01.574187 #96646] DEBUG -- : Read 3758 bytes (135046 total)
+D, [2017-08-26T14:48:01.574442 #96646] DEBUG -- : Read 10593 bytes (145639 total)
+D, [2017-08-26T14:48:01.574501 #96646] DEBUG -- : Read 45 bytes (145684 total)
+D, [2017-08-26T14:48:01.574643 #96646] DEBUG -- : gzip response
+D, [2017-08-26T14:48:01.604156 #96646] DEBUG -- : saved cookie: autorf=deleted
+I, [2017-08-26T14:48:12.735246 #96654]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:48:12.735323 #96654] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:48:12.735339 #96654] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:48:12.735353 #96654] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:48:12.735395 #96654] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:48:12.735405 #96654] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:48:12.735414 #96654] DEBUG -- : request-header: host => www.theironyard.com
+I, [2017-08-26T14:48:12.932074 #96654]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:48:12.932147 #96654] DEBUG -- : response-header: server => Cowboy
+D, [2017-08-26T14:48:12.932173 #96654] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:48:12 GMT
+D, [2017-08-26T14:48:12.932191 #96654] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:48:12.932340 #96654] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:48:12.932374 #96654] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:48:12.932433 #96654] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2017-08-26T14:48:12.932461 #96654] DEBUG -- : response-header: location => https://www.theironyard.com/
+D, [2017-08-26T14:48:12.932480 #96654] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2017-08-26T14:48:12.932497 #96654] DEBUG -- : response-header: cache-control => no-cache
+D, [2017-08-26T14:48:12.932515 #96654] DEBUG -- : response-header: x-request-id => 5942e9eb-0019-4aa8-a29a-d8ef46262302
+D, [2017-08-26T14:48:12.932532 #96654] DEBUG -- : response-header: x-runtime => 0.002249
+D, [2017-08-26T14:48:12.932549 #96654] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-26T14:48:12.932566 #96654] DEBUG -- : response-header: via => 1.1 vegur
+D, [2017-08-26T14:48:12.932906 #96654] DEBUG -- : Read 94 bytes (94 total)
+I, [2017-08-26T14:48:12.935038 #96654]  INFO -- : follow redirect to: https://www.theironyard.com/
+I, [2017-08-26T14:48:12.935512 #96654]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:48:12.935555 #96654] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:48:12.935579 #96654] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:48:12.935620 #96654] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:48:12.935642 #96654] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:48:12.935660 #96654] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:48:12.935677 #96654] DEBUG -- : request-header: host => www.theironyard.com
+I, [2017-08-26T14:48:13.392825 #96654]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:48:13.392922 #96654] DEBUG -- : response-header: server => Cowboy
+D, [2017-08-26T14:48:13.392962 #96654] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:48:12 GMT
+D, [2017-08-26T14:48:13.392991 #96654] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:48:13.393020 #96654] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:48:13.393048 #96654] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:48:13.393074 #96654] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2017-08-26T14:48:13.393102 #96654] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2017-08-26T14:48:13.393128 #96654] DEBUG -- : response-header: etag => W/"a2b333de906d9148250eeae761c89687"
+D, [2017-08-26T14:48:13.393155 #96654] DEBUG -- : response-header: cache-control => max-age=0, private, must-revalidate
+D, [2017-08-26T14:48:13.393183 #96654] DEBUG -- : response-header: x-request-id => ca521c58-4b35-4d3a-86a6-4a446ae67d8b
+D, [2017-08-26T14:48:13.393210 #96654] DEBUG -- : response-header: x-runtime => 0.168593
+D, [2017-08-26T14:48:13.393234 #96654] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-26T14:48:13.393253 #96654] DEBUG -- : response-header: via => 1.1 vegur
+D, [2017-08-26T14:48:13.393525 #96654] DEBUG -- : Read 8311 bytes (8311 total)
+D, [2017-08-26T14:48:13.393675 #96654] DEBUG -- : Read 4344 bytes (12655 total)
+D, [2017-08-26T14:48:13.438618 #96654] DEBUG -- : Read 16384 bytes (29039 total)
+D, [2017-08-26T14:48:13.439304 #96654] DEBUG -- : Read 5336 bytes (34375 total)
+D, [2017-08-26T14:48:13.480856 #96654] DEBUG -- : Read 16384 bytes (50759 total)
+D, [2017-08-26T14:48:13.485640 #96654] DEBUG -- : Read 16384 bytes (67143 total)
+D, [2017-08-26T14:48:13.487146 #96654] DEBUG -- : Read 10390 bytes (77533 total)
+I, [2017-08-26T14:50:36.368055 #96683]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:50:36.368378 #96683] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:50:36.368403 #96683] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:50:36.368416 #96683] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:50:36.368459 #96683] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:50:36.368469 #96683] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:50:36.368479 #96683] DEBUG -- : request-header: host => www.trello.com
+I, [2017-08-26T14:50:36.623712 #96683]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:50:36.623762 #96683] DEBUG -- : response-header: content-length => 0
+D, [2017-08-26T14:50:36.623777 #96683] DEBUG -- : response-header: location => https://trello.com/
+D, [2017-08-26T14:50:36.623789 #96683] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:50:36 GMT
+D, [2017-08-26T14:50:36.623804 #96683] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:50:36.623889 #96683] DEBUG -- : Read 0 bytes (0 total)
+I, [2017-08-26T14:50:36.624092 #96683]  INFO -- : follow redirect to: https://trello.com/
+I, [2017-08-26T14:50:36.624280 #96683]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:50:36.624298 #96683] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:50:36.624318 #96683] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:50:36.624330 #96683] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:50:36.624340 #96683] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:50:36.624353 #96683] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:50:36.624363 #96683] DEBUG -- : request-header: host => trello.com
+I, [2017-08-26T14:50:36.793922 #96683]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:50:36.793980 #96683] DEBUG -- : response-header: cache-control => no-store, no-cache
+D, [2017-08-26T14:50:36.793997 #96683] DEBUG -- : response-header: x-content-type-options => nosniff
+D, [2017-08-26T14:50:36.794009 #96683] DEBUG -- : response-header: strict-transport-security => max-age=15768000
+D, [2017-08-26T14:50:36.794020 #96683] DEBUG -- : response-header: x-xss-protection => 1; mode=block
+D, [2017-08-26T14:50:36.794031 #96683] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-08-26T14:50:36.794054 #96683] DEBUG -- : response-header: x-trello-version => 1.1031.0
+D, [2017-08-26T14:50:36.794116 #96683] DEBUG -- : response-header: x-trello-environment => Production
+D, [2017-08-26T14:50:36.794128 #96683] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2017-08-26T14:50:36.794138 #96683] DEBUG -- : response-header: etag => W/"0KTicmu2dJaTtI1k/uPAjQ=="
+D, [2017-08-26T14:50:36.794148 #96683] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:50:36.794157 #96683] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:50:36.794167 #96683] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:50:36 GMT
+D, [2017-08-26T14:50:36.794176 #96683] DEBUG -- : response-header: content-length => 19253
+D, [2017-08-26T14:50:36.794185 #96683] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:50:36.794195 #96683] DEBUG -- : response-header: set-cookie => dsc=5afa99e35bb82b8e673c999c7e5f05f44007aa685a50ee43a3db6b99464357a9; Path=/; Expires=Tue, 29 Aug 2017 18:50:36 GMT; Secure, lang=en-us; Path=/, mab=65432; Path=/; Expires=Mon, 25 Sep 2017 18:50:36 GMT
+D, [2017-08-26T14:50:36.794277 #96683] DEBUG -- : Read 15688 bytes (15688 total)
+D, [2017-08-26T14:50:36.794368 #96683] DEBUG -- : Read 3565 bytes (19253 total)
+D, [2017-08-26T14:50:36.794449 #96683] DEBUG -- : gzip response
+D, [2017-08-26T14:50:36.801526 #96683] DEBUG -- : saved cookie: dsc=5afa99e35bb82b8e673c999c7e5f05f44007aa685a50ee43a3db6b99464357a9
+D, [2017-08-26T14:50:36.801625 #96683] DEBUG -- : saved cookie: lang=en-us
+D, [2017-08-26T14:50:36.801768 #96683] DEBUG -- : saved cookie: mab=65432
+I, [2017-08-26T14:50:49.723849 #96690]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:50:49.723945 #96690] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:50:49.723967 #96690] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:50:49.723982 #96690] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:50:49.724034 #96690] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:50:49.724048 #96690] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:50:49.724061 #96690] DEBUG -- : request-header: host => www.craigslist.org
+I, [2017-08-26T14:50:49.865713 #96690]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Found
+D, [2017-08-26T14:50:49.865803 #96690] DEBUG -- : response-header: set-cookie => cl_b=HhJ_eo-K5xGE9bYA7ibdtg2SoZ8;path=/;domain=.craigslist.org;expires=Fri, 01-Jan-2038 00:00:00 GMT
+D, [2017-08-26T14:50:49.865833 #96690] DEBUG -- : response-header: location => https://www.craigslist.org/
+D, [2017-08-26T14:50:49.865932 #96690] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-08-26T14:50:49.869892 #96690] DEBUG -- : saved cookie: cl_b=HhJ_eo-K5xGE9bYA7ibdtg2SoZ8
+I, [2017-08-26T14:50:49.871046 #96690]  INFO -- : follow redirect to: https://www.craigslist.org/
+I, [2017-08-26T14:50:49.871617 #96690]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:50:49.871655 #96690] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:50:49.871678 #96690] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:50:49.871699 #96690] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:50:49.871720 #96690] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:50:49.871739 #96690] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:50:49.871757 #96690] DEBUG -- : request-header: cookie => cl_b=HhJ_eo-K5xGE9bYA7ibdtg2SoZ8
+D, [2017-08-26T14:50:49.871775 #96690] DEBUG -- : request-header: host => www.craigslist.org
+I, [2017-08-26T14:50:50.089060 #96690]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-08-26T14:50:50.089137 #96690] DEBUG -- : response-header: location => https://geo.craigslist.org/
+D, [2017-08-26T14:50:50.089222 #96690] DEBUG -- : response-header: strict-transport-security => max-age=86400
+D, [2017-08-26T14:50:50.089282 #96690] DEBUG -- : Read 0 bytes (0 total)
+I, [2017-08-26T14:50:50.089530 #96690]  INFO -- : follow redirect to: https://geo.craigslist.org/
+I, [2017-08-26T14:50:50.089945 #96690]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:50:50.089980 #96690] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:50:50.090002 #96690] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:50:50.090021 #96690] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:50:50.090040 #96690] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:50:50.090056 #96690] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:50:50.090079 #96690] DEBUG -- : request-header: cookie => cl_b=HhJ_eo-K5xGE9bYA7ibdtg2SoZ8
+D, [2017-08-26T14:50:50.090138 #96690] DEBUG -- : request-header: host => geo.craigslist.org
+I, [2017-08-26T14:50:50.349511 #96690]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2017-08-26T14:50:50.349618 #96690] DEBUG -- : response-header: last-modified => Sat, 26 Aug 2017 18:50:50 GMT
+D, [2017-08-26T14:50:50.349647 #96690] DEBUG -- : response-header: location => https://tampa.craigslist.org
+D, [2017-08-26T14:50:50.349668 #96690] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:50:50 GMT
+D, [2017-08-26T14:50:50.349687 #96690] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:50:50.349704 #96690] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:50:50.349720 #96690] DEBUG -- : response-header: content-length => 21
+D, [2017-08-26T14:50:50.349737 #96690] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2017-08-26T14:50:50.349753 #96690] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:50:50.349770 #96690] DEBUG -- : response-header: server => Apache
+D, [2017-08-26T14:50:50.349787 #96690] DEBUG -- : response-header: strict-transport-security => max-age=86400
+D, [2017-08-26T14:50:50.350030 #96690] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-08-26T14:50:50.350100 #96690] DEBUG -- : Read 21 bytes (21 total)
+D, [2017-08-26T14:50:50.350183 #96690] DEBUG -- : gzip response
+I, [2017-08-26T14:50:50.350673 #96690]  INFO -- : follow redirect to: https://tampa.craigslist.org
+I, [2017-08-26T14:50:50.351175 #96690]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:50:50.351212 #96690] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:50:50.351235 #96690] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:50:50.351257 #96690] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:50:50.351296 #96690] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:50:50.351316 #96690] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:50:50.351334 #96690] DEBUG -- : request-header: cookie => cl_b=HhJ_eo-K5xGE9bYA7ibdtg2SoZ8
+D, [2017-08-26T14:50:50.351351 #96690] DEBUG -- : request-header: host => tampa.craigslist.org
+I, [2017-08-26T14:50:50.609159 #96690]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:50:50.609235 #96690] DEBUG -- : response-header: cache-control => max-age=3600, public
+D, [2017-08-26T14:50:50.609263 #96690] DEBUG -- : response-header: last-modified => Sat, 26 Aug 2017 18:44:37 GMT
+D, [2017-08-26T14:50:50.609283 #96690] DEBUG -- : response-header: set-cookie => cl_def_hp=tampa; path=/; domain=.craigslist.org; expires=Sun, 26-Aug-2018 18:44:37 GMT
+D, [2017-08-26T14:50:50.609303 #96690] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:44:37 GMT
+D, [2017-08-26T14:50:50.609320 #96690] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:50:50.609337 #96690] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:50:50.609358 #96690] DEBUG -- : response-header: content-length => 10423
+D, [2017-08-26T14:50:50.609376 #96690] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:50:50.609392 #96690] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-08-26T14:50:50.609409 #96690] DEBUG -- : response-header: server => Apache
+D, [2017-08-26T14:50:50.609426 #96690] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 19:44:37 GMT
+D, [2017-08-26T14:50:50.609443 #96690] DEBUG -- : response-header: strict-transport-security => max-age=86400
+D, [2017-08-26T14:50:50.609506 #96690] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-08-26T14:50:50.651103 #96690] DEBUG -- : Read 10423 bytes (10423 total)
+D, [2017-08-26T14:50:50.651295 #96690] DEBUG -- : gzip response
+D, [2017-08-26T14:50:50.658869 #96690] DEBUG -- : saved cookie: cl_def_hp=tampa
+I, [2017-08-26T14:51:39.673548 #96704]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:51:39.673854 #96704] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:51:39.673879 #96704] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:51:39.673893 #96704] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:51:39.673936 #96704] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:51:39.673949 #96704] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:51:39.673959 #96704] DEBUG -- : request-header: host => news.ycombinator.com
+I, [2017-08-26T14:51:39.835483 #96704]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:51:39.835534 #96704] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:51:39 GMT
+D, [2017-08-26T14:51:39.835549 #96704] DEBUG -- : response-header: content-type => text/html
+D, [2017-08-26T14:51:39.835560 #96704] DEBUG -- : response-header: content-length => 178
+D, [2017-08-26T14:51:39.835570 #96704] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:51:39.835584 #96704] DEBUG -- : response-header: set-cookie => __cfduid=d5774ccbf65f6d7bc698c550b641615f41503773499; expires=Sun, 26-Aug-18 18:51:39 GMT; path=/; domain=.ycombinator.com; HttpOnly
+D, [2017-08-26T14:51:39.835595 #96704] DEBUG -- : response-header: location => https://news.ycombinator.com/
+D, [2017-08-26T14:51:39.835605 #96704] DEBUG -- : response-header: server => cloudflare-nginx
+D, [2017-08-26T14:51:39.835618 #96704] DEBUG -- : response-header: cf-ray => 3948fbd561695338-MIA
+D, [2017-08-26T14:51:39.835700 #96704] DEBUG -- : Read 178 bytes (178 total)
+D, [2017-08-26T14:51:39.838556 #96704] DEBUG -- : saved cookie: __cfduid=d5774ccbf65f6d7bc698c550b641615f41503773499
+I, [2017-08-26T14:51:39.838669 #96704]  INFO -- : follow redirect to: https://news.ycombinator.com/
+I, [2017-08-26T14:51:39.839002 #96704]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:51:39.839026 #96704] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:51:39.839039 #96704] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:51:39.839051 #96704] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:51:39.839061 #96704] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:51:39.839071 #96704] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:51:39.839081 #96704] DEBUG -- : request-header: cookie => __cfduid=d5774ccbf65f6d7bc698c550b641615f41503773499
+D, [2017-08-26T14:51:39.839091 #96704] DEBUG -- : request-header: host => news.ycombinator.com
+I, [2017-08-26T14:51:40.088436 #96704]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:51:40.088502 #96704] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:51:40 GMT
+D, [2017-08-26T14:51:40.088519 #96704] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2017-08-26T14:51:40.088531 #96704] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-26T14:51:40.088541 #96704] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:51:40.088558 #96704] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:51:40.088575 #96704] DEBUG -- : response-header: cache-control => private, max-age=0
+D, [2017-08-26T14:51:40.088592 #96704] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-08-26T14:51:40.088607 #96704] DEBUG -- : response-header: strict-transport-security => max-age=31556900; includeSubDomains
+D, [2017-08-26T14:51:40.088617 #96704] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:51:40.088627 #96704] DEBUG -- : response-header: server => cloudflare-nginx
+D, [2017-08-26T14:51:40.088636 #96704] DEBUG -- : response-header: cf-ray => 3948fbd6990852f0-MIA
+D, [2017-08-26T14:51:40.088720 #96704] DEBUG -- : Read 975 bytes (975 total)
+D, [2017-08-26T14:51:40.088753 #96704] DEBUG -- : Read 1369 bytes (2344 total)
+D, [2017-08-26T14:51:40.088799 #96704] DEBUG -- : Read 1369 bytes (3713 total)
+D, [2017-08-26T14:51:40.088856 #96704] DEBUG -- : Read 1369 bytes (5082 total)
+D, [2017-08-26T14:51:40.088885 #96704] DEBUG -- : Read 389 bytes (5471 total)
+D, [2017-08-26T14:51:40.088963 #96704] DEBUG -- : gzip response
+I, [2017-08-26T14:52:36.185219 #96720]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:52:36.185576 #96720] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:52:36.185599 #96720] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:52:36.185612 #96720] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:52:36.185623 #96720] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:52:36.185632 #96720] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:52:36.185642 #96720] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:52:36.341356 #96720]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:52:36.341510 #96720] DEBUG -- : response-header: server => AkamaiGHost
+D, [2017-08-26T14:52:36.341537 #96720] DEBUG -- : response-header: content-length => 0
+D, [2017-08-26T14:52:36.341551 #96720] DEBUG -- : response-header: location => https://www.dellemc.com/
+D, [2017-08-26T14:52:36.341561 #96720] DEBUG -- : response-header: cache-control => max-age=0
+D, [2017-08-26T14:52:36.341571 #96720] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 18:52:36 GMT
+D, [2017-08-26T14:52:36.341615 #96720] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:52:36 GMT
+D, [2017-08-26T14:52:36.341633 #96720] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:52:36.341713 #96720] DEBUG -- : Read 0 bytes (0 total)
+I, [2017-08-26T14:52:36.341961 #96720]  INFO -- : follow redirect to: https://www.dellemc.com/
+I, [2017-08-26T14:52:36.342163 #96720]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:52:36.342182 #96720] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:52:36.342194 #96720] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:52:36.342205 #96720] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:52:36.342215 #96720] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:52:36.342225 #96720] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:52:36.342234 #96720] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:52:36.532979 #96720]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:52:36.533045 #96720] DEBUG -- : response-header: server => Apache
+D, [2017-08-26T14:52:36.533068 #96720] DEBUG -- : response-header: location => https://www.dellemc.com/en-us/index.htm
+D, [2017-08-26T14:52:36.533086 #96720] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:52:36.533102 #96720] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:52:36.533119 #96720] DEBUG -- : response-header: content-length => 205
+D, [2017-08-26T14:52:36.533134 #96720] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2017-08-26T14:52:36.533153 #96720] DEBUG -- : response-header: x-set-cookie => 
+D, [2017-08-26T14:52:36.533170 #96720] DEBUG -- : response-header: x-storage => static
+D, [2017-08-26T14:52:36.533185 #96720] DEBUG -- : response-header: x-varnish => 27949947
+D, [2017-08-26T14:52:36.533200 #96720] DEBUG -- : response-header: x-server => V8
+D, [2017-08-26T14:52:36.533216 #96720] DEBUG -- : response-header: v-age => 0
+D, [2017-08-26T14:52:36.533230 #96720] DEBUG -- : response-header: x-hits => 0
+D, [2017-08-26T14:52:36.533246 #96720] DEBUG -- : response-header: cache-control => max-age=594
+D, [2017-08-26T14:52:36.533261 #96720] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 19:02:30 GMT
+D, [2017-08-26T14:52:36.533276 #96720] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:52:36 GMT
+D, [2017-08-26T14:52:36.533295 #96720] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:52:36.533364 #96720] DEBUG -- : Read 205 bytes (205 total)
+D, [2017-08-26T14:52:36.533456 #96720] DEBUG -- : gzip response
+I, [2017-08-26T14:52:36.534114 #96720]  INFO -- : follow redirect to: https://www.dellemc.com/en-us/index.htm
+I, [2017-08-26T14:52:36.534395 #96720]  INFO -- : Net::HTTP::Get: /en-us/index.htm
+D, [2017-08-26T14:52:36.534425 #96720] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:52:36.534445 #96720] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:52:36.534462 #96720] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:52:36.534480 #96720] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:52:36.534496 #96720] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:52:36.534511 #96720] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:52:36.593449 #96720]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:52:36.593512 #96720] DEBUG -- : response-header: server => Apache vFabric
+D, [2017-08-26T14:52:36.593527 #96720] DEBUG -- : response-header: x-ua-compatible => IE=edge,chrome=1
+D, [2017-08-26T14:52:36.593539 #96720] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:52:36.593576 #96720] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:52:36.593611 #96720] DEBUG -- : response-header: access-control-allow-headers => X-Requested-With
+D, [2017-08-26T14:52:36.593630 #96720] DEBUG -- : response-header: x-set-cookie => 
+D, [2017-08-26T14:52:36.593640 #96720] DEBUG -- : response-header: x-storage => page
+D, [2017-08-26T14:52:36.593691 #96720] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:52:36.593708 #96720] DEBUG -- : response-header: x-varnish => 24473490 26959140
+D, [2017-08-26T14:52:36.593718 #96720] DEBUG -- : response-header: x-server => V11
+D, [2017-08-26T14:52:36.593727 #96720] DEBUG -- : response-header: v-age => 69591
+D, [2017-08-26T14:52:36.593736 #96720] DEBUG -- : response-header: x-hits => 812
+D, [2017-08-26T14:52:36.593745 #96720] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T14:52:36.593753 #96720] DEBUG -- : response-header: content-length => 21767
+D, [2017-08-26T14:52:36.593763 #96720] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 18:52:36 GMT
+D, [2017-08-26T14:52:36.593771 #96720] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2017-08-26T14:52:36.593781 #96720] DEBUG -- : response-header: pragma => no-cache
+D, [2017-08-26T14:52:36.593792 #96720] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:52:36 GMT
+D, [2017-08-26T14:52:36.593802 #96720] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:52:36.593869 #96720] DEBUG -- : Read 15856 bytes (15856 total)
+D, [2017-08-26T14:52:36.593922 #96720] DEBUG -- : Read 5911 bytes (21767 total)
+D, [2017-08-26T14:52:36.594003 #96720] DEBUG -- : gzip response
+I, [2017-08-26T14:55:38.187747 #96750]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:55:38.188101 #96750] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:55:38.188144 #96750] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:55:38.188163 #96750] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:55:38.188178 #96750] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:55:38.188240 #96750] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:55:38.188256 #96750] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:55:38.325255 #96750]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:55:38.325303 #96750] DEBUG -- : response-header: server => AkamaiGHost
+D, [2017-08-26T14:55:38.325318 #96750] DEBUG -- : response-header: content-length => 0
+D, [2017-08-26T14:55:38.325329 #96750] DEBUG -- : response-header: location => https://www.dellemc.com/
+D, [2017-08-26T14:55:38.325339 #96750] DEBUG -- : response-header: cache-control => max-age=0
+D, [2017-08-26T14:55:38.325350 #96750] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 18:55:38 GMT
+D, [2017-08-26T14:55:38.325360 #96750] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:55:38 GMT
+D, [2017-08-26T14:55:38.325369 #96750] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:55:38.325442 #96750] DEBUG -- : Read 0 bytes (0 total)
+I, [2017-08-26T14:55:38.325651 #96750]  INFO -- : follow redirect to: https://www.dellemc.com/
+I, [2017-08-26T14:55:38.325846 #96750]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:55:38.325864 #96750] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:55:38.325875 #96750] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:55:38.325885 #96750] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:55:38.325898 #96750] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:55:38.325908 #96750] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:55:38.325926 #96750] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:55:38.430825 #96750]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:55:38.430877 #96750] DEBUG -- : response-header: server => Apache
+D, [2017-08-26T14:55:38.430893 #96750] DEBUG -- : response-header: location => https://www.dellemc.com/en-us/index.htm
+D, [2017-08-26T14:55:38.430904 #96750] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:55:38.430914 #96750] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:55:38.430923 #96750] DEBUG -- : response-header: content-length => 205
+D, [2017-08-26T14:55:38.430933 #96750] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2017-08-26T14:55:38.430943 #96750] DEBUG -- : response-header: x-set-cookie => 
+D, [2017-08-26T14:55:38.430979 #96750] DEBUG -- : response-header: x-storage => static
+D, [2017-08-26T14:55:38.431000 #96750] DEBUG -- : response-header: x-varnish => 27949947
+D, [2017-08-26T14:55:38.431012 #96750] DEBUG -- : response-header: x-server => V8
+D, [2017-08-26T14:55:38.431022 #96750] DEBUG -- : response-header: v-age => 0
+D, [2017-08-26T14:55:38.431037 #96750] DEBUG -- : response-header: x-hits => 0
+D, [2017-08-26T14:55:38.431046 #96750] DEBUG -- : response-header: cache-control => max-age=412
+D, [2017-08-26T14:55:38.431055 #96750] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 19:02:30 GMT
+D, [2017-08-26T14:55:38.431064 #96750] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:55:38 GMT
+D, [2017-08-26T14:55:38.431073 #96750] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:55:38.431125 #96750] DEBUG -- : Read 205 bytes (205 total)
+D, [2017-08-26T14:55:38.431186 #96750] DEBUG -- : gzip response
+I, [2017-08-26T14:55:38.431835 #96750]  INFO -- : follow redirect to: https://www.dellemc.com/en-us/index.htm
+I, [2017-08-26T14:55:38.432033 #96750]  INFO -- : Net::HTTP::Get: /en-us/index.htm
+D, [2017-08-26T14:55:38.432054 #96750] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:55:38.432072 #96750] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:55:38.432083 #96750] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:55:38.432093 #96750] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:55:38.432103 #96750] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:55:38.432116 #96750] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:55:38.483737 #96750]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:55:38.483790 #96750] DEBUG -- : response-header: server => Apache vFabric
+D, [2017-08-26T14:55:38.483805 #96750] DEBUG -- : response-header: x-ua-compatible => IE=edge,chrome=1
+D, [2017-08-26T14:55:38.483816 #96750] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:55:38.483825 #96750] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:55:38.483834 #96750] DEBUG -- : response-header: access-control-allow-headers => X-Requested-With
+D, [2017-08-26T14:55:38.483843 #96750] DEBUG -- : response-header: x-set-cookie => 
+D, [2017-08-26T14:55:38.483852 #96750] DEBUG -- : response-header: x-storage => page
+D, [2017-08-26T14:55:38.483860 #96750] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:55:38.483871 #96750] DEBUG -- : response-header: x-varnish => 24473490 26959140
+D, [2017-08-26T14:55:38.483880 #96750] DEBUG -- : response-header: x-server => V11
+D, [2017-08-26T14:55:38.483889 #96750] DEBUG -- : response-header: v-age => 69591
+D, [2017-08-26T14:55:38.483897 #96750] DEBUG -- : response-header: x-hits => 812
+D, [2017-08-26T14:55:38.483906 #96750] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T14:55:38.483940 #96750] DEBUG -- : response-header: content-length => 21767
+D, [2017-08-26T14:55:38.483949 #96750] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 18:55:38 GMT
+D, [2017-08-26T14:55:38.483992 #96750] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2017-08-26T14:55:38.484013 #96750] DEBUG -- : response-header: pragma => no-cache
+D, [2017-08-26T14:55:38.484023 #96750] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:55:38 GMT
+D, [2017-08-26T14:55:38.484032 #96750] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:55:38.484098 #96750] DEBUG -- : Read 15856 bytes (15856 total)
+D, [2017-08-26T14:55:38.484191 #96750] DEBUG -- : Read 5911 bytes (21767 total)
+D, [2017-08-26T14:55:38.484263 #96750] DEBUG -- : gzip response
+I, [2017-08-26T14:56:22.948168 #96763]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:56:22.948551 #96763] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:56:22.948580 #96763] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:56:22.948595 #96763] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:56:22.948608 #96763] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:56:22.948619 #96763] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:56:22.948630 #96763] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:56:23.087016 #96763]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:56:23.087104 #96763] DEBUG -- : response-header: server => AkamaiGHost
+D, [2017-08-26T14:56:23.087131 #96763] DEBUG -- : response-header: content-length => 0
+D, [2017-08-26T14:56:23.087151 #96763] DEBUG -- : response-header: location => https://www.dellemc.com/
+D, [2017-08-26T14:56:23.087169 #96763] DEBUG -- : response-header: cache-control => max-age=0
+D, [2017-08-26T14:56:23.087187 #96763] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 18:56:23 GMT
+D, [2017-08-26T14:56:23.087203 #96763] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:56:23 GMT
+D, [2017-08-26T14:56:23.087244 #96763] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:56:23.087445 #96763] DEBUG -- : Read 0 bytes (0 total)
+I, [2017-08-26T14:56:23.087836 #96763]  INFO -- : follow redirect to: https://www.dellemc.com/
+I, [2017-08-26T14:56:23.088147 #96763]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:56:23.088181 #96763] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:56:23.088203 #96763] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:56:23.088224 #96763] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:56:23.088244 #96763] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:56:23.088261 #96763] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:56:23.088277 #96763] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:56:23.224756 #96763]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:56:23.224853 #96763] DEBUG -- : response-header: server => Apache
+D, [2017-08-26T14:56:23.224881 #96763] DEBUG -- : response-header: location => https://www.dellemc.com/en-us/index.htm
+D, [2017-08-26T14:56:23.224900 #96763] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:56:23.224918 #96763] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:56:23.224935 #96763] DEBUG -- : response-header: content-length => 205
+D, [2017-08-26T14:56:23.224952 #96763] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2017-08-26T14:56:23.224967 #96763] DEBUG -- : response-header: x-set-cookie => 
+D, [2017-08-26T14:56:23.224983 #96763] DEBUG -- : response-header: x-storage => static
+D, [2017-08-26T14:56:23.225003 #96763] DEBUG -- : response-header: x-varnish => 27949947
+D, [2017-08-26T14:56:23.225034 #96763] DEBUG -- : response-header: x-server => V8
+D, [2017-08-26T14:56:23.225051 #96763] DEBUG -- : response-header: v-age => 0
+D, [2017-08-26T14:56:23.225067 #96763] DEBUG -- : response-header: x-hits => 0
+D, [2017-08-26T14:56:23.225083 #96763] DEBUG -- : response-header: cache-control => max-age=373
+D, [2017-08-26T14:56:23.225099 #96763] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 19:02:36 GMT
+D, [2017-08-26T14:56:23.225115 #96763] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:56:23 GMT
+D, [2017-08-26T14:56:23.225131 #96763] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:56:23.225215 #96763] DEBUG -- : Read 205 bytes (205 total)
+D, [2017-08-26T14:56:23.225306 #96763] DEBUG -- : gzip response
+I, [2017-08-26T14:56:23.227407 #96763]  INFO -- : follow redirect to: https://www.dellemc.com/en-us/index.htm
+I, [2017-08-26T14:56:23.227733 #96763]  INFO -- : Net::HTTP::Get: /en-us/index.htm
+D, [2017-08-26T14:56:23.227772 #96763] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:56:23.227793 #96763] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:56:23.227813 #96763] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:56:23.227830 #96763] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:56:23.227846 #96763] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:56:23.227862 #96763] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:56:23.284608 #96763]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:56:23.284685 #96763] DEBUG -- : response-header: server => Apache vFabric
+D, [2017-08-26T14:56:23.284712 #96763] DEBUG -- : response-header: x-ua-compatible => IE=edge,chrome=1
+D, [2017-08-26T14:56:23.284733 #96763] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:56:23.284757 #96763] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:56:23.284775 #96763] DEBUG -- : response-header: access-control-allow-headers => X-Requested-With
+D, [2017-08-26T14:56:23.284792 #96763] DEBUG -- : response-header: x-set-cookie => 
+D, [2017-08-26T14:56:23.284808 #96763] DEBUG -- : response-header: x-storage => page
+D, [2017-08-26T14:56:23.284825 #96763] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:56:23.284842 #96763] DEBUG -- : response-header: x-varnish => 24473490 26959140
+D, [2017-08-26T14:56:23.284858 #96763] DEBUG -- : response-header: x-server => V11
+D, [2017-08-26T14:56:23.284875 #96763] DEBUG -- : response-header: v-age => 69591
+D, [2017-08-26T14:56:23.284894 #96763] DEBUG -- : response-header: x-hits => 812
+D, [2017-08-26T14:56:23.284911 #96763] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T14:56:23.284927 #96763] DEBUG -- : response-header: content-length => 21767
+D, [2017-08-26T14:56:23.284985 #96763] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 18:56:23 GMT
+D, [2017-08-26T14:56:23.285005 #96763] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2017-08-26T14:56:23.285021 #96763] DEBUG -- : response-header: pragma => no-cache
+D, [2017-08-26T14:56:23.285038 #96763] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:56:23 GMT
+D, [2017-08-26T14:56:23.285054 #96763] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:56:23.285154 #96763] DEBUG -- : Read 15856 bytes (15856 total)
+D, [2017-08-26T14:56:23.285278 #96763] DEBUG -- : Read 5911 bytes (21767 total)
+D, [2017-08-26T14:56:23.285393 #96763] DEBUG -- : gzip response
+I, [2017-08-26T14:57:37.783291 #96788]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:57:37.783659 #96788] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:57:37.783685 #96788] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:57:37.783698 #96788] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:57:37.783718 #96788] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:57:37.783730 #96788] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:57:37.783740 #96788] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:57:38.210224 #96788]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:57:38.210291 #96788] DEBUG -- : response-header: server => AkamaiGHost
+D, [2017-08-26T14:57:38.210309 #96788] DEBUG -- : response-header: content-length => 0
+D, [2017-08-26T14:57:38.210323 #96788] DEBUG -- : response-header: location => https://www.dellemc.com/
+D, [2017-08-26T14:57:38.210335 #96788] DEBUG -- : response-header: cache-control => max-age=0
+D, [2017-08-26T14:57:38.210347 #96788] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 18:57:38 GMT
+D, [2017-08-26T14:57:38.210359 #96788] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:57:38 GMT
+D, [2017-08-26T14:57:38.210370 #96788] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:57:38.210461 #96788] DEBUG -- : Read 0 bytes (0 total)
+I, [2017-08-26T14:57:38.210696 #96788]  INFO -- : follow redirect to: https://www.dellemc.com/
+I, [2017-08-26T14:57:38.210912 #96788]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-26T14:57:38.210934 #96788] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:57:38.210948 #96788] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:57:38.210965 #96788] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:57:38.210978 #96788] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:57:38.210990 #96788] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:57:38.211000 #96788] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:57:38.327279 #96788]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2017-08-26T14:57:38.327343 #96788] DEBUG -- : response-header: server => Apache
+D, [2017-08-26T14:57:38.327371 #96788] DEBUG -- : response-header: location => https://www.dellemc.com/en-us/index.htm
+D, [2017-08-26T14:57:38.327388 #96788] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:57:38.327407 #96788] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:57:38.327424 #96788] DEBUG -- : response-header: content-length => 205
+D, [2017-08-26T14:57:38.327439 #96788] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2017-08-26T14:57:38.327453 #96788] DEBUG -- : response-header: x-set-cookie => 
+D, [2017-08-26T14:57:38.327467 #96788] DEBUG -- : response-header: x-storage => static
+D, [2017-08-26T14:57:38.327481 #96788] DEBUG -- : response-header: x-varnish => 27949947
+D, [2017-08-26T14:57:38.327494 #96788] DEBUG -- : response-header: x-server => V8
+D, [2017-08-26T14:57:38.327509 #96788] DEBUG -- : response-header: v-age => 0
+D, [2017-08-26T14:57:38.327525 #96788] DEBUG -- : response-header: x-hits => 0
+D, [2017-08-26T14:57:38.327555 #96788] DEBUG -- : response-header: cache-control => max-age=292
+D, [2017-08-26T14:57:38.327569 #96788] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 19:02:30 GMT
+D, [2017-08-26T14:57:38.327579 #96788] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:57:38 GMT
+D, [2017-08-26T14:57:38.327588 #96788] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:57:38.327649 #96788] DEBUG -- : Read 205 bytes (205 total)
+D, [2017-08-26T14:57:38.327720 #96788] DEBUG -- : gzip response
+I, [2017-08-26T14:57:38.328340 #96788]  INFO -- : follow redirect to: https://www.dellemc.com/en-us/index.htm
+I, [2017-08-26T14:57:38.328536 #96788]  INFO -- : Net::HTTP::Get: /en-us/index.htm
+D, [2017-08-26T14:57:38.328565 #96788] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T14:57:38.328580 #96788] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T14:57:38.328591 #96788] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T14:57:38.328602 #96788] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T14:57:38.328612 #96788] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T14:57:38.328621 #96788] DEBUG -- : request-header: host => www.dellemc.com
+I, [2017-08-26T14:57:38.397871 #96788]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T14:57:38.397958 #96788] DEBUG -- : response-header: server => Apache vFabric
+D, [2017-08-26T14:57:38.397982 #96788] DEBUG -- : response-header: x-ua-compatible => IE=edge,chrome=1
+D, [2017-08-26T14:57:38.397999 #96788] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T14:57:38.398015 #96788] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-08-26T14:57:38.398037 #96788] DEBUG -- : response-header: access-control-allow-headers => X-Requested-With
+D, [2017-08-26T14:57:38.398053 #96788] DEBUG -- : response-header: x-set-cookie => 
+D, [2017-08-26T14:57:38.398068 #96788] DEBUG -- : response-header: x-storage => page
+D, [2017-08-26T14:57:38.398084 #96788] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T14:57:38.398099 #96788] DEBUG -- : response-header: x-varnish => 24473490 26959140
+D, [2017-08-26T14:57:38.398114 #96788] DEBUG -- : response-header: x-server => V11
+D, [2017-08-26T14:57:38.398130 #96788] DEBUG -- : response-header: v-age => 69591
+D, [2017-08-26T14:57:38.398145 #96788] DEBUG -- : response-header: x-hits => 812
+D, [2017-08-26T14:57:38.398160 #96788] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T14:57:38.398182 #96788] DEBUG -- : response-header: content-length => 21767
+D, [2017-08-26T14:57:38.398198 #96788] DEBUG -- : response-header: expires => Sat, 26 Aug 2017 18:57:38 GMT
+D, [2017-08-26T14:57:38.398254 #96788] DEBUG -- : response-header: cache-control => max-age=0, no-cache, no-store
+D, [2017-08-26T14:57:38.398270 #96788] DEBUG -- : response-header: pragma => no-cache
+D, [2017-08-26T14:57:38.398285 #96788] DEBUG -- : response-header: date => Sat, 26 Aug 2017 18:57:38 GMT
+D, [2017-08-26T14:57:38.398300 #96788] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-26T14:57:38.398430 #96788] DEBUG -- : Read 15856 bytes (15856 total)
+D, [2017-08-26T14:57:38.398530 #96788] DEBUG -- : Read 5911 bytes (21767 total)
+D, [2017-08-26T14:57:38.398623 #96788] DEBUG -- : gzip response
+I, [2017-08-26T15:11:44.827816 #56817]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:11:44.827909 #56817] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:11:44.827929 #56817] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:11:44.827977 #56817] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:11:44.827991 #56817] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:11:44.828003 #56817] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:11:44.828015 #56817] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:11:45.016889 #56817]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:11:45.016983 #56817] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:11:44 GMT
+D, [2017-08-26T15:11:45.017014 #56817] DEBUG -- : response-header: x-servedby => web137
+D, [2017-08-26T15:11:45.017038 #56817] DEBUG -- : response-header: set-cookie => crumb=BSjvAF2UxVogMjUxNDc4MWMzNzk5YzRjNTYzODU5OTE0ZjY2YjA4;Path=/
+D, [2017-08-26T15:11:45.017060 #56817] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:11:45.017099 #56817] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:11:45.017122 #56817] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:11:45.017142 #56817] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:11:45.017161 #56817] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:11:45.017180 #56817] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:11:45.017199 #56817] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:11:45.017218 #56817] DEBUG -- : response-header: etag => W/"885d81308c70df18d6400ff59962dc30"
+D, [2017-08-26T15:11:45.017237 #56817] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:11:45.017256 #56817] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:11:45.017274 #56817] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:11:45.017293 #56817] DEBUG -- : response-header: x-contextid => DoL5oXHH/LK8nqMEO
+D, [2017-08-26T15:11:45.017312 #56817] DEBUG -- : response-header: x-via => 1.1 echo009
+D, [2017-08-26T15:11:45.017464 #56817] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:11:45.017673 #56817] DEBUG -- : Read 5104 bytes (8373 total)
+D, [2017-08-26T15:11:45.017747 #56817] DEBUG -- : Read 3760 bytes (12133 total)
+D, [2017-08-26T15:11:45.081516 #56817] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:11:45.081746 #56817] DEBUG -- : gzip response
+D, [2017-08-26T15:11:45.090799 #56817] DEBUG -- : saved cookie: crumb=BSjvAF2UxVogMjUxNDc4MWMzNzk5YzRjNTYzODU5OTE0ZjY2YjA4
+I, [2017-08-26T15:14:35.741074 #56869]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:14:35.741158 #56869] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:14:35.741176 #56869] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:14:35.741188 #56869] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:14:35.741199 #56869] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:14:35.741209 #56869] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:14:35.741218 #56869] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:14:36.034286 #56869]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:14:36.034378 #56869] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:14:35 GMT
+D, [2017-08-26T15:14:36.034406 #56869] DEBUG -- : response-header: x-servedby => web136
+D, [2017-08-26T15:14:36.034435 #56869] DEBUG -- : response-header: set-cookie => crumb=Belq8EYzWTHuZmJhZTBlZGUyY2M5YjkxODFlOTQ1NzMwNzA4YjAy;Path=/
+D, [2017-08-26T15:14:36.034457 #56869] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:14:36.034477 #56869] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:14:36.034496 #56869] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:14:36.034514 #56869] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:14:36.034533 #56869] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:14:36.034551 #56869] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:14:36.034569 #56869] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:14:36.034592 #56869] DEBUG -- : response-header: etag => W/"885d81308c70df18d6400ff59962dc30"
+D, [2017-08-26T15:14:36.034613 #56869] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:14:36.034632 #56869] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:14:36.034650 #56869] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:14:36.034669 #56869] DEBUG -- : response-header: x-contextid => SJE5hcwX/NRW1oNeB
+D, [2017-08-26T15:14:36.034705 #56869] DEBUG -- : response-header: x-via => 1.1 echo005
+D, [2017-08-26T15:14:36.034861 #56869] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:14:36.035106 #56869] DEBUG -- : Read 8864 bytes (12133 total)
+D, [2017-08-26T15:14:36.097082 #56869] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:14:36.097319 #56869] DEBUG -- : gzip response
+D, [2017-08-26T15:14:36.103963 #56869] DEBUG -- : saved cookie: crumb=Belq8EYzWTHuZmJhZTBlZGUyY2M5YjkxODFlOTQ1NzMwNzA4YjAy
+I, [2017-08-26T15:19:23.132721 #56937]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:19:23.132802 #56937] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:19:23.132819 #56937] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:19:23.132863 #56937] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:19:23.132874 #56937] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:19:23.132884 #56937] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:19:23.132894 #56937] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:19:23.302424 #56937]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:19:23.302525 #56937] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:19:23 GMT
+D, [2017-08-26T15:19:23.302557 #56937] DEBUG -- : response-header: x-servedby => web116
+D, [2017-08-26T15:19:23.302579 #56937] DEBUG -- : response-header: set-cookie => crumb=BdTuMVV2oy_8MjExZTFiNGYzOTAwYzQxM2U1MGYxNTNjODhkMzdi;Path=/
+D, [2017-08-26T15:19:23.302600 #56937] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:19:23.302618 #56937] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:19:23.302638 #56937] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:19:23.302656 #56937] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:19:23.302674 #56937] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:19:23.302693 #56937] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:19:23.302711 #56937] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:19:23.302729 #56937] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:19:23.302748 #56937] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:19:23.302767 #56937] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:19:23.302785 #56937] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:19:23.302804 #56937] DEBUG -- : response-header: x-contextid => TSOmkOlH/hdTWRUpo
+D, [2017-08-26T15:19:23.302822 #56937] DEBUG -- : response-header: x-via => 1.1 echo003
+D, [2017-08-26T15:19:23.302971 #56937] DEBUG -- : Read 5821 bytes (5821 total)
+D, [2017-08-26T15:19:23.303753 #56937] DEBUG -- : Read 6312 bytes (12133 total)
+D, [2017-08-26T15:19:23.360774 #56937] DEBUG -- : Read 1276 bytes (13409 total)
+D, [2017-08-26T15:19:23.361309 #56937] DEBUG -- : Read 880 bytes (14289 total)
+D, [2017-08-26T15:19:23.361548 #56937] DEBUG -- : gzip response
+D, [2017-08-26T15:19:23.367695 #56937] DEBUG -- : saved cookie: crumb=BdTuMVV2oy_8MjExZTFiNGYzOTAwYzQxM2U1MGYxNTNjODhkMzdi
+I, [2017-08-26T15:22:07.103795 #57017]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:22:07.103878 #57017] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:22:07.103895 #57017] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:22:07.103908 #57017] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:22:07.103919 #57017] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:22:07.103938 #57017] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:22:07.103950 #57017] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:22:07.295636 #57017]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:22:07.295727 #57017] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:22:07 GMT
+D, [2017-08-26T15:22:07.295763 #57017] DEBUG -- : response-header: x-servedby => web114
+D, [2017-08-26T15:22:07.295785 #57017] DEBUG -- : response-header: set-cookie => crumb=BfkL5jkfySAzNjhlNjI5ZTY1OWYzZWViMjFiMzEyZGUzMGVlOTk5;Path=/
+D, [2017-08-26T15:22:07.295807 #57017] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:22:07.295827 #57017] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:22:07.295846 #57017] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:22:07.295865 #57017] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:22:07.295883 #57017] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:22:07.295902 #57017] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:22:07.295924 #57017] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:22:07.295944 #57017] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:22:07.295963 #57017] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:22:07.295982 #57017] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:22:07.295999 #57017] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:22:07.296017 #57017] DEBUG -- : response-header: x-contextid => tHnLVOUY/PnSacWnc
+D, [2017-08-26T15:22:07.296035 #57017] DEBUG -- : response-header: x-via => 1.1 echo016
+D, [2017-08-26T15:22:07.296184 #57017] DEBUG -- : Read 4545 bytes (4545 total)
+D, [2017-08-26T15:22:07.296455 #57017] DEBUG -- : Read 7588 bytes (12133 total)
+D, [2017-08-26T15:22:07.359467 #57017] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:22:07.359648 #57017] DEBUG -- : gzip response
+D, [2017-08-26T15:22:07.364897 #57017] DEBUG -- : saved cookie: crumb=BfkL5jkfySAzNjhlNjI5ZTY1OWYzZWViMjFiMzEyZGUzMGVlOTk5
+I, [2017-08-26T15:32:34.384271 #57333]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:32:34.384355 #57333] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:32:34.384374 #57333] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:32:34.384387 #57333] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:32:34.384399 #57333] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:32:34.384411 #57333] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:32:34.384422 #57333] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:32:34.584438 #57333]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:32:34.584534 #57333] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:32:35 GMT
+D, [2017-08-26T15:32:34.584564 #57333] DEBUG -- : response-header: x-servedby => web116
+D, [2017-08-26T15:32:34.584588 #57333] DEBUG -- : response-header: set-cookie => crumb=BfQprS9hGLuEMTA3OGM5NzU4MTZhMTNhNTI4N2E4YzZlYTg1YjY3;Path=/
+D, [2017-08-26T15:32:34.584611 #57333] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:32:34.584633 #57333] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:32:34.584654 #57333] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:32:34.584674 #57333] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:32:34.584695 #57333] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:32:34.584715 #57333] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:32:34.584754 #57333] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:32:34.584778 #57333] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:32:34.584799 #57333] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:32:34.584819 #57333] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:32:34.584839 #57333] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:32:34.584859 #57333] DEBUG -- : response-header: x-contextid => GQ1NTzlg/Eutpac84
+D, [2017-08-26T15:32:34.584879 #57333] DEBUG -- : response-header: x-via => 1.1 echo120
+D, [2017-08-26T15:32:34.585030 #57333] DEBUG -- : Read 4545 bytes (4545 total)
+D, [2017-08-26T15:32:34.585928 #57333] DEBUG -- : Read 7656 bytes (12201 total)
+D, [2017-08-26T15:32:34.649549 #57333] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:32:34.649783 #57333] DEBUG -- : gzip response
+D, [2017-08-26T15:32:34.656746 #57333] DEBUG -- : saved cookie: crumb=BfQprS9hGLuEMTA3OGM5NzU4MTZhMTNhNTI4N2E4YzZlYTg1YjY3
+I, [2017-08-26T15:32:41.969574 #57355]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:32:41.969661 #57355] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:32:41.969681 #57355] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:32:41.969694 #57355] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:32:41.969706 #57355] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:32:41.969718 #57355] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:32:41.969729 #57355] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:32:42.135636 #57355]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:32:42.135727 #57355] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:32:42 GMT
+D, [2017-08-26T15:32:42.135756 #57355] DEBUG -- : response-header: x-servedby => web004
+D, [2017-08-26T15:32:42.135780 #57355] DEBUG -- : response-header: set-cookie => crumb=BW2o4F_Cz9R1NmFmMTc4NjM0MDAwNjA0ODViZTZlY2FhMmU4NmUw;Path=/
+D, [2017-08-26T15:32:42.135802 #57355] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:32:42.135823 #57355] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:32:42.135843 #57355] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:32:42.135862 #57355] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:32:42.135881 #57355] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:32:42.135901 #57355] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:32:42.135920 #57355] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:32:42.135940 #57355] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:32:42.135960 #57355] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:32:42.135979 #57355] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:32:42.135998 #57355] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:32:42.136017 #57355] DEBUG -- : response-header: x-contextid => QsvgckFq/xLdJeTxz
+D, [2017-08-26T15:32:42.136037 #57355] DEBUG -- : response-header: x-via => 1.1 echo012
+D, [2017-08-26T15:32:42.136180 #57355] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:32:42.138238 #57355] DEBUG -- : Read 8932 bytes (12201 total)
+D, [2017-08-26T15:32:42.220058 #57355] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:32:42.220295 #57355] DEBUG -- : gzip response
+D, [2017-08-26T15:32:42.227113 #57355] DEBUG -- : saved cookie: crumb=BW2o4F_Cz9R1NmFmMTc4NjM0MDAwNjA0ODViZTZlY2FhMmU4NmUw
+I, [2017-08-26T15:33:15.015737 #57379]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:33:15.015821 #57379] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:33:15.015838 #57379] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:33:15.015850 #57379] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:33:15.015861 #57379] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:33:15.015871 #57379] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:33:15.015880 #57379] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:33:15.170690 #57379]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:33:15.170782 #57379] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:33:15 GMT
+D, [2017-08-26T15:33:15.170812 #57379] DEBUG -- : response-header: x-servedby => web128
+D, [2017-08-26T15:33:15.170835 #57379] DEBUG -- : response-header: set-cookie => crumb=BZrssQ1RVJNUY2Y0NzQ3M2MxZTZjOWRjZjUyOWNiNzJjMWI5NjBj;Path=/
+D, [2017-08-26T15:33:15.170857 #57379] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:33:15.170876 #57379] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:33:15.170896 #57379] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:33:15.170915 #57379] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:33:15.170934 #57379] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:33:15.170956 #57379] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:33:15.170976 #57379] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:33:15.170995 #57379] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:33:15.171015 #57379] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:33:15.171034 #57379] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:33:15.171052 #57379] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:33:15.171070 #57379] DEBUG -- : response-header: x-contextid => kyGBzyoc/uLNArYXE
+D, [2017-08-26T15:33:15.171089 #57379] DEBUG -- : response-header: x-via => 1.1 echo002
+D, [2017-08-26T15:33:15.171226 #57379] DEBUG -- : Read 9649 bytes (9649 total)
+D, [2017-08-26T15:33:15.171304 #57379] DEBUG -- : Read 2484 bytes (12133 total)
+D, [2017-08-26T15:33:15.229109 #57379] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:33:15.229337 #57379] DEBUG -- : gzip response
+D, [2017-08-26T15:33:15.236120 #57379] DEBUG -- : saved cookie: crumb=BZrssQ1RVJNUY2Y0NzQ3M2MxZTZjOWRjZjUyOWNiNzJjMWI5NjBj
+I, [2017-08-26T15:33:23.540192 #57403]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:33:23.540308 #57403] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:33:23.540337 #57403] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:33:23.540399 #57403] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:33:23.540420 #57403] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:33:23.540437 #57403] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:33:23.540453 #57403] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:33:23.695735 #57403]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:33:23.695809 #57403] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:33:24 GMT
+D, [2017-08-26T15:33:23.695831 #57403] DEBUG -- : response-header: x-servedby => web017
+D, [2017-08-26T15:33:23.695849 #57403] DEBUG -- : response-header: set-cookie => crumb=BZjoEMmRJPHhNTczZWQzODJjZThjMmUyN2Y4M2YzMzJlZWQyMTBh;Path=/
+D, [2017-08-26T15:33:23.695882 #57403] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:33:23.695900 #57403] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:33:23.695915 #57403] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:33:23.695935 #57403] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:33:23.695950 #57403] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:33:23.695964 #57403] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:33:23.695978 #57403] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:33:23.695992 #57403] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:33:23.696006 #57403] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:33:23.696020 #57403] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:33:23.696034 #57403] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:33:23.696051 #57403] DEBUG -- : response-header: x-contextid => jAayQyhW/lj4G8iVt
+D, [2017-08-26T15:33:23.696066 #57403] DEBUG -- : response-header: x-via => 1.1 echo119
+D, [2017-08-26T15:33:23.696189 #57403] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:33:23.697063 #57403] DEBUG -- : Read 8864 bytes (12133 total)
+D, [2017-08-26T15:33:23.756408 #57403] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:33:23.756643 #57403] DEBUG -- : gzip response
+D, [2017-08-26T15:33:23.763435 #57403] DEBUG -- : saved cookie: crumb=BZjoEMmRJPHhNTczZWQzODJjZThjMmUyN2Y4M2YzMzJlZWQyMTBh
+I, [2017-08-26T15:33:34.277367 #57427]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:33:34.277454 #57427] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:33:34.277474 #57427] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:33:34.277487 #57427] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:33:34.277500 #57427] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:33:34.277511 #57427] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:33:34.277523 #57427] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:33:34.428312 #57427]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:33:34.428403 #57427] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:33:35 GMT
+D, [2017-08-26T15:33:34.428435 #57427] DEBUG -- : response-header: x-servedby => web016
+D, [2017-08-26T15:33:34.428459 #57427] DEBUG -- : response-header: set-cookie => crumb=BcabxOt8NNgBYTdlY2RkZjgyMzFjYTI3OThiNGFlODNmYWQ3ZDk2;Path=/
+D, [2017-08-26T15:33:34.428483 #57427] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:33:34.428504 #57427] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:33:34.428535 #57427] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:33:34.428556 #57427] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:33:34.428576 #57427] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:33:34.428596 #57427] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:33:34.428616 #57427] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:33:34.428636 #57427] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:33:34.428657 #57427] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:33:34.428677 #57427] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:33:34.428697 #57427] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:33:34.428717 #57427] DEBUG -- : response-header: x-contextid => Unjp7Jzb/OcDO4TtA
+D, [2017-08-26T15:33:34.428769 #57427] DEBUG -- : response-header: x-via => 1.1 echo132
+D, [2017-08-26T15:33:34.428932 #57427] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:33:34.429022 #57427] DEBUG -- : Read 5104 bytes (8373 total)
+D, [2017-08-26T15:33:34.429274 #57427] DEBUG -- : Read 3828 bytes (12201 total)
+D, [2017-08-26T15:33:34.484748 #57427] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:33:34.485020 #57427] DEBUG -- : gzip response
+D, [2017-08-26T15:33:34.491973 #57427] DEBUG -- : saved cookie: crumb=BcabxOt8NNgBYTdlY2RkZjgyMzFjYTI3OThiNGFlODNmYWQ3ZDk2
+I, [2017-08-26T15:33:53.873412 #57450]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:33:53.873496 #57450] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:33:53.873516 #57450] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:33:53.873564 #57450] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:33:53.873579 #57450] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:33:53.873590 #57450] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:33:53.873603 #57450] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:33:54.043260 #57450]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:33:54.043350 #57450] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:33:54 GMT
+D, [2017-08-26T15:33:54.043379 #57450] DEBUG -- : response-header: x-servedby => web138
+D, [2017-08-26T15:33:54.043403 #57450] DEBUG -- : response-header: set-cookie => crumb=BVXtdlG3NzTsMDk1OGYwZWU3YzdhMjNmNzZkZDA1OWQ2M2ZjMTMz;Path=/
+D, [2017-08-26T15:33:54.043426 #57450] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:33:54.043447 #57450] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:33:54.043467 #57450] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:33:54.043486 #57450] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:33:54.043506 #57450] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:33:54.043525 #57450] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:33:54.043544 #57450] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:33:54.043563 #57450] DEBUG -- : response-header: etag => W/"885d81308c70df18d6400ff59962dc30"
+D, [2017-08-26T15:33:54.043583 #57450] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:33:54.043609 #57450] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:33:54.043628 #57450] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:33:54.043648 #57450] DEBUG -- : response-header: x-contextid => 0cfpgQLe/FUyTAAmn
+D, [2017-08-26T15:33:54.043667 #57450] DEBUG -- : response-header: x-via => 1.1 echo005
+D, [2017-08-26T15:33:54.043827 #57450] DEBUG -- : Read 9649 bytes (9649 total)
+D, [2017-08-26T15:33:54.043893 #57450] DEBUG -- : Read 2484 bytes (12133 total)
+D, [2017-08-26T15:33:54.103670 #57450] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:33:54.103907 #57450] DEBUG -- : gzip response
+D, [2017-08-26T15:33:54.110752 #57450] DEBUG -- : saved cookie: crumb=BVXtdlG3NzTsMDk1OGYwZWU3YzdhMjNmNzZkZDA1OWQ2M2ZjMTMz
+I, [2017-08-26T15:34:38.038591 #57478]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:34:38.038679 #57478] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:34:38.038698 #57478] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:34:38.038711 #57478] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:34:38.038723 #57478] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:34:38.038744 #57478] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:34:38.038756 #57478] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:34:38.198460 #57478]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:34:38.198551 #57478] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:34:38 GMT
+D, [2017-08-26T15:34:38.198581 #57478] DEBUG -- : response-header: x-servedby => web015
+D, [2017-08-26T15:34:38.198605 #57478] DEBUG -- : response-header: set-cookie => crumb=BZFHPgEiKdBROTE3NDM0ZjU0Mjg1NTM3NTE1NWU2ZTZkMWFjMTQ2;Path=/
+D, [2017-08-26T15:34:38.198628 #57478] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:34:38.198648 #57478] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:34:38.198669 #57478] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:34:38.198688 #57478] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:34:38.198708 #57478] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:34:38.198728 #57478] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:34:38.198747 #57478] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:34:38.198768 #57478] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:34:38.198788 #57478] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:34:38.198808 #57478] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:34:38.198828 #57478] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:34:38.198848 #57478] DEBUG -- : response-header: x-contextid => LiYaqSfx/TM6dXhkm
+D, [2017-08-26T15:34:38.198867 #57478] DEBUG -- : response-header: x-via => 1.1 echo010
+D, [2017-08-26T15:34:38.199006 #57478] DEBUG -- : Read 1993 bytes (1993 total)
+D, [2017-08-26T15:34:38.199433 #57478] DEBUG -- : Read 10208 bytes (12201 total)
+D, [2017-08-26T15:34:38.269391 #57478] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:34:38.269626 #57478] DEBUG -- : gzip response
+D, [2017-08-26T15:34:38.276452 #57478] DEBUG -- : saved cookie: crumb=BZFHPgEiKdBROTE3NDM0ZjU0Mjg1NTM3NTE1NWU2ZTZkMWFjMTQ2
+I, [2017-08-26T15:34:45.958270 #57500]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:34:45.958357 #57500] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:34:45.958379 #57500] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:34:45.958403 #57500] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:34:45.958425 #57500] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:34:45.958437 #57500] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:34:45.958448 #57500] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:34:46.120430 #57500]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:34:46.120528 #57500] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:34:46 GMT
+D, [2017-08-26T15:34:46.120559 #57500] DEBUG -- : response-header: x-servedby => web008
+D, [2017-08-26T15:34:46.120582 #57500] DEBUG -- : response-header: set-cookie => crumb=BW-vM73x3FLdOTc2OTI3OGU0MDdkNWI0MzY2ZWViZTcxMGQzYjk5;Path=/
+D, [2017-08-26T15:34:46.120604 #57500] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:34:46.120623 #57500] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:34:46.120643 #57500] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:34:46.120661 #57500] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:34:46.120680 #57500] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:34:46.120699 #57500] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:34:46.120745 #57500] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:34:46.120769 #57500] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:34:46.120789 #57500] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:34:46.120809 #57500] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:34:46.120828 #57500] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:34:46.120855 #57500] DEBUG -- : response-header: x-contextid => IpKVDHYx/1KBQmJ6n
+D, [2017-08-26T15:34:46.120876 #57500] DEBUG -- : response-header: x-via => 1.1 echo007
+D, [2017-08-26T15:34:46.121039 #57500] DEBUG -- : Read 8373 bytes (8373 total)
+D, [2017-08-26T15:34:46.121120 #57500] DEBUG -- : Read 3828 bytes (12201 total)
+D, [2017-08-26T15:34:46.180676 #57500] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:34:46.180989 #57500] DEBUG -- : gzip response
+D, [2017-08-26T15:34:46.187129 #57500] DEBUG -- : saved cookie: crumb=BW-vM73x3FLdOTc2OTI3OGU0MDdkNWI0MzY2ZWViZTcxMGQzYjk5
