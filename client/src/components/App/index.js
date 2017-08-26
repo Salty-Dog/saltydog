@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
-import './index.css'
-import Layout from '../Layout/index'
-import Services from '../Services/index'
+import React, { Component } from "react";
+import "./index.css";
+import Layout from "../Layout/index";
+import Services from "../Services/index";
+import Login from "../Login";
 
 class App extends Component {
   render() {
@@ -9,10 +10,11 @@ class App extends Component {
       <div className="App">
         <Layout>
           <Services />
+          <Login />
         </Layout>
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
