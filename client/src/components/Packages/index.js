@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './index.css'
 import PageOne from './PageOne.js'
 import PageThree from './PageThree.js'
+import ProgressBar from './ProgressBar/ProgressBar'
 
 class Packages extends Component {
   render() {
@@ -12,6 +13,7 @@ class Packages extends Component {
     let textAreaStyle = {}
     return (
       <div className="wrapper">
+        <ProgressBar />
         <PageOne />
         <PageThree />
       </div>
