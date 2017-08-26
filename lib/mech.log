@@ -1758,3 +1758,354 @@ D, [2017-08-26T14:57:38.398300 #96788] DEBUG -- : response-header: connection =>
 D, [2017-08-26T14:57:38.398430 #96788] DEBUG -- : Read 15856 bytes (15856 total)
 D, [2017-08-26T14:57:38.398530 #96788] DEBUG -- : Read 5911 bytes (21767 total)
 D, [2017-08-26T14:57:38.398623 #96788] DEBUG -- : gzip response
+I, [2017-08-26T15:11:44.827816 #56817]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:11:44.827909 #56817] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:11:44.827929 #56817] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:11:44.827977 #56817] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:11:44.827991 #56817] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:11:44.828003 #56817] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:11:44.828015 #56817] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:11:45.016889 #56817]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:11:45.016983 #56817] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:11:44 GMT
+D, [2017-08-26T15:11:45.017014 #56817] DEBUG -- : response-header: x-servedby => web137
+D, [2017-08-26T15:11:45.017038 #56817] DEBUG -- : response-header: set-cookie => crumb=BSjvAF2UxVogMjUxNDc4MWMzNzk5YzRjNTYzODU5OTE0ZjY2YjA4;Path=/
+D, [2017-08-26T15:11:45.017060 #56817] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:11:45.017099 #56817] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:11:45.017122 #56817] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:11:45.017142 #56817] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:11:45.017161 #56817] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:11:45.017180 #56817] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:11:45.017199 #56817] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:11:45.017218 #56817] DEBUG -- : response-header: etag => W/"885d81308c70df18d6400ff59962dc30"
+D, [2017-08-26T15:11:45.017237 #56817] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:11:45.017256 #56817] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:11:45.017274 #56817] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:11:45.017293 #56817] DEBUG -- : response-header: x-contextid => DoL5oXHH/LK8nqMEO
+D, [2017-08-26T15:11:45.017312 #56817] DEBUG -- : response-header: x-via => 1.1 echo009
+D, [2017-08-26T15:11:45.017464 #56817] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:11:45.017673 #56817] DEBUG -- : Read 5104 bytes (8373 total)
+D, [2017-08-26T15:11:45.017747 #56817] DEBUG -- : Read 3760 bytes (12133 total)
+D, [2017-08-26T15:11:45.081516 #56817] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:11:45.081746 #56817] DEBUG -- : gzip response
+D, [2017-08-26T15:11:45.090799 #56817] DEBUG -- : saved cookie: crumb=BSjvAF2UxVogMjUxNDc4MWMzNzk5YzRjNTYzODU5OTE0ZjY2YjA4
+I, [2017-08-26T15:14:35.741074 #56869]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:14:35.741158 #56869] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:14:35.741176 #56869] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:14:35.741188 #56869] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:14:35.741199 #56869] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:14:35.741209 #56869] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:14:35.741218 #56869] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:14:36.034286 #56869]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:14:36.034378 #56869] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:14:35 GMT
+D, [2017-08-26T15:14:36.034406 #56869] DEBUG -- : response-header: x-servedby => web136
+D, [2017-08-26T15:14:36.034435 #56869] DEBUG -- : response-header: set-cookie => crumb=Belq8EYzWTHuZmJhZTBlZGUyY2M5YjkxODFlOTQ1NzMwNzA4YjAy;Path=/
+D, [2017-08-26T15:14:36.034457 #56869] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:14:36.034477 #56869] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:14:36.034496 #56869] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:14:36.034514 #56869] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:14:36.034533 #56869] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:14:36.034551 #56869] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:14:36.034569 #56869] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:14:36.034592 #56869] DEBUG -- : response-header: etag => W/"885d81308c70df18d6400ff59962dc30"
+D, [2017-08-26T15:14:36.034613 #56869] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:14:36.034632 #56869] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:14:36.034650 #56869] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:14:36.034669 #56869] DEBUG -- : response-header: x-contextid => SJE5hcwX/NRW1oNeB
+D, [2017-08-26T15:14:36.034705 #56869] DEBUG -- : response-header: x-via => 1.1 echo005
+D, [2017-08-26T15:14:36.034861 #56869] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:14:36.035106 #56869] DEBUG -- : Read 8864 bytes (12133 total)
+D, [2017-08-26T15:14:36.097082 #56869] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:14:36.097319 #56869] DEBUG -- : gzip response
+D, [2017-08-26T15:14:36.103963 #56869] DEBUG -- : saved cookie: crumb=Belq8EYzWTHuZmJhZTBlZGUyY2M5YjkxODFlOTQ1NzMwNzA4YjAy
+I, [2017-08-26T15:19:23.132721 #56937]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:19:23.132802 #56937] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:19:23.132819 #56937] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:19:23.132863 #56937] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:19:23.132874 #56937] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:19:23.132884 #56937] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:19:23.132894 #56937] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:19:23.302424 #56937]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:19:23.302525 #56937] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:19:23 GMT
+D, [2017-08-26T15:19:23.302557 #56937] DEBUG -- : response-header: x-servedby => web116
+D, [2017-08-26T15:19:23.302579 #56937] DEBUG -- : response-header: set-cookie => crumb=BdTuMVV2oy_8MjExZTFiNGYzOTAwYzQxM2U1MGYxNTNjODhkMzdi;Path=/
+D, [2017-08-26T15:19:23.302600 #56937] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:19:23.302618 #56937] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:19:23.302638 #56937] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:19:23.302656 #56937] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:19:23.302674 #56937] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:19:23.302693 #56937] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:19:23.302711 #56937] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:19:23.302729 #56937] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:19:23.302748 #56937] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:19:23.302767 #56937] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:19:23.302785 #56937] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:19:23.302804 #56937] DEBUG -- : response-header: x-contextid => TSOmkOlH/hdTWRUpo
+D, [2017-08-26T15:19:23.302822 #56937] DEBUG -- : response-header: x-via => 1.1 echo003
+D, [2017-08-26T15:19:23.302971 #56937] DEBUG -- : Read 5821 bytes (5821 total)
+D, [2017-08-26T15:19:23.303753 #56937] DEBUG -- : Read 6312 bytes (12133 total)
+D, [2017-08-26T15:19:23.360774 #56937] DEBUG -- : Read 1276 bytes (13409 total)
+D, [2017-08-26T15:19:23.361309 #56937] DEBUG -- : Read 880 bytes (14289 total)
+D, [2017-08-26T15:19:23.361548 #56937] DEBUG -- : gzip response
+D, [2017-08-26T15:19:23.367695 #56937] DEBUG -- : saved cookie: crumb=BdTuMVV2oy_8MjExZTFiNGYzOTAwYzQxM2U1MGYxNTNjODhkMzdi
+I, [2017-08-26T15:22:07.103795 #57017]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:22:07.103878 #57017] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:22:07.103895 #57017] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:22:07.103908 #57017] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:22:07.103919 #57017] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:22:07.103938 #57017] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:22:07.103950 #57017] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:22:07.295636 #57017]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:22:07.295727 #57017] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:22:07 GMT
+D, [2017-08-26T15:22:07.295763 #57017] DEBUG -- : response-header: x-servedby => web114
+D, [2017-08-26T15:22:07.295785 #57017] DEBUG -- : response-header: set-cookie => crumb=BfkL5jkfySAzNjhlNjI5ZTY1OWYzZWViMjFiMzEyZGUzMGVlOTk5;Path=/
+D, [2017-08-26T15:22:07.295807 #57017] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:22:07.295827 #57017] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:22:07.295846 #57017] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:22:07.295865 #57017] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:22:07.295883 #57017] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:22:07.295902 #57017] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:22:07.295924 #57017] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:22:07.295944 #57017] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:22:07.295963 #57017] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:22:07.295982 #57017] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:22:07.295999 #57017] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:22:07.296017 #57017] DEBUG -- : response-header: x-contextid => tHnLVOUY/PnSacWnc
+D, [2017-08-26T15:22:07.296035 #57017] DEBUG -- : response-header: x-via => 1.1 echo016
+D, [2017-08-26T15:22:07.296184 #57017] DEBUG -- : Read 4545 bytes (4545 total)
+D, [2017-08-26T15:22:07.296455 #57017] DEBUG -- : Read 7588 bytes (12133 total)
+D, [2017-08-26T15:22:07.359467 #57017] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:22:07.359648 #57017] DEBUG -- : gzip response
+D, [2017-08-26T15:22:07.364897 #57017] DEBUG -- : saved cookie: crumb=BfkL5jkfySAzNjhlNjI5ZTY1OWYzZWViMjFiMzEyZGUzMGVlOTk5
+I, [2017-08-26T15:32:34.384271 #57333]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:32:34.384355 #57333] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:32:34.384374 #57333] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:32:34.384387 #57333] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:32:34.384399 #57333] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:32:34.384411 #57333] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:32:34.384422 #57333] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:32:34.584438 #57333]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:32:34.584534 #57333] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:32:35 GMT
+D, [2017-08-26T15:32:34.584564 #57333] DEBUG -- : response-header: x-servedby => web116
+D, [2017-08-26T15:32:34.584588 #57333] DEBUG -- : response-header: set-cookie => crumb=BfQprS9hGLuEMTA3OGM5NzU4MTZhMTNhNTI4N2E4YzZlYTg1YjY3;Path=/
+D, [2017-08-26T15:32:34.584611 #57333] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:32:34.584633 #57333] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:32:34.584654 #57333] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:32:34.584674 #57333] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:32:34.584695 #57333] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:32:34.584715 #57333] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:32:34.584754 #57333] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:32:34.584778 #57333] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:32:34.584799 #57333] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:32:34.584819 #57333] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:32:34.584839 #57333] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:32:34.584859 #57333] DEBUG -- : response-header: x-contextid => GQ1NTzlg/Eutpac84
+D, [2017-08-26T15:32:34.584879 #57333] DEBUG -- : response-header: x-via => 1.1 echo120
+D, [2017-08-26T15:32:34.585030 #57333] DEBUG -- : Read 4545 bytes (4545 total)
+D, [2017-08-26T15:32:34.585928 #57333] DEBUG -- : Read 7656 bytes (12201 total)
+D, [2017-08-26T15:32:34.649549 #57333] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:32:34.649783 #57333] DEBUG -- : gzip response
+D, [2017-08-26T15:32:34.656746 #57333] DEBUG -- : saved cookie: crumb=BfQprS9hGLuEMTA3OGM5NzU4MTZhMTNhNTI4N2E4YzZlYTg1YjY3
+I, [2017-08-26T15:32:41.969574 #57355]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:32:41.969661 #57355] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:32:41.969681 #57355] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:32:41.969694 #57355] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:32:41.969706 #57355] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:32:41.969718 #57355] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:32:41.969729 #57355] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:32:42.135636 #57355]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:32:42.135727 #57355] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:32:42 GMT
+D, [2017-08-26T15:32:42.135756 #57355] DEBUG -- : response-header: x-servedby => web004
+D, [2017-08-26T15:32:42.135780 #57355] DEBUG -- : response-header: set-cookie => crumb=BW2o4F_Cz9R1NmFmMTc4NjM0MDAwNjA0ODViZTZlY2FhMmU4NmUw;Path=/
+D, [2017-08-26T15:32:42.135802 #57355] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:32:42.135823 #57355] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:32:42.135843 #57355] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:32:42.135862 #57355] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:32:42.135881 #57355] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:32:42.135901 #57355] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:32:42.135920 #57355] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:32:42.135940 #57355] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:32:42.135960 #57355] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:32:42.135979 #57355] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:32:42.135998 #57355] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:32:42.136017 #57355] DEBUG -- : response-header: x-contextid => QsvgckFq/xLdJeTxz
+D, [2017-08-26T15:32:42.136037 #57355] DEBUG -- : response-header: x-via => 1.1 echo012
+D, [2017-08-26T15:32:42.136180 #57355] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:32:42.138238 #57355] DEBUG -- : Read 8932 bytes (12201 total)
+D, [2017-08-26T15:32:42.220058 #57355] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:32:42.220295 #57355] DEBUG -- : gzip response
+D, [2017-08-26T15:32:42.227113 #57355] DEBUG -- : saved cookie: crumb=BW2o4F_Cz9R1NmFmMTc4NjM0MDAwNjA0ODViZTZlY2FhMmU4NmUw
+I, [2017-08-26T15:33:15.015737 #57379]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:33:15.015821 #57379] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:33:15.015838 #57379] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:33:15.015850 #57379] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:33:15.015861 #57379] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:33:15.015871 #57379] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:33:15.015880 #57379] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:33:15.170690 #57379]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:33:15.170782 #57379] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:33:15 GMT
+D, [2017-08-26T15:33:15.170812 #57379] DEBUG -- : response-header: x-servedby => web128
+D, [2017-08-26T15:33:15.170835 #57379] DEBUG -- : response-header: set-cookie => crumb=BZrssQ1RVJNUY2Y0NzQ3M2MxZTZjOWRjZjUyOWNiNzJjMWI5NjBj;Path=/
+D, [2017-08-26T15:33:15.170857 #57379] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:33:15.170876 #57379] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:33:15.170896 #57379] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:33:15.170915 #57379] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:33:15.170934 #57379] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:33:15.170956 #57379] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:33:15.170976 #57379] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:33:15.170995 #57379] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:33:15.171015 #57379] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:33:15.171034 #57379] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:33:15.171052 #57379] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:33:15.171070 #57379] DEBUG -- : response-header: x-contextid => kyGBzyoc/uLNArYXE
+D, [2017-08-26T15:33:15.171089 #57379] DEBUG -- : response-header: x-via => 1.1 echo002
+D, [2017-08-26T15:33:15.171226 #57379] DEBUG -- : Read 9649 bytes (9649 total)
+D, [2017-08-26T15:33:15.171304 #57379] DEBUG -- : Read 2484 bytes (12133 total)
+D, [2017-08-26T15:33:15.229109 #57379] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:33:15.229337 #57379] DEBUG -- : gzip response
+D, [2017-08-26T15:33:15.236120 #57379] DEBUG -- : saved cookie: crumb=BZrssQ1RVJNUY2Y0NzQ3M2MxZTZjOWRjZjUyOWNiNzJjMWI5NjBj
+I, [2017-08-26T15:33:23.540192 #57403]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:33:23.540308 #57403] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:33:23.540337 #57403] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:33:23.540399 #57403] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:33:23.540420 #57403] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:33:23.540437 #57403] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:33:23.540453 #57403] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:33:23.695735 #57403]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:33:23.695809 #57403] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:33:24 GMT
+D, [2017-08-26T15:33:23.695831 #57403] DEBUG -- : response-header: x-servedby => web017
+D, [2017-08-26T15:33:23.695849 #57403] DEBUG -- : response-header: set-cookie => crumb=BZjoEMmRJPHhNTczZWQzODJjZThjMmUyN2Y4M2YzMzJlZWQyMTBh;Path=/
+D, [2017-08-26T15:33:23.695882 #57403] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:33:23.695900 #57403] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:33:23.695915 #57403] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:33:23.695935 #57403] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:33:23.695950 #57403] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:33:23.695964 #57403] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:33:23.695978 #57403] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:33:23.695992 #57403] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:33:23.696006 #57403] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:33:23.696020 #57403] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:33:23.696034 #57403] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:33:23.696051 #57403] DEBUG -- : response-header: x-contextid => jAayQyhW/lj4G8iVt
+D, [2017-08-26T15:33:23.696066 #57403] DEBUG -- : response-header: x-via => 1.1 echo119
+D, [2017-08-26T15:33:23.696189 #57403] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:33:23.697063 #57403] DEBUG -- : Read 8864 bytes (12133 total)
+D, [2017-08-26T15:33:23.756408 #57403] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:33:23.756643 #57403] DEBUG -- : gzip response
+D, [2017-08-26T15:33:23.763435 #57403] DEBUG -- : saved cookie: crumb=BZjoEMmRJPHhNTczZWQzODJjZThjMmUyN2Y4M2YzMzJlZWQyMTBh
+I, [2017-08-26T15:33:34.277367 #57427]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:33:34.277454 #57427] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:33:34.277474 #57427] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:33:34.277487 #57427] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:33:34.277500 #57427] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:33:34.277511 #57427] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:33:34.277523 #57427] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:33:34.428312 #57427]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:33:34.428403 #57427] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:33:35 GMT
+D, [2017-08-26T15:33:34.428435 #57427] DEBUG -- : response-header: x-servedby => web016
+D, [2017-08-26T15:33:34.428459 #57427] DEBUG -- : response-header: set-cookie => crumb=BcabxOt8NNgBYTdlY2RkZjgyMzFjYTI3OThiNGFlODNmYWQ3ZDk2;Path=/
+D, [2017-08-26T15:33:34.428483 #57427] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:33:34.428504 #57427] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:33:34.428535 #57427] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:33:34.428556 #57427] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:33:34.428576 #57427] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:33:34.428596 #57427] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:33:34.428616 #57427] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:33:34.428636 #57427] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:33:34.428657 #57427] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:33:34.428677 #57427] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:33:34.428697 #57427] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:33:34.428717 #57427] DEBUG -- : response-header: x-contextid => Unjp7Jzb/OcDO4TtA
+D, [2017-08-26T15:33:34.428769 #57427] DEBUG -- : response-header: x-via => 1.1 echo132
+D, [2017-08-26T15:33:34.428932 #57427] DEBUG -- : Read 3269 bytes (3269 total)
+D, [2017-08-26T15:33:34.429022 #57427] DEBUG -- : Read 5104 bytes (8373 total)
+D, [2017-08-26T15:33:34.429274 #57427] DEBUG -- : Read 3828 bytes (12201 total)
+D, [2017-08-26T15:33:34.484748 #57427] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:33:34.485020 #57427] DEBUG -- : gzip response
+D, [2017-08-26T15:33:34.491973 #57427] DEBUG -- : saved cookie: crumb=BcabxOt8NNgBYTdlY2RkZjgyMzFjYTI3OThiNGFlODNmYWQ3ZDk2
+I, [2017-08-26T15:33:53.873412 #57450]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:33:53.873496 #57450] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:33:53.873516 #57450] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:33:53.873564 #57450] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:33:53.873579 #57450] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:33:53.873590 #57450] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:33:53.873603 #57450] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:33:54.043260 #57450]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:33:54.043350 #57450] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:33:54 GMT
+D, [2017-08-26T15:33:54.043379 #57450] DEBUG -- : response-header: x-servedby => web138
+D, [2017-08-26T15:33:54.043403 #57450] DEBUG -- : response-header: set-cookie => crumb=BVXtdlG3NzTsMDk1OGYwZWU3YzdhMjNmNzZkZDA1OWQ2M2ZjMTMz;Path=/
+D, [2017-08-26T15:33:54.043426 #57450] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:33:54.043447 #57450] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:33:54.043467 #57450] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:33:54.043486 #57450] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:33:54.043506 #57450] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:33:54.043525 #57450] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:33:54.043544 #57450] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:33:54.043563 #57450] DEBUG -- : response-header: etag => W/"885d81308c70df18d6400ff59962dc30"
+D, [2017-08-26T15:33:54.043583 #57450] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:33:54.043609 #57450] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:33:54.043628 #57450] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:33:54.043648 #57450] DEBUG -- : response-header: x-contextid => 0cfpgQLe/FUyTAAmn
+D, [2017-08-26T15:33:54.043667 #57450] DEBUG -- : response-header: x-via => 1.1 echo005
+D, [2017-08-26T15:33:54.043827 #57450] DEBUG -- : Read 9649 bytes (9649 total)
+D, [2017-08-26T15:33:54.043893 #57450] DEBUG -- : Read 2484 bytes (12133 total)
+D, [2017-08-26T15:33:54.103670 #57450] DEBUG -- : Read 2156 bytes (14289 total)
+D, [2017-08-26T15:33:54.103907 #57450] DEBUG -- : gzip response
+D, [2017-08-26T15:33:54.110752 #57450] DEBUG -- : saved cookie: crumb=BVXtdlG3NzTsMDk1OGYwZWU3YzdhMjNmNzZkZDA1OWQ2M2ZjMTMz
+I, [2017-08-26T15:34:38.038591 #57478]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:34:38.038679 #57478] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:34:38.038698 #57478] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:34:38.038711 #57478] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:34:38.038723 #57478] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:34:38.038744 #57478] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:34:38.038756 #57478] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:34:38.198460 #57478]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:34:38.198551 #57478] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:34:38 GMT
+D, [2017-08-26T15:34:38.198581 #57478] DEBUG -- : response-header: x-servedby => web015
+D, [2017-08-26T15:34:38.198605 #57478] DEBUG -- : response-header: set-cookie => crumb=BZFHPgEiKdBROTE3NDM0ZjU0Mjg1NTM3NTE1NWU2ZTZkMWFjMTQ2;Path=/
+D, [2017-08-26T15:34:38.198628 #57478] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:34:38.198648 #57478] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:34:38.198669 #57478] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:34:38.198688 #57478] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:34:38.198708 #57478] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:34:38.198728 #57478] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:34:38.198747 #57478] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:34:38.198768 #57478] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:34:38.198788 #57478] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:34:38.198808 #57478] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:34:38.198828 #57478] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:34:38.198848 #57478] DEBUG -- : response-header: x-contextid => LiYaqSfx/TM6dXhkm
+D, [2017-08-26T15:34:38.198867 #57478] DEBUG -- : response-header: x-via => 1.1 echo010
+D, [2017-08-26T15:34:38.199006 #57478] DEBUG -- : Read 1993 bytes (1993 total)
+D, [2017-08-26T15:34:38.199433 #57478] DEBUG -- : Read 10208 bytes (12201 total)
+D, [2017-08-26T15:34:38.269391 #57478] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:34:38.269626 #57478] DEBUG -- : gzip response
+D, [2017-08-26T15:34:38.276452 #57478] DEBUG -- : saved cookie: crumb=BZFHPgEiKdBROTE3NDM0ZjU0Mjg1NTM3NTE1NWU2ZTZkMWFjMTQ2
+I, [2017-08-26T15:34:45.958270 #57500]  INFO -- : Net::HTTP::Get: /intake-form-plan/
+D, [2017-08-26T15:34:45.958357 #57500] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-26T15:34:45.958379 #57500] DEBUG -- : request-header: accept => */*
+D, [2017-08-26T15:34:45.958403 #57500] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-26T15:34:45.958425 #57500] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-26T15:34:45.958437 #57500] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-26T15:34:45.958448 #57500] DEBUG -- : request-header: host => saltblockhospitality.com
+I, [2017-08-26T15:34:46.120430 #57500]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-26T15:34:46.120528 #57500] DEBUG -- : response-header: date => Sat, 26 Aug 2017 19:34:46 GMT
+D, [2017-08-26T15:34:46.120559 #57500] DEBUG -- : response-header: x-servedby => web008
+D, [2017-08-26T15:34:46.120582 #57500] DEBUG -- : response-header: set-cookie => crumb=BW-vM73x3FLdOTc2OTI3OGU0MDdkNWI0MzY2ZWViZTcxMGQzYjk5;Path=/
+D, [2017-08-26T15:34:46.120604 #57500] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2017-08-26T15:34:46.120623 #57500] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-08-26T15:34:46.120643 #57500] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-26T15:34:46.120661 #57500] DEBUG -- : response-header: x-pc-appver => 11725
+D, [2017-08-26T15:34:46.120680 #57500] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-26T15:34:46.120699 #57500] DEBUG -- : response-header: x-pc-date => Sat, 26 Aug 2017 18:40:31 GMT
+D, [2017-08-26T15:34:46.120745 #57500] DEBUG -- : response-header: x-pc-host => 10.122.6.24
+D, [2017-08-26T15:34:46.120769 #57500] DEBUG -- : response-header: etag => W/"1c4b87771a33cb0556752f800b2dcdfd"
+D, [2017-08-26T15:34:46.120789 #57500] DEBUG -- : response-header: x-pc-key => WFGqjalf73D8upl_2Mh9O9dIDOs-kate-roberts-e837
+D, [2017-08-26T15:34:46.120809 #57500] DEBUG -- : response-header: x-pc-hit => true
+D, [2017-08-26T15:34:46.120828 #57500] DEBUG -- : response-header: content-length => 14289
+D, [2017-08-26T15:34:46.120855 #57500] DEBUG -- : response-header: x-contextid => IpKVDHYx/1KBQmJ6n
+D, [2017-08-26T15:34:46.120876 #57500] DEBUG -- : response-header: x-via => 1.1 echo007
+D, [2017-08-26T15:34:46.121039 #57500] DEBUG -- : Read 8373 bytes (8373 total)
+D, [2017-08-26T15:34:46.121120 #57500] DEBUG -- : Read 3828 bytes (12201 total)
+D, [2017-08-26T15:34:46.180676 #57500] DEBUG -- : Read 2088 bytes (14289 total)
+D, [2017-08-26T15:34:46.180989 #57500] DEBUG -- : gzip response
+D, [2017-08-26T15:34:46.187129 #57500] DEBUG -- : saved cookie: crumb=BW-vM73x3FLdOTc2OTI3OGU0MDdkNWI0MzY2ZWViZTcxMGQzYjk5
