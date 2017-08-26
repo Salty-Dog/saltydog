@@ -9,4 +9,9 @@ Rails.application.routes.draw do
       resources :answer_options, only: [:index, :show]
     end
   end
+
+  get '*path', to: "application#fallback_index_html", constraints: ->(request) do
+    !request.xhr? && request.format.html?
+  end
+  
 end
