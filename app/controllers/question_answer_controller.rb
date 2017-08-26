@@ -1,2 +1,2 @@
-class QuestionAnswerController < ApplicationController
+class QuestionAnswerController < ApiController
 end
