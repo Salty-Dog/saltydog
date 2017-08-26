@@ -7,14 +7,14 @@ class Layout extends Component {
     return (
       <div className="wrapper">
         <header>
-          <img className="logo" src={logo} alt="Salt Block Logo"/>
+          <img className="logo" src={logo} alt="Salt Block Logo" />
           <nav>
             <a href="">About</a>
             <a href="">Hospitality</a>
             <a href="">Contact</a>
           </nav>
         </header>
-        <footer></footer>
+        <footer />
       </div>
     )
   }

@@ -2,7 +2,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 nav {
@@ -20,7 +19,7 @@ a {
 }
 
 .logo {
-  width:6em;
+  width: 6em;
   height: 5em;
   margin-left: 2em;
 }
