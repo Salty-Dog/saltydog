@@ -3,7 +3,7 @@ import './index.css'
 
 class PageOne extends Component {
   changePage = () => {
-    this.props.history.push('/page-two')
+    this.props.history.push('/services')
   }
   render() {
     let pageOneStyle = {
