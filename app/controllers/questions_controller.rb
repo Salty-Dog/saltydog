@@ -5,7 +5,7 @@ class QuestionsController < ApiController
 
 
 
-    render json: @questions.to_json(include: { answer_options: { only: [:option, :low, :high] }
+    render json: @questions.to_json(include: { answer_options: { only: [:option, :low, :high, :order] }
 
                                              })
   end
