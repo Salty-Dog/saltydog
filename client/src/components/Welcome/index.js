@@ -3,7 +3,7 @@ import './index.css'
 
 class Welcome extends Component {
   changePage = () => {
-    this.props.history.push('/login')
+    this.props.history.push('/signup')
   }
 
   render() {
