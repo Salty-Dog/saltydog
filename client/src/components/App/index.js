@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './index.css'
 import Layout from '../Layout/index'
-import PageOne from '../Packages/PageOne.js'
 import Services from '../Services/index'
 import Welcome from '../Welcome/index.js'
 import Login from '../Login'
