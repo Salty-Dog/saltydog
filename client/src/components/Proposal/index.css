@@ -1,0 +1,11 @@
+.proposal {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: rgba(229, 229, 229, .95);
+  border: 2px solid #f6f6f6;
+  border-radius: 15px;
+  padding: 6%;
+  margin: 10em;
+  /*height: 20%;*/
+}
