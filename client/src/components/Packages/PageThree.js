@@ -2,10 +2,12 @@ import React, { Component } from 'react'
 import './index.css'
 
 class PageOne extends Component {
+  changePage = () => {
+    this.props.history.push('/page-three')
+  }
+
   render() {
-    let pageOneStyle = {
-      // fontFamily: Freight-Sans-Medium;
-    }
+    let pageOneStyle = {}
     let formStyle = {}
     let inputStyle = {}
     let labelStyle = {}
@@ -56,6 +58,7 @@ class PageOne extends Component {
           </label>
           <h2>What additional details or inspirations would you like to share?</h2>
           <textarea style={textAreaStyle} className="textarea" rows="10" cols="50" />
+          <button onClick={this.changePage}>Go To Next Page</button>
         </form>
       </div>
     )

@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import './index.css'
 
 class PageOne extends Component {
+  changePage = () => {
+    this.props.history.push('/page-two')
+  }
   render() {
     let pageOneStyle = {
       // fontFamily: Freight-Sans-Medium;
@@ -56,6 +59,7 @@ class PageOne extends Component {
             Evening
             <input style={inputStyle} type="checkbox" className="time-evening" value="Evening" />
           </label>
+          <button onClick={this.changePage}>Go To Next Page</button>
         </form>
       </div>
     )
