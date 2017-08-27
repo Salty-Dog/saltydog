@@ -1,3 +1,14 @@
+h2 {
+  font-size: 36px;
+  color: #687D68;
+  text-shadow: 1px 1px 1px grey;
+}
+
+p {
+  font-size: 16px;
+  color: #4d4d4d;
+}
+
 .pack {
   display: flex;
 }
@@ -27,4 +38,11 @@
   height: 12em;
   border-radius: .5em;
   background-color: white;
+}
+
+.themeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }

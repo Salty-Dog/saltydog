@@ -20,7 +20,11 @@
 }
 
 .serviceWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  height: 100vh;
 }
 
 .checkRadio {
@@ -30,16 +34,16 @@
   width: 30em;
   height: 7em;
   margin: .5em 0;
-  background-color: white;
-  border-radius: .5em;
+  background-color: #f6f6f6;
+  border-radius: 15px;
 }
 
 .box {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: white;
-  border-radius: .5em;
+  background-color: #f6f6f6;
+  border-radius: 15px;
   width: 20em;
   height: 10em;
   margin: .5em;

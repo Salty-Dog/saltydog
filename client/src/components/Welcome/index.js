@@ -9,7 +9,7 @@ class Welcome extends Component {
   render() {
     return (
       <div className="wrapper" id="welcome">
-        <div>
+        <div className="themeWrapper">
           <div className="pack">
             <div className="essential" id="block">
               <label>Essential</label>

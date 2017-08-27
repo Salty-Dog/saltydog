@@ -6,6 +6,7 @@ import Welcome from '../Welcome/index.js'
 import Login from '../Login'
 import SignUp from '../SignUp'
 import Plan from '../Plan'
+import Details from '../Details'
 import { Switch, Route } from 'react-router-dom'
 
 class App extends Component {
@@ -16,6 +17,8 @@ class App extends Component {
           <Plan />
           <Services />
           <Welcome />
+          <Details />
+
           {/* <Switch>
             <Route exact path="/" component={PageOne} />
             <Route path="/services" component={Services} />
