@@ -10,7 +10,7 @@ class ProposalRequest < ApplicationRecord
 
     session.fill_in('field44589331-first', with: self.request.name)
     session.fill_in('field44589331-last', with: self.request.lastname)
-    session.fill_in('field44589332', with: self.request.phone
+    session.fill_in('field44589332', with: self.request.phone)
     session.fill_in('field44589333', with: self.request.email)
 
     time = self.request.time
