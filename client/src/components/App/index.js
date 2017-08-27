@@ -13,9 +13,9 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
-          <Welcome />
-          <Services />
           <Plan />
+          <Services />
+          <Welcome />
           {/* <Switch>
             <Route exact path="/" component={PageOne} />
             <Route path="/services" component={Services} />
