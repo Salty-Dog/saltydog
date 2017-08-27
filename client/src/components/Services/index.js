@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import './index.css'
 
 class Services extends Component {
+  changePage = () => {
+    this.props.history.push('/page-three')
+  }
+
   render() {
     return (
       <div className="wrapper" id="DrinkService">
@@ -43,6 +47,7 @@ class Services extends Component {
                   <input type="checkbox" id="option-1" name="selector" />
                   <label>Individual Desserts</label>
                 </div>
+                <button onClick={this.changePage}>Go To Next Page</button>
               </div>
             </div>
           </form>
