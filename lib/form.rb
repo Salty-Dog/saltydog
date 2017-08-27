@@ -25,13 +25,13 @@ session.check('Bar Services')
 session.check('Event Design')
 session.check('Rentals')
 
-# sleep 1
-# session.save_and_open_screenshot('response.png', full: true)
+session.execute_script("document.querySelector('.fsSubmitButton').click()")
 
-# session.execute_script("document.querySelector('.fsSubmitButton').click()")
-#
 # if session.has_content?("Thank you")
 #   puts "Submitted"
 # else
 #   puts "Error"
 # end
+#
+# sleep 1
+# session.save_and_open_screenshot('response.png', full: true) 
