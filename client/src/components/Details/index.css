@@ -64,6 +64,20 @@ p {
   justify-content: center;
 }
 
+.additional-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 4% auto;
+  padding: 5% 5%;
+  border: 2px solid #f6f6f6;
+  border-radius: 15px;
+  background-color: rgba(229, 229, 229, .95);
+  width: 50%;
+}
+
 
 /************************************/
 /********** IMAGE LAYOUT ************/
@@ -85,7 +99,14 @@ p {
   height: 100vh;
   width: 100%;
 }
-
+.page-three {
+  background-image: url('../../assets/beer.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
 
 /************************************/
 /********** TEXT-AREA STYLING  ******/
@@ -160,7 +181,7 @@ label {
   background-color: #ccc;
 }
 
-.help:focus {
+.help::selection {
   background-color: green;
 
 }

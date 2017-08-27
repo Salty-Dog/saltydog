@@ -2,9 +2,23 @@ import React, { Component } from 'react'
 import './index.css'
 
 
-
+const styles = {
+  selected: {
+    border: "2px solid #e1fbbb"
+  }
+}
 
 class Details extends Component {
+  state = {
+    needHelp: ""
+  };
+
+  helpRadioClicked(level) {
+    this.setState({
+        needHelp: level
+    });
+  }
+
   render() {
     return (
       <div className="wrapper">
@@ -18,18 +32,18 @@ class Details extends Component {
 
           <form className="radiobox">
 
-          <label for="help" className="help">
-            <input type="radio" name="help" className="help" value="little" id="help" />
+          <label onClick={() => this.helpRadioClicked('help')} htmlFor="help" className="help" style={this.state.needHelp === 'help' ? styles.selected : {}}>
+            <input type="radio" name="help" id="help" checked={this.state.needHelp === 'help'} />
             <span>I need help!</span>
           </label>
 
-          <label for="little-help" className="help">
-            <input type="radio" name="help" className="help" value="little" id="little-help" />
+          <label onClick={() => this.helpRadioClicked('little-help')} htmlFor="little-help" className="help" style={this.state.needHelp === 'little-help' ? styles.selected : {}}>
+            <input type="radio" name="help" value="little-help" id="little-help" checked={this.state.needHelp === 'little-help'} />
             <span>I need a little help!</span>
           </label>
 
-          <label for="want-help" className="help">
-            <input type="radio" name="help" className="help" value="false" id="want-help" />
+          <label onClick={() => this.helpRadioClicked('want-help')} htmlFor="want-help" className="help" style={this.state.needHelp === 'want-help' ? styles.selected : {}}>
+            <input type="radio" name="help" value="want-help" id="want-help" checked={this.state.needHelp === 'want-help'} />
             <span>I know what I want!</span>
           </label>
 
@@ -60,6 +74,8 @@ class Details extends Component {
           </div>
         </section>
       </div>
+      <div className="page-three">
+        <div className="additional-section">
 
             <h2>What additional details or inspirations would you like to share?</h2>
             <textarea className="textarea" rows="10" cols="50" />
@@ -73,14 +89,16 @@ class Details extends Component {
                 <input type="checkbox" className="social" value="Social" id=""/>
 
                 <label>Corporate</label>
-                <input type="checkbox" className="corporate" value="Corporate" />
+                <input type="checkbox" className="corporate" value="Corporate" /> <br/>
 
                 <textarea className="textarea" rows="10" cols="50">
                   Please explain your event type further (optional)
                 </textarea>
 
               </form>
-
+              <button type="submit">Submit</button>
+          </div>
+      </div>
       </div>
     )
   }

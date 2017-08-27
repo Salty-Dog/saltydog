@@ -10,6 +10,7 @@ class Services extends Component {
     return (
       <div className="wrapper" id="DrinkService">
         <div className="serviceWrapper">
+          <h2>Food & Beverage</h2>
           <form className="serviceForm">
             <div className="checkRadio">
               <input type="radio" id="option-0" name="selector" />
@@ -49,8 +50,8 @@ class Services extends Component {
                 </div>
               </div>
             </div>
-            <button onClick={this.changePage}>Go To Next Page</button>
           </form>
+
         </div>
       </div>
     )

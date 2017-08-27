@@ -12,17 +12,19 @@ class Welcome extends Component {
         <div className="themeWrapper">
           <div className="pack">
             <div className="essential" id="block">
-              <label>Essential</label>
-              <input type="radio" className="rental-service-essential" value="Essential" />
+              <label for="essential" className="welcome-title">Essential</label>
+              <input type="radio" className="rental-service-essential" value="Essential" id="essential" name="essentialradio" />
               <p>White Rim or White Roma China</p>
-              <p>Glassware: AP Wine, Water Goblet, Highball Glass</p>
+              <h3>Glassware:</h3>
+                <p>AP Wine, Water Goblet, Highball Glass</p>
               <p>Stainless Flatware</p>
             </div>
             <div className="premium" id="block">
-              <label>Premium</label>
-              <input type="radio" className="rental-service-essential" value="Premium" />
+              <label for="premium" className="welcome-title">Premium</label>
+              <input type="radio" id="premium" className="rental-service-essential" value="Premium" name="essentialradio" />
               <p>Gold, Silver or Square China</p>
-              <p>Glassware: White Wine, Red Wine, Champagne, Water Goblets, Highball Glass and Rocks Glass</p>
+              <h3>Glassware:</h3>
+                <p>White Wine, Red Wine, Champagne, Water Goblets, Highball Glass and Rocks Glass</p>
               <p>Stainless Flatware</p>
             </div>
           </div>
