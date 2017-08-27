@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './index.css'
+import Details from "../Details/index";
+
 
 class PageOne extends Component {
   render() {
