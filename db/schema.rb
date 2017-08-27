@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170827135148) do
+ActiveRecord::Schema.define(version: 20170827145419) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -54,6 +54,13 @@ ActiveRecord::Schema.define(version: 20170827135148) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.index ["question_id"], name: "index_answer_options_on_question_id", using: :btree
+  end
+
+  create_table "proposal_requests", force: :cascade do |t|
+    t.jsonb    "request"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["request"], name: "index_proposal_requests_on_request", using: :gin
   end
 
   create_table "questions", force: :cascade do |t|
