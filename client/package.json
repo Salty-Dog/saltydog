@@ -4,12 +4,14 @@
   "private": true,
   "proxy": "http://127.0.0.1:3001",
   "dependencies": {
+    "axios": "^0.16.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.11",
     "recompose": "^0.25.0",
+    "smooth-scroll": "^12.1.4",
     "styled-components": "^2.1.2"
   },
   "scripts": {
