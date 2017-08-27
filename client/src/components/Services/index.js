@@ -17,17 +17,17 @@ class Services extends Component {
             </div>
             <div className="checkRadio">
               <input type="radio" id="option-1" name="selector" />
-              <label>Full Bar Liquor Open Bar</label>
+              <label>Full Open Bar</label>
             </div>
             <div className="container-fluid" id="checks">
               <div className="box">
                 <div className="col">
                   <input type="checkbox" id="option-0" name="selector" />
-                  <label>Passed Orderves</label>
+                  <label>Passed Hors D'oeuvres</label>
                 </div>
                 <div className="col">
                   <input type="checkbox" id="option-1" name="selector" />
-                  <label>Chef Attendted Stations</label>
+                  <label>Chef Attended Stations</label>
                 </div>
                 <div className="col">
                   <input type="checkbox" id="option-1" name="selector" />
@@ -47,10 +47,11 @@ class Services extends Component {
                   <input type="checkbox" id="option-1" name="selector" />
                   <label>Individual Desserts</label>
                 </div>
-                <button onClick={this.changePage}>Go To Next Page</button>
               </div>
             </div>
           </form>
+          <br />
+          <button onClick={this.changePage}>Go To Next Page</button>
         </div>
       </div>
     )

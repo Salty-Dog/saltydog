@@ -18,5 +18,5 @@ nav > a {
 header > .logo {
   width: 6em;
   height: 5em;
-  margin-left: 2em;
+  margin: 0 0 0 2em;
 }

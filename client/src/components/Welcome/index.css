@@ -1,0 +1,31 @@
+.pack {
+  display: flex;
+}
+
+.count > h3 {
+  font-weight: normal;
+}
+
+.count {
+  font-weight: normal;
+  padding-top: .3em;
+  width: 25em;
+  height: 7em;
+  margin: .5em 0;
+  background-color: white;
+  border-radius: .5em;
+}
+
+#welcome {
+  background-image: url(../../assets/outside-seating.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#block {
+  margin: .4em;
+  width: 12em;
+  height: 12em;
+  border-radius: .5em;
+  background-color: white;
+}
