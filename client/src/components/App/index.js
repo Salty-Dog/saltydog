@@ -32,8 +32,7 @@ class App extends Component {
             <Route path="/login" component={Login} />
             <Route path="/signup" component={SignUp} />
             <Route path="/confirmation" component={Proposal} />
-          </Switch>{' '}
-          */}
+          </Switch>
           <SignUp />
           <Proposal />
         </Layout>

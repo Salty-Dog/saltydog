@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './index.js'
+import './index.css'
 
 import Data from '../Data.js'
 import User from '../User.js'
@@ -53,11 +53,12 @@ export default class Proposal extends Component {
           </p>
         </div>
         <div className="rentalServices">
+          <h4>Rental Services</h4>
           <p>
-            Essential Rental Services: {Data.essentialRentalServices}
+            Essential: {Data.essentialRentalServices}
           </p>
           <p>
-            Premium Rental Services: {Data.premiumRentalServices}
+            Premium: {Data.premiumRentalServices}
           </p>
         </div>
         <h2>
