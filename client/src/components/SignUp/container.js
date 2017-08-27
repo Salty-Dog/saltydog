@@ -20,6 +20,10 @@ function handlers(WrappedComponent) {
       })
     }
 
+    changePage = () => {
+      this.props.history.push('/proposal')
+    }
+
     handleSubmit = e => {
       e.preventDefault()
       axios.post('http://sawyermerchant.pagekite.me/api/v1/auth', user).then(response => {
@@ -28,6 +32,7 @@ function handlers(WrappedComponent) {
           axios.post('http://sawyermerchant.pagekite.me/api/v1/proposal_requests', data).then(response => {
             if (response.status === 200) {
               console.log('add data')
+              this.changePage()
             }
           })
         }
