@@ -7,22 +7,38 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+### TECHNICAL INFORMATION:
 
-* Ruby version
+- Sketch 3 (website mockup)
+- Ruby version 2.3.0
+- Rails version 5.0.5
+- PostgreSQL
+- Capybara gem 2.7.1
+- ES2015+
+- React 15+
+- React Router v4
+- Storybook
+- CSS Modules
+- Styled Components
+- Active Admin
+- Devise Token Auth
+- Omniauth 1.0
 
-* System dependencies
+### FEATURES:
 
-* Configuration
+- Overall features of site/webapp
+- d
 
-* Database creation
+##### Admin:
 
-* Database initialization
+- What can the admin do vs. regular users
+- a
+- b
 
-* How to run the test suite
+##### Clients
 
-* Services (job queues, cache servers, search engines, etc.)
+- Features that clients have available.
+- c
 
-* Deployment instructions
 
-* ...
+### DEMO:
