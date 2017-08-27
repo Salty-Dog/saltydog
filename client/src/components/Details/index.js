@@ -65,7 +65,7 @@ class Details extends Component {
             <textarea className="textarea" rows="10" cols="50" />
 
 
-              <form className="occasiona-form">
+              <form className="occasion-form">
 
                 <h2 className="occasion-header">What is your occasion?</h2>
 
