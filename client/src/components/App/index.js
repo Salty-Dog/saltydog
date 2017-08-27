@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import './index.css'
-import Proposal from '../Proposal/index.js'
 import { Switch, Route } from 'react-router-dom'
 import './index.css'
 import Layout from '../Layout'
@@ -11,7 +9,7 @@ import Login from '../Login/'
 import SignUp from '../SignUp/'
 import Plan from '../Plan/'
 import Home from '../Home/'
-// import Details from '../Details'
+import Details from '../Details'
 
 class App extends Component {
   state = {
@@ -21,18 +19,14 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
-          {/* <Details /> */}
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/services" component={Services} />
             <Route path="/welcome" component={Welcome} />
             <Route path="/login" component={Login} />
             <Route path="/signup" component={SignUp} />
-            <Route path="/confirmation" component={Proposal} />
-          </Switch>{' '}
-          */}
-          <SignUp />
-          <Proposal />
+            <Route path="/details" component={Details} />
+          </Switch>
         </Layout>
       </div>
     )

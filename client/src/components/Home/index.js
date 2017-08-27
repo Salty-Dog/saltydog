@@ -3,6 +3,7 @@ import './index.css'
 import Services from '../Services/'
 import Welcome from '../Welcome/'
 import Plan from '../Plan/'
+import Details from '../Details'
 
 class Home extends Component {
   render() {
@@ -11,6 +12,7 @@ class Home extends Component {
         <Plan history={this.props.history} />
         <Services />
         <Welcome />
+        <Details />
       </div>
     )
   }
