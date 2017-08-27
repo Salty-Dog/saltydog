@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { compose } from 'recompose'
 import axios from 'axios'
-import data from '../Data'
-import user from '../User'
+import data from './Data'
+// import user from './User'
 
 function handlers(WrappedComponent) {
   return class extends Component {
@@ -26,15 +26,12 @@ function handlers(WrappedComponent) {
 
     handleSubmit = e => {
       e.preventDefault()
-      axios.post('http://sawyermerchant.pagekite.me/api/v1/auth', user).then(response => {
-        console.log('added user')
+      // axios.post('https://saltydog-saltblock.herokuapp.com/api/v1/auth', user)
+      axios.post('https://saltydog-saltblock.herokuapp.com/api/v1/proposal_requests', data).then(response => {
+        console.log('adding data')
         if (response.status === 200) {
-          axios.post('http://sawyermerchant.pagekite.me/api/v1/proposal_requests', data).then(response => {
-            if (response.status === 200) {
-              console.log('add data')
-              this.changePage()
-            }
-          })
+          console.log('add data')
+          this.changePage()
         }
       })
     }

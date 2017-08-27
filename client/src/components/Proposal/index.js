@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './index.css'
 
-import Data from '../Data.js'
-import User from '../User.js'
+import Data from './Data.js'
+import User from './User.js'
 
 export default class Proposal extends Component {
   render() {
