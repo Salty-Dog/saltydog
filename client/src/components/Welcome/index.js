@@ -3,7 +3,7 @@ import './index.css'
 
 class Welcome extends Component {
   changePage = () => {
-    this.props.history.push('/login')
+    this.props.history.push('/signup')
   }
 
   render() {
@@ -30,7 +30,7 @@ class Welcome extends Component {
           </div>
           <div className="count">
             <h3>Guest Count</h3>
-            <input type="number" value="count" min="1" max="150" />
+            <input type="number" min="1" max="150" />
           </div>
           <button onClick={this.changePage}>Go To Next Page</button>
         </div>

@@ -5,6 +5,7 @@ class Plan extends Component {
   changePage = () => {
     this.props.history.push('/services')
   }
+
   render() {
     return (
       <div className="wrapper" id="plan">
@@ -26,7 +27,7 @@ class Plan extends Component {
 
             <div className="time">
               <h3>Event Date</h3>
-              <input type="date" className="date" value="Calendar" id="calendar" />
+              <input className="date" type="date" id="date" />
               <h3>Event Time</h3>
 
               <label className="time-button">

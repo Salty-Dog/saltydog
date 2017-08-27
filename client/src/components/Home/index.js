@@ -10,9 +10,8 @@ class Home extends Component {
     return (
       <div className="home">
         <Plan history={this.props.history} />
-        <Services />
-        <Welcome />
-        <Details />
+        {/* <Services />
+        <Welcome /> */}
       </div>
     )
   }
