@@ -1,0 +1,2 @@
+class ProposalRequest < ApplicationRecord
+end

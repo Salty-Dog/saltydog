@@ -9,8 +9,9 @@ COUNT = 10
 
 puts "making questions"
 questions = []
-COUNT.times do
-  questions << Question.create(body: "#{Faker::Hipster.words(3).join(" ")}?")
+COUNT.times do |n|
+  questions << Question.create(body: "#{Faker::Hipster.words(3).join(" ")}?",
+                               order: n)
 end
 
 puts "making answer_options"

@@ -18,7 +18,8 @@
 
 #welcome {
   background-image: url(../../assets/outside-seating.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #block {
