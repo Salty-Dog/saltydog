@@ -19,10 +19,6 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
-<<<<<<< HEAD
-          {/* <Details /> */}
-=======
->>>>>>> 57faa0f5f28d6271fc65f3530d1a0f735e950554
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/services" component={Services} />
