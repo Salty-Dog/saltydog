@@ -10,6 +10,7 @@ import SignUp from '../SignUp/'
 import Plan from '../Plan/'
 import Home from '../Home/'
 import Details from '../Details'
+import Proposal from '../Proposal/'
 
 class App extends Component {
   state = {
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path="/welcome" component={Welcome} />
             <Route path="/signup" component={SignUp} />
             <Route path="/details" component={Details} />
+            <Route path="/proposal" component={Proposal} />
           </Switch>
         </Layout>
       </div>
