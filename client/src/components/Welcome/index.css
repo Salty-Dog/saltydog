@@ -6,7 +6,7 @@ h3 {
 
 h2 {
   font-size: 36px;
-  color: #687D68;
+  color: #687d68;
   text-shadow: 1px 1px 1px grey;
 }
 
@@ -16,7 +16,7 @@ p {
 }
 
 .welcome-title {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .pack {
@@ -61,4 +61,21 @@ p {
   background-image: url(../../assets/outside-seating.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.next-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.69);
+  width: 50%;
+  font-size: 1.1em;
+  color: rgb(50, 51, 51);
+  /*margin: 1% 10% 1% 25%;*/
+  cursor: pointer;
+  border: 1px solid #4d4d4d;
+  border-radius: 15px;
+  height: 2em;
+  padding: 2%;
 }

@@ -51,8 +51,10 @@ class Services extends Component {
               </div>
             </div>
           </form>
-
         </div>
+        <button className="next-button" onClick={this.changePage}>
+          Go To Next Page
+        </button>
       </div>
     )
   }
