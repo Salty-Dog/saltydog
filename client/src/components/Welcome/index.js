@@ -14,10 +14,16 @@ class Welcome extends Component {
             <div className="essential" id="block">
               <label>Essential</label>
               <input type="radio" className="rental-service-essential" value="Essential" />
+              <p>White Rim or White Roma China</p>
+              <p>Glassware: AP Wine, Water Goblet, Highball Glass</p>
+              <p>Stainless Flatware</p>
             </div>
             <div className="premium" id="block">
               <label>Premium</label>
               <input type="radio" className="rental-service-essential" value="Premium" />
+              <p>Gold, Silver or Square China</p>
+              <p>Glassware: White Wine, Red Wine, Champagne, Water Goblets, Highball Glass and Rocks Glass</p>
+              <p>Stainless Flatware</p>
             </div>
           </div>
           <div className="count">

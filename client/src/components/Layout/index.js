@@ -8,11 +8,6 @@ class Layout extends Component {
       <div className="navWrapper">
         <header>
           <img className="logo" src={logo} alt="Salt Block Logo" />
-          <nav>
-            <a href="#">About</a>
-            <a href="#">Hospitality</a>
-            <a href="#">Contact</a>
-          </nav>
         </header>
         {this.props.children}
         <footer />
