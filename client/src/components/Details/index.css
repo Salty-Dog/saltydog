@@ -115,7 +115,7 @@ label {
 }
 
 /************************************/
-/********** BUTTON STYLING ********/
+/********** BUTTON STYLING **********/
 /************************************/
 
 .help {
@@ -142,20 +142,25 @@ label {
   height: 5em;
 }
 
-.help:hover,
-.hands-button:hover {
-  background-color: #ccc;
-}
-
-.help:link {
-  background-color: green;
-
-}
-
 #help,
 #little-help,
 #want-help,
 #all-hands,
 #no-hands {
   display: none;
+}
+
+/************************************/
+/********** PSEUDO CLASSES **********/
+/************************************/
+
+
+.help:hover,
+.hands-button:hover {
+  background-color: #ccc;
+}
+
+.help:focus {
+  background-color: green;
+
 }

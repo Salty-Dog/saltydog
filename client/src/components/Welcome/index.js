@@ -9,7 +9,7 @@ class Welcome extends Component {
   render() {
     return (
       <div className="wrapper" id="welcome">
-        <div>
+        <div className="themeWrapper">
           <div className="pack">
             <div className="essential" id="block">
               <label>Essential</label>
@@ -30,6 +30,7 @@ class Welcome extends Component {
             <h3>Guest Count</h3>
             <input type="number" value="count" min="1" max="150" />
           </div>
+          <button onClick={this.changePage}>Go To Next Page</button>
         </div>
       </div>
     )

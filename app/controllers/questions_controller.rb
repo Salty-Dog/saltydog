@@ -1,11 +1,11 @@
-class QuestionsController < ApplicationController
+class QuestionsController < ApiController
 
   def index
     @questions = Question.all.includes(:answer_options).all
 
 
 
-    render json: @questions.to_json(include: { answer_options: { only: [:option, :low, :high] }
+    render json: @questions.to_json(include: { answer_options: { only: [:option, :low, :high, :order] }
 
                                              })
   end

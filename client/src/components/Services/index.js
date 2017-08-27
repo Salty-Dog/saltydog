@@ -3,7 +3,7 @@ import './index.css'
 
 class Services extends Component {
   changePage = () => {
-    this.props.history.push('/page-three')
+    this.props.history.push('/welcome')
   }
 
   render() {
@@ -49,9 +49,8 @@ class Services extends Component {
                 </div>
               </div>
             </div>
+            <button onClick={this.changePage}>Go To Next Page</button>
           </form>
-          <br />
-          <button onClick={this.changePage}>Go To Next Page</button>
         </div>
       </div>
     )
