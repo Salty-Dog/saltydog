@@ -4,7 +4,7 @@ import Proposal from '../Proposal/index.js'
 import { Switch, Route } from 'react-router-dom'
 import './index.css'
 import Layout from '../Layout'
-import Details from '../Details'
+// import Details from '../Details'
 import Services from '../Services/'
 import Welcome from '../Welcome/'
 import Login from '../Login/'
@@ -21,10 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
-          <Plan />
-          <Services />
-          <Welcome />
-          <Details />
+          {/* <Details /> */}
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/services" component={Services} />
