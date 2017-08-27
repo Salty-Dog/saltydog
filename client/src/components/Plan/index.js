@@ -46,6 +46,7 @@ class Plan extends Component {
               </label>
             </div>
           </div>
+          <button onClick={this.changePage}>Go To Next Page</button>
         </form>
       </div>
     )
