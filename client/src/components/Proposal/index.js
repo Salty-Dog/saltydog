@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
 import './index.css'
 
-import Data from '../Data.js'
-import User from '../User.js'
+import Data from './Data.js'
+import User from './User.js'
 
 export default class Proposal extends Component {
+  changePage = () => {
+    this.props.history.push('/signup')
+  }
+
   render() {
     return (
       <div className="proposal">
@@ -64,6 +68,9 @@ export default class Proposal extends Component {
         <h2>
           Your Current Quote: <strong>$45,450</strong>
         </h2>
+        <button className="proposal-button" onClick={this.changePage}>
+          E-mail Me My Quote
+        </button>
       </div>
     )
   }
