@@ -2,33 +2,37 @@ require 'capybara'
 require 'phantomjs'
 require 'capybara/poltergeist'
 
-session = Capybara::Session.new(:poltergeist)
+def transmitter(data)
+  session = Capybara::Session.new(:poltergeist)
 
-session.visit "http://saltblockhospitality.com/intake-form-plan/"
+  session.visit "http://saltblockhospitality.com/intake-form-plan/"
 
-session.fill_in('field44589333', with: 'foo@example.com')
+  session.fill_in('field44589333', with: data.request.email)
 
-session.fill_in('field44589331-first', with: 'bob')
-session.fill_in('field44589331-last', with: 'jones')
-session.fill_in('field44589332', with: '(813) 555-1212')
-session.fill_in('field44589333', with: 'bob@example.com')
+  session.fill_in('field44589331-first', with: data.request.name)
+  session.fill_in('field44589331-last', with: data.request.lastname)
+  session.fill_in('field44589332', with: data.request.phone
+  session.fill_in('field44589333', with: data.request.email)
 
-session.select('12', from: 'field52854717H')
-session.select('00', from: 'field52854717I')
-session.select('PM', from: 'field52854717A')
+  time = data.request.time
 
-session.fill_in('field44589335', with: 'a')
-session.fill_in('field44589337', with: '20')
-session.fill_in('field44589338', with: 'b')
+  session.select('12', from: 'field52854717H')
+  session.select('00', from: 'field52854717I')
+  session.select('PM', from: 'field52854717A')
 
-session.check('Bar Services')
-session.check('Event Design')
-session.check('Rentals')
+  session.fill_in('field44589335', with: data.request.location)
+  session.fill_in('field44589337', with: data.request.party_size)
+  session.fill_in('field44589338', with: data.request.occasion)
 
-# sleep 1
+  session.check('Bar Services')
+  session.check('Event Design')
+  session.check('Rentals')
+
+  session.execute_script("document.querySelector('.fsSubmitButton').click()")
+end
+
+# # sleep 1
 # session.save_and_open_screenshot('response.png', full: true)
-
-# session.execute_script("document.querySelector('.fsSubmitButton').click()")
 #
 # if session.has_content?("Thank you")
 #   puts "Submitted"

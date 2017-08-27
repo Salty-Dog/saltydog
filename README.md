@@ -1,4 +1,8 @@
-# README
+# - Salty Dog Team -
+
+## Hack Hospitality 2017 - SaltBlock
+
+### Main description of the WebApp
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
