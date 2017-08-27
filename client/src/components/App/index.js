@@ -6,6 +6,7 @@ import Welcome from '../Welcome/index.js'
 import Login from '../Login'
 import SignUp from '../SignUp'
 import Plan from '../Plan'
+import Proposal from '../Proposal/index.js'
 import { Switch, Route } from 'react-router-dom'
 
 class App extends Component {
@@ -22,7 +23,10 @@ class App extends Component {
             <Route path="/welcome" component={Welcome} />
             <Route path="/login" component={Login} />
             <Route path="/signup" component={SignUp} />
+            <Route path="/confirmation" component={Proposal} />
           </Switch> */}
+          <SignUp />
+          <Proposal />
         </Layout>
       </div>
     )
