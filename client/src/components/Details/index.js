@@ -46,9 +46,9 @@ class Details extends Component {
 
               <label
                 onClick={() => this.helpRadioClicked('little-help')}
+                style={this.state.needHelp === 'little-help' ? styles.selected : {}}
                 htmlFor="little-help"
                 className="help"
-                style={this.state.needHelp === 'little-help' ? styles.selected : {}}
               >
                 <input
                   type="radio"
@@ -88,12 +88,29 @@ class Details extends Component {
                 whatever comes your way on the day, just let us know.
               </p>
 
-              <label for="hands" className="hands-button">
-                <input type="checkbox" className="dayof-coordination" value="" id="all-hands" n />
+              <label
+                htmlFor="hands"
+                className="hands-button"
+                onClick={() => this.helpRadioClicked('little-help')}
+                style={this.state.needHelp === 'little-help' ? styles.selected : {}}
+              >
+                <input
+                  type="checkbox"
+                  className="dayof-coordination"
+                  onClick={() => this.helpRadioClicked('dayof-coordination')}
+                  style={this.state.needHelp === 'dayof-coordination' ? styles.selected : {}}
+                  id="all-hands"
+                  n
+                />
                 <span>All hands on deck</span>
               </label>
 
-              <label for="hands" className="hands-button">
+              <label
+                for="hands"
+                className="hands-button"
+                onClick={() => this.helpRadioClicked('all-hands')}
+                style={this.state.needHelp === 'all-hands' ? styles.selected : {}}
+              >
                 <input type="checkbox" className="dayof-coordination" value="" id="no-hands" n />
                 <span>We got this</span>
               </label>
@@ -111,9 +128,12 @@ class Details extends Component {
               <input type="checkbox" className="social" value="Social" id="" />
               <label>Corporate</label>
               <input type="checkbox" className="corporate" value="Corporate" /> <br />
-              <textarea className="textarea" rows="10" cols="50">
-                Please explain your event type further (optional)
-              </textarea>
+              <textarea
+                className="textarea"
+                rows="10"
+                cols="50"
+                placeholder="Please explain your event type further (optional)"
+              />
             </form>
             <button onClick={this.changePage} type="submit">
               Submit

@@ -4,7 +4,7 @@
 
 h2 {
   font-size: 36px;
-  color: #687D68;
+  color: #687d68;
   text-shadow: 1px 1px 1px grey;
 }
 
@@ -13,11 +13,9 @@ p {
   color: #4d4d4d;
 }
 
-
 /************************************/
 /********** WRAPPER LAYOUT **********/
 /************************************/
-
 
 .wrapper {
   display: flex;
@@ -27,11 +25,9 @@ p {
   max-width: 100%;
 }
 
-
 /************************************/
 /********** SECTION LAYOUT **********/
 /************************************/
-
 
 .creative-process {
   display: flex;
@@ -70,14 +66,13 @@ p {
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin: 4% auto;
-  padding: 5% 5%;
+  margin: 2% auto;
+  padding: 2% 2%;
   border: 2px solid #f6f6f6;
   border-radius: 15px;
   background-color: rgba(229, 229, 229, .95);
   width: 50%;
 }
-
 
 /************************************/
 /********** IMAGE LAYOUT ************/
@@ -124,7 +119,6 @@ p {
   padding-top: 4%;
   padding-bottom: 2%;
 }
-
 
 /************************************/
 /********** FORM STYLING ************/
@@ -175,7 +169,6 @@ label {
 /********** PSEUDO CLASSES **********/
 /************************************/
 
-
 .help:hover,
 .hands-button:hover {
   background-color: #ccc;
@@ -183,5 +176,4 @@ label {
 
 .help::selection {
   background-color: green;
-
 }
