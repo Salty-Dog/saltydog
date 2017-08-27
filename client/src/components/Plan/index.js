@@ -30,6 +30,7 @@ class Plan extends Component {
               <input type="checkbox" className="time-evening" value="Evening" />
             </div>
           </div>
+          <button onClick={this.changePage}>Go To Next Page</button>
         </form>
       </div>
     )

@@ -3,7 +3,7 @@ import './index.css'
 
 class Services extends Component {
   changePage = () => {
-    this.props.history.push('/page-three')
+    this.props.history.push('/welcome')
   }
 
   render() {

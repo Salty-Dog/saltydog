@@ -24,6 +24,7 @@ class Welcome extends Component {
             <h3>Guest Count</h3>
             <input type="number" value="count" min="1" max="150" />
           </div>
+          <button onClick={this.changePage}>Go To Next Page</button>
         </div>
       </div>
     )
