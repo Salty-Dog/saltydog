@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import './index.css'
 
 class Services extends Component {
+  changePage = () => {
+    this.props.history.push('/page-three')
+  }
+
   render() {
     return (
       <div className="wrapper" id="DrinkService">
@@ -46,6 +50,8 @@ class Services extends Component {
               </div>
             </div>
           </form>
+          <br />
+          <button onClick={this.changePage}>Go To Next Page</button>
         </div>
       </div>
     )

@@ -1,4 +1,4 @@
-button {
+.wrapper > button {
   width: 30em;
   height: 7em;
   margin: 2em 0;
@@ -52,6 +52,6 @@ button {
 }
 
 #DrinkService {
-  background-image: url("../../assets/table.jpg");
+  background-image: url("../../assets/bar.jpg");
   background-size: cover;
 }
