@@ -22,12 +22,11 @@ class Plan extends Component {
                 <input type="radio" id="venue-no" value="false" name="venue-selection" className="venue-button" />
                 <span>No</span>
               </label>
-
             </div>
 
             <div className="time">
               <h3>Event Date</h3>
-              <input type="date" className="date" value="Calendar" id="calendar"/>
+              <input type="date" className="date" value="Calendar" id="calendar" />
               <h3>Event Time</h3>
 
               <label className="time-button">
@@ -41,12 +40,12 @@ class Plan extends Component {
               </label>
 
               <label className="time-button">
-              <input type="checkbox" className="time-evening time-button" value="Evening" id="time-evening" />
-              <span>Evening</span>
+                <input type="checkbox" className="time-evening time-button" value="Evening" id="time-evening" />
+                <span>Evening</span>
               </label>
             </div>
+            <button onClick={this.changePage}>Go To Next Page</button>
           </div>
-          <button onClick={this.changePage}>Go To Next Page</button>
         </form>
       </div>
     )

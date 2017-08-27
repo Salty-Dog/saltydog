@@ -9,8 +9,6 @@ class Home extends Component {
     return (
       <div className="home">
         <Plan history={this.props.history} />
-        {/* <Services />
-        <Welcome /> */}
       </div>
     )
   }
